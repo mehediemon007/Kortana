@@ -1,0 +1,1018 @@
+/* Min Width 1600px */
+@media only screen and (min-width: 1600px){
+    .container{
+        max-width: 1550px !important;
+    }
+
+    .search input{
+        width: 375px !important;
+    }
+
+    .table-sorting-wpr{
+        gap: 150px;
+    }
+
+    table.kt-table th:first-child,
+    .kt-table-wpr .task-btn-wpr{
+        padding-left: 90px !important;
+    }
+
+    table.kt-table td:first-child{
+        padding-left: 90px !important;
+    }
+
+    table.kt-table-2 td:first-child{
+        padding-left: 80px !important;
+    }
+
+    table.cntrct-table{
+        display: table;
+    }
+
+    table.cntrct-table th:last-child,
+    table.cntrct-table td:last-child{
+        min-width: max-content;
+    }
+
+    th.hassort{
+        padding-right: 12px !important;
+    }
+
+    .dash-heading .task-btn{
+        width: 150px;
+    }
+
+    .dashboard-left .nft-logo h3{
+        font-size: 50px;
+    }
+
+    .nft-statistics{
+        gap: 50px;
+    }
+
+    .nft-statistics.stats-2,
+    .dashboard-left .dash-heading .nft-logo{
+        gap: 32px;
+    }
+
+    .graph-container .chart-card .card-heading{
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .nft-products{
+        grid-template-columns: repeat(5,1fr);
+    }
+
+    .nft-market .container-2 .nft-products{
+        grid-template-columns: repeat(6,1fr);
+    }
+
+    .nft-market .filter-toolbar{
+        justify-content: space-between;
+        gap: 24px;
+    }
+
+    .nft-market .search-filter input{
+        width: 785px !important;
+    }
+}
+
+/* Min Width 1400px */
+@media only screen and (min-width:1400px){
+
+    .header-left{
+        gap: 40px;
+    }
+
+    .search input{
+        width: 290px;
+    }
+
+    .nav-menu{
+        gap: 60px;
+    }
+
+    .header-right .btn{
+        width: 200px;
+        padding: 0;
+    }
+
+    .table-sorting-wpr{
+        gap: 40px;
+    }
+
+    .toolbar-filter-wpr .search input{
+        width: 430px;
+    }
+
+}
+
+/* Min Width 1200px */
+@media only screen and (min-width:1200px){
+
+    .container{
+        max-width: calc(100% - 160px);
+    }
+
+    .trnd-collection-2 .container{
+        max-width: calc(100% - 50px);
+    }
+
+    table.kt-table th:first-child,
+    .kt-table-wpr .task-btn-wpr{
+        padding-left: 50px;
+    }
+
+    table.kt-table td:first-child{
+        padding-left: 50px;
+    }
+
+    table.cntrct-table th:first-child,
+    table.cntrct-table td:first-child{
+        padding-left: 40px !important;
+    }
+
+}
+
+
+/* Min Width 992px */
+
+@media only screen and (min-width:992px){
+
+    .kt-main-nav{
+        display: block !important;
+    }
+
+}
+
+/* Max Width 1399px */
+@media only screen and (max-width: 1399px){
+
+    .kt-table-2{
+        display: block;
+    }
+
+    .nft-sale-report .card-heading{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .dash-heading .heading-container{
+        grid-gap: 24px;
+    }
+
+    .dash-heading .task-btn{
+        width: 100px;
+    }
+
+    .nft-statistics.stats-2{
+        justify-content: flex-start;
+        margin-top: 18px;
+    }
+
+    .dashboard-left .dash-heading{
+        padding: 24px 32px;
+    }
+
+    .dashboard-right .task-btn.active{
+        width: 120px;
+        margin-left: 0;
+    }
+
+    .modal-wpr{
+        width: 90%;
+        padding: 50px 50px 16px;
+    }
+    
+    .task-form fieldset{
+        padding: 32px;
+    }
+
+    .nft-products-container{
+        grid-template-columns: 250px 1fr 250px;
+        grid-column-gap: 16px;
+    }
+
+    .nft-products-container.container-2{
+        grid-template-columns: 1fr 250px;
+    }
+
+    .nft-market .search-filter input{
+        width: 680px !important;
+    }
+}
+
+/* Max Width 1299px */
+@media only screen and (max-width: 1299px){
+
+    .nft-watchlist .toolbar-left{
+        gap: 28px;
+    }
+
+    .wallet-generator .table-toolbar{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+    }
+
+    .nft-products{
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    .nft-market .container-2 .nft-products{
+        grid-template-columns: repeat(4,1fr);
+    }
+
+    .nft-market .search-filter input {
+        width: 515px !important;
+    }
+
+    .nft-products-wpr .toolbar-filter{
+        gap: 24px;
+    }
+}
+
+/* Max Width 1199px */
+
+@media only screen and (max-width:1199px){
+
+    .header-left{
+        gap: 16px;
+    }
+
+    .nav-menu{
+        gap: 24px;
+    }
+
+    .header-right{
+        gap: 16px;
+    }
+
+    .header-right .btn{
+        padding: 0 24px;
+    }
+
+    .table-toolbar{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+        margin: 32px 0;
+    }
+
+    .table-sorting-wpr{
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    table.mint-table{
+        display: block;
+    }
+
+    table.mint-table th:first-child,
+    table.mint-table td:first-child{
+        min-width: max-content;
+        white-space: nowrap;
+        padding-left: 24px;
+    }
+
+    table.cntrct-table th:first-child,
+    table.cntrct-table td:first-child{
+        padding-left: 32px;
+    }
+
+    table.wallet-tracker th:first-child,
+    table.wallet-tracker td:first-child{
+        padding-left: 50px;
+    }
+
+    table.mint-table th,
+    table.mint-table td{
+        min-width: max-content;
+        white-space: nowrap;
+    }
+
+    .task-btn{
+        margin-left: 0;
+        margin-right: 20px;
+    }
+
+    .toolbar-filter-wpr{
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .dash-body .dash-container{
+        grid-template-columns: 1fr;
+    }
+
+    .nft-watchlist .table-toolbar{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+
+    .nft-watchlist .toolbar-left{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nft-watchlist .task-btn-wpr{
+        width: max-content;
+    }
+
+    .nft-watchlist .table-sorting-wpr{
+        justify-content: flex-end;
+    }
+
+    table.wallet-gen-table th{
+        padding: 24px 16px;
+    }
+
+    .kt-table-wpr .task-btn-wpr{
+        padding-left: 16px;
+    }
+
+    .nft-market .filter-toolbar{
+        justify-content: space-between;
+    }
+
+}
+
+/* Max Width 1099px */
+@media only screen and (max-width:1099px){
+
+    .project-slider .project-content{
+        margin-top: 112px;
+    }
+
+    .project-slider .owl-nav{
+        left: 494px;
+    }
+
+    .project-slider .project-name{
+        top: 20px;
+        right: -254px;
+        font-size: 60px;
+    }
+
+    .dash-heading .heading-container{
+        grid-template-columns: 1fr;
+        align-items: flex-start;
+    }
+
+    .dash-heading .sub-logo{
+        justify-content: flex-start;
+        margin-top: 8px;
+    }
+
+    .nft-statistics{
+        justify-content: flex-start;
+    }
+
+    .task-btn-wpr.text-end{
+        text-align: left !important;
+        gap: 0;
+    }
+
+    .dash-heading{
+        padding: 24px 32px;
+    }
+
+    .dash-heading .task-btn{
+        width: 150px;
+    }
+
+    .task-form .action-btns{
+        display: flex;
+        align-items: center;
+    }
+
+    .task-form .action-btns .btn{
+        width: 45%;
+    }
+
+    .wallet-gen-table{
+        display: block;
+    }
+
+    .nft-products-container,
+    .nft-products-container.container-2{
+        grid-template-columns: 1fr;
+    }
+
+    .nft-products-container .sidebar-widget{
+        position: fixed;
+        top: 0;
+        left: -100%;
+        z-index: 10;
+        transition: left .1s ease-in;
+    }
+
+    .nft-products-container .sidebar-widget.active{
+        left: 0;
+    }
+
+    /* .nft-cart{
+        position: fixed;
+        top: 0;
+        right: -100%;
+        z-index: 10;
+    } */
+
+    .filter-cls{
+        position: absolute;
+        right: 0;
+        display: inline-block;
+        cursor: pointer;
+    }
+
+    .nft-products{
+        grid-template-columns: repeat(4,1fr);
+    }
+}
+
+/* Max Width 1024px */
+@media only screen and (max-width:1024px){
+
+    .project-slider .project-content{
+        margin-top: 100px;
+    }
+
+    .project-slider .owl-nav{
+        left: 48%;
+    }
+
+    .project-slider .project-name{
+        top: 10px;
+    }
+}
+
+/* Max Width 991px */
+
+@media only screen and (max-width:991px){
+
+    .container{
+        max-width: 90% !important;
+    }
+
+    .kt-table-wpr{
+        padding-bottom: 50px;
+    }
+
+    table.kt-table{
+        display: block;
+    }
+
+    /* Mobile Nav End */
+
+    .nav-toggle{
+        display: inline-block;
+        width: 48px;
+        height: 48px;
+        background-color: var(--secondary-color);
+        border-radius: 10px;
+        text-align: center;
+        line-height: 56px;
+        cursor: pointer;
+    }
+
+    .nav-toggle i{
+        font-size: 24px;
+        text-indent: 2px;
+    }
+
+    .kt-main-nav{
+        position: absolute;
+        top: calc(100% + 20px);
+        left: 0;
+        display: none;
+        width: 100%;
+        background-color: var(--primary-color);
+        border: 1px solid var(--white-color);
+        padding: 8px 24px;
+        z-index: 100;
+    }
+
+    .nav-menu{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0;
+    }
+
+    .nav-menu a{
+        width: 100%;
+        border-bottom: 1px dashed var(--secondary-color);
+        padding: 8px 0;
+    }
+
+    .nav-menu a:last-child{
+        border-bottom: 0;
+    }
+
+    .content-wpr h1{
+        font-size: 65px;
+        line-height: 80px;
+    }
+
+    .switch-button{
+        width: 150px;
+        font-size: 16px;
+        padding-right: 80px;
+    }
+
+    .switch-button:before{
+        width: 70px;
+    }
+
+    .switch-button-checkbox:checked + .switch-button-label:before {
+        transform: translateX(80px);
+        transition: transform 300ms linear;
+    }
+
+    .dash-heading{
+        padding: 16px 8px;
+    }
+
+    .dash-heading .task-btn{
+        margin-right: 16px;
+        margin-left: 0;
+    }
+
+    .nft-task-modal{
+        align-items: flex-start;
+        overflow-y: auto;
+    }
+
+    .modal-wpr{
+        height: max-content;
+    }
+
+    .task-form fieldset{
+        padding: 24px 0;
+    }
+
+    .nft-task-modal .input-grp label{
+        margin-bottom: 10px !important;
+    }
+
+    .task-form .action-btns{
+        margin-top: 16px;
+    }
+
+    .task-form .action-btns .btn{
+        width: 50%;
+    }
+
+    .nft-watchlist .toolbar-left{
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 14px;
+    }
+
+    .nft-watchlist .table-toolbar{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nft-watchlist .table-sorting-wpr{
+        justify-content: space-between;
+    }
+
+    .nft-watchlist .task-btn{
+        padding: 0 16px;
+        margin-right: 8px;
+    }
+
+    .wallet-generator .task-btn-wpr{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+    }
+
+    .wallet-generator .task-btn{
+        padding: 0 16px;
+        margin: 0;
+    }
+
+    .nft-market .search-filter input{
+        width: 350px !important;
+    }
+
+    .nft-products{
+        grid-template-columns: repeat(3,1fr);
+    }
+
+}
+
+/* Max Width 767px */
+@media only screen and (max-width:767px){
+
+    .container{
+        max-width: 95% !important;
+    }
+
+    .logo img{
+        width: 40px;
+    }
+
+    .search img{
+        width: 16px;
+        top: 12px;
+        left: 8px;
+    }
+
+    .search input{
+        font-size: 14px;
+        width: 200px;
+        border-radius: 5px;
+        padding: 8px 8px 8px 32px;
+    }
+
+    .search input::placeholder{
+        font-size: 14px;
+    }
+
+    .header-right .icon img{
+        width: 20px;
+    }
+
+    .header-right .btn{
+        font-size: 14px;
+        height: 40px;
+        line-height: 40px;
+        border-radius: 5px;
+        padding: 0 16px;
+    }
+
+    .nav-toggle{
+        width: 40px;
+        height: 40px;
+        line-height: 45px;
+        border-radius: 5px;
+    }
+
+    .nav-toggle i{
+        font-size: 20px;
+    }
+
+    .table-toolbar h2{
+        font-size: 35px;
+    }
+
+    .table-sorting-filter p{
+        font-size: 16px;
+    }
+
+    .table-sorting-filter select{
+        font-size: 16px;
+    }
+
+    table.kt-table th,
+    table.kt-table td{
+        font-size: 16px;
+    }
+
+    .content-wpr h1 {
+        font-size: 58px;
+        line-height: 70px;
+    }
+
+    .pagination{
+        margin-top: 50px;
+    }
+
+    .pagination .pagination-btn{
+        padding: 0 32px;
+    }
+
+    .toolbar-filter-wpr .search input{
+        width: 240px;
+    }
+
+    .toolbar-filter-wpr .search input::placeholder{
+        font-size: 14px;
+    }
+
+    .switch-wpr{
+        gap: 16px;
+    }
+
+    .toolbar-filter-wpr .search img{
+        top: 12px;
+    }
+
+    .selected-item-price{
+        padding: 8px 12px;
+    }
+
+    .range-field{
+        padding: 24px 12px;
+        margin-left: 0;
+    }
+
+    .total-items{
+        padding: 16px 12px;
+    }
+
+    .nft-market .filter-toolbar{
+        flex-wrap: wrap;
+        gap: 32px;
+    }
+
+    .nft-market .container-2 .nft-products{
+        grid-template-columns: repeat(3,1fr);
+    }
+    
+}
+
+/* Max Width 575px */
+@media only screen and (max-width:575px){
+
+    .table-sorting-wpr{
+        gap: 24px;
+    }
+
+    .table-sorting-filter{
+        width: max-content;
+    }
+    
+}
+
+/* Max Width 480px */
+@media only screen and (max-width:480px){
+   
+    .header-right .btn{
+        display: none;
+    }
+
+    .content-wpr img{
+        max-width: 100px;
+    }
+
+    .content-wpr h1 {
+        font-size: 45px;
+        line-height: 55px;
+    }
+
+    .content-wpr .connect-btn{
+        width: max-content;
+        margin-top: 24px;
+        padding: 16px 32px;
+    }
+
+    .cntrct-mintner .table-toolbar{
+        margin: 40px 0;
+    }
+
+    .task-btn{
+        margin-right: 12px;
+    }
+
+    .pagination{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    table.wallet-tracker th:first-child, 
+    table.wallet-tracker td:first-child{
+        padding-left: 24px;
+    }
+
+    .toolbar-filter-wpr .search,
+    .toolbar-filter-wpr .search input{
+        width: 100%;
+    }
+
+    .toolbar-filter-wpr{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .switch-button,
+    .switch-button-checkbox + .switch-button-label{
+        height: 40px;
+        line-height: 40px;
+    }
+
+    .nft-sale-report .card-heading .d-flex{
+        flex-direction: column;
+        align-items: flex-start !important;
+        gap: 16px;
+    }
+
+    .dash-heading .task-btn,
+    .dashboard-right .task-btn{
+        width: 100px;
+    }
+
+    .dash-footer{
+        flex-direction: column;
+        padding: 16px;
+    }
+
+    .dashboard-left .nft-price-table{
+        display: block;
+    }
+
+    .dashboard-left .nft-price-table th,
+    .dashboard-left .nft-price-table td{
+        width: max-content !important;
+        white-space: nowrap;
+    }
+
+    .dashboard-left td > .d-flex{
+        min-width: 100px;
+    }
+
+    .dashboard-left td .crypto-name{
+        margin-left: 4px;
+    }
+
+    .modal-wpr{
+        padding: 24px;
+    }
+
+    .nft-task-modal .input-grp label,
+    .nft-task-modal .check-input h5{
+        font-size: 18px;
+    }
+
+    .nft-task-modal .input-grp input:not([type='checkbox']){
+        height: 50px;
+        padding: 8px 16px;
+    }
+
+    .nft-task-modal .check-input{
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .nft-watchlist .toolbar-left{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0;
+    }
+
+    .nft-products-container .sidebar-widget{
+        width: 290px;
+        height: 100vh;
+        overflow-y: auto;
+    }
+
+    .rank-filter p{
+        font-size: 18px;
+    }
+
+    .nft-products,
+    .nft-market .container-2 .nft-products{
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 16px;
+    }
+
+    .nft-products-wpr .table-sorting-wpr.sorting-wpr-2{
+        flex-wrap: wrap;
+    }
+
+}
+
+/* Max Width 416px */
+
+@media only screen and (max-width:416px){
+
+    .search input{
+        width: 150px;
+    }
+
+    .search input::placeholder{
+        color: transparent;
+    }
+
+    .nft-products-wpr .search input::placeholder{
+        color: inherit;
+    }
+
+    .table-toolbar h2{
+        font-size: 40px;
+    }
+
+    .table-sorting-wpr{
+        gap: 16px;
+    }
+
+    .table-sorting-filter{
+        padding: 8px 0 8px 16px;
+        border-radius: 5px;
+    }
+
+    .table-sorting-filter select{
+        background-position-x: 90%;
+        padding-right: 32px;
+    }
+
+    .content-wpr h1 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .content-wpr img{
+        max-width: 80px;
+    }
+
+    .content-wpr .connect-btn{
+        width: max-content;
+        font-size: 16px;
+        margin-top: 16px;
+        padding: 12px 24px;
+    }
+
+    .cntrct-mintner .table-toolbar h2{
+        font-size: 40px;
+    }
+
+    .task-btn-wpr{
+        display: flex;
+        gap: 12px;
+    }
+
+    .task-btn{
+        font-size: 16px;
+        margin-right: 0;
+        padding: 0 20px;
+    }
+
+    .dash-heading .nft-logo{
+        gap: 16px;
+    }
+
+    .dash-heading .nft-logo h3{
+        font-size: 40px;
+    }
+
+    .nft-statistics{
+        gap: 16px;
+        overflow-x: auto;
+    }
+
+    .nft-statistics .single-stats .name,
+    .single-stats .val{
+        width: max-content;
+    }
+
+    .single-stats .val{
+        margin-top: 8px;
+        font-size: 16px;
+    }
+
+    .nft-market .search-filter input {
+        width: 310px !important;
+    }
+
+    .rank-filter{
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+
+}
+
+/* Max Width 390px */
+
+@media only screen and (max-width:390px){
+
+    .container{
+        max-width: 100% !important;
+    }
+
+    .nft-watchlist .task-btn-wpr{
+        gap: 0;
+    }
+
+    .nft-market .search-filter input {
+        width: 260px !important;
+    }
+    
+}
+
+/* Max Width 380px */
+
+@media only screen and (max-width:380px){
+
+    .header-left,
+    .header-right{
+        gap: 8px;
+    }
+
+    .table-sorting-wpr.sorting-wpr-2,
+    .table-sorting-wpr{
+        gap: 12px;
+    }
+}
+
+/* Max Width 320px */
+
+@media only screen and (max-width:320px){
+
+    
+}
