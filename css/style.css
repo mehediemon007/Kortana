@@ -704,6 +704,13 @@ tr:nth-child(even) td:last-child{
     margin-left: 24px;
 }
 
+.info-btns .color-btn span{
+    background-image: linear-gradient(82.82deg, #5B0EEA -22.61%, #EE4525 74.64%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}   
+
 .info-btns .btn img{
     margin-left: 12px;
 }
