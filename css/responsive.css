@@ -17,10 +17,6 @@
         padding-left: 90px !important;
     }
 
-    table.kt-table td:first-child{
-        padding-left: 90px !important;
-    }
-
     table.kt-table-2 td:first-child{
         padding-left: 80px !important;
     }
@@ -114,11 +110,7 @@
     .kt-table-wpr .task-btn-wpr{
         padding-left: 50px;
     }
-
-    table.kt-table td:first-child{
-        padding-left: 50px;
-    }
-
+    
     table.cntrct-table th:first-child,
     table.cntrct-table td:first-child{
         padding-left: 40px !important;
