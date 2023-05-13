@@ -42,6 +42,22 @@
 
     });
 
+    // Language Switcher  active
+
+    $(".lang-switcher").on("click", function(e){
+        e.preventDefault();
+        $(".lang-list").toggleClass("lang-list-open");
+    });
+
+    $(".lang-list li").each(function(){
+        $(this).on("click", function(){
+            var logoSrc = $(this).children(".flag").children("img").attr("src");
+            var langText =  $(this).children(".lang-text").text();
+            $(".lang-switcher > .flag img").attr("src", logoSrc);
+            $(".lang-switcher > .lang span").text(langText);
+        });
+    });
+
  
 
 })(jQuery);

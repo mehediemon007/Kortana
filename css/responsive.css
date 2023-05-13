@@ -89,15 +89,6 @@
         width: 290px;
     }
 
-    .nav-menu{
-        gap: 60px;
-    }
-
-    .header-right .btn{
-        width: 200px;
-        padding: 0;
-    }
-
     .table-sorting-wpr{
         gap: 40px;
     }
@@ -247,10 +238,6 @@
 
     .header-right{
         gap: 16px;
-    }
-
-    .header-right .btn{
-        padding: 0 24px;
     }
 
     .table-toolbar{
@@ -639,14 +626,6 @@
         width: 20px;
     }
 
-    .header-right .btn{
-        font-size: 14px;
-        height: 40px;
-        line-height: 40px;
-        border-radius: 5px;
-        padding: 0 16px;
-    }
-
     .nav-toggle{
         width: 40px;
         height: 40px;
@@ -743,11 +722,7 @@
 
 /* Max Width 480px */
 @media only screen and (max-width:480px){
-   
-    .header-right .btn{
-        display: none;
-    }
-
+    
     .content-wpr img{
         max-width: 100px;
     }
