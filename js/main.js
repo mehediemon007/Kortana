@@ -67,23 +67,23 @@
 
     // Sticky Nav
 
-    // const headerContainer = document.querySelector(".mof-header");
-    // window.onscroll = ()=>{
-    //     this.scrollY > 30 ? headerContainer.classList.add("sticky") : headerContainer.classList.remove("sticky");
-    // }
+    const headerContainer = document.querySelector(".kt-header");
+    window.onscroll = ()=>{
+        this.scrollY > 50 ? headerContainer.classList.add("sticky") : headerContainer.classList.remove("sticky");
+    }
 
-    // // Switch Button
+    // Switch Button
 
-    // let checkbox = document.querySelector('.switch-button-checkbox');
+    let checkbox = document.querySelector('.switch-button-checkbox');
 
-    // checkbox.addEventListener('change', e => {
+    checkbox.addEventListener('change', e => {
 
-    //     if(!e.target.checked){
-    //         var switchBtn = document.querySelector('.switch-button');
-    //         switchBtn.classList.toggle("on");
-    //     }
+        if(!e.target.checked){
+            var switchBtn = document.querySelector('.switch-button');
+            switchBtn.classList.toggle("on");
+        }
 
-    // });
+    });
 
     // Range Slider
 
