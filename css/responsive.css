@@ -117,87 +117,62 @@
 /* Max Width 1399px */
 @media only screen and (max-width: 1399px){
 
-    .kt-table-2{
-        display: block;
+    .kt-banner .curve-1 {
+        width: 62%;
+        bottom: -100px;
     }
 
-    .nft-sale-report .card-heading{
-        flex-direction: column;
-        align-items: flex-start;
+    .scale-features {
+        padding: 0 40px 0 45px;
     }
 
-    .dash-heading .heading-container{
-        grid-gap: 24px;
+    .prime-features {
+        margin: 120px 20px 60px 20px;
     }
 
-    .dash-heading .task-btn{
-        width: 100px;
+    .trade-info h2{
+        font-size: 60px;
+        line-height: 75px;
     }
 
-    .nft-statistics.stats-2{
-        justify-content: flex-start;
-        margin-top: 18px;
+    .info-list{
+        padding-right: 60px;
     }
 
-    .dashboard-left .dash-heading{
-        padding: 24px 32px;
-    }
-
-    .dashboard-right .task-btn.active{
-        width: 120px;
-        margin-left: 0;
-    }
-
-    .modal-wpr{
-        width: 90%;
-        padding: 50px 50px 16px;
-    }
-    
-    .task-form fieldset{
-        padding: 32px;
-    }
-
-    .nft-products-container{
-        grid-template-columns: 250px 1fr 250px;
-        grid-column-gap: 16px;
-    }
-
-    .nft-products-container.container-2{
-        grid-template-columns: 1fr 250px;
-    }
-
-    .nft-market .search-filter input{
-        width: 680px !important;
-    }
 }
 
 /* Max Width 1299px */
 @media only screen and (max-width: 1299px){
 
-    .nft-watchlist .toolbar-left{
-        gap: 28px;
+    .header-container {
+        padding: 12px 20px;
     }
 
-    .wallet-generator .table-toolbar{
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 16px;
+    .banner-imgs .img-2{
+        right: -4%;
     }
 
-    .nft-products{
-        grid-template-columns: repeat(3,1fr);
+    .kt-banner .curve-1 {
+        width: 65%;
+        bottom: -110px;
     }
 
-    .nft-market .container-2 .nft-products{
-        grid-template-columns: repeat(4,1fr);
+    .scale-features{
+        padding: 0;
     }
 
-    .nft-market .search-filter input {
-        width: 515px !important;
+    .single-feature{
+        padding: 16px 24px;
     }
 
-    .nft-products-wpr .toolbar-filter{
-        gap: 24px;
+    .wpr-2 .single-feature::after{
+        right: 16px;
+        transform: scaleX(.70);
+    }
+
+    .single-feature h3{
+        font-size: 28px;
+        line-height: 32px;
     }
 }
 
@@ -205,195 +180,11 @@
 
 @media only screen and (max-width:1199px){
 
-    .header-left{
-        gap: 16px;
-    }
-
-    .nav-menu{
-        gap: 24px;
-    }
-
-    .header-right{
-        gap: 16px;
-    }
-
-    .table-toolbar{
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 16px;
-        margin: 32px 0;
-    }
-
-    .table-sorting-wpr{
-        width: 100%;
-        justify-content: space-between;
-    }
-
-    table.mint-table{
-        display: block;
-    }
-
-    table.mint-table th:first-child,
-    table.mint-table td:first-child{
-        min-width: max-content;
-        white-space: nowrap;
-        padding-left: 24px;
-    }
-
-    table.cntrct-table th:first-child,
-    table.cntrct-table td:first-child{
-        padding-left: 32px;
-    }
-
-    table.wallet-tracker th:first-child,
-    table.wallet-tracker td:first-child{
-        padding-left: 50px;
-    }
-
-    table.mint-table th,
-    table.mint-table td{
-        min-width: max-content;
-        white-space: nowrap;
-    }
-
-    .task-btn{
-        margin-left: 0;
-        margin-right: 20px;
-    }
-
-    .toolbar-filter-wpr{
-        width: 100%;
-        justify-content: space-between;
-    }
-
-    .dash-body .dash-container{
-        grid-template-columns: 1fr;
-    }
-
-    .nft-watchlist .table-toolbar{
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: flex-end;
-    }
-
-    .nft-watchlist .toolbar-left{
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .nft-watchlist .task-btn-wpr{
-        width: max-content;
-    }
-
-    .nft-watchlist .table-sorting-wpr{
-        justify-content: flex-end;
-    }
-
-    table.wallet-gen-table th{
-        padding: 24px 16px;
-    }
-
-    .kt-table-wpr .task-btn-wpr{
-        padding-left: 16px;
-    }
-
-    .nft-market .filter-toolbar{
-        justify-content: space-between;
-    }
-
 }
 
 /* Max Width 1099px */
 @media only screen and (max-width:1099px){
 
-    .project-slider .project-content{
-        margin-top: 112px;
-    }
-
-    .project-slider .owl-nav{
-        left: 494px;
-    }
-
-    .project-slider .project-name{
-        top: 20px;
-        right: -254px;
-        font-size: 60px;
-    }
-
-    .dash-heading .heading-container{
-        grid-template-columns: 1fr;
-        align-items: flex-start;
-    }
-
-    .dash-heading .sub-logo{
-        justify-content: flex-start;
-        margin-top: 8px;
-    }
-
-    .nft-statistics{
-        justify-content: flex-start;
-    }
-
-    .task-btn-wpr.text-end{
-        text-align: left !important;
-        gap: 0;
-    }
-
-    .dash-heading{
-        padding: 24px 32px;
-    }
-
-    .dash-heading .task-btn{
-        width: 150px;
-    }
-
-    .task-form .action-btns{
-        display: flex;
-        align-items: center;
-    }
-
-    .task-form .action-btns .btn{
-        width: 45%;
-    }
-
-    .wallet-gen-table{
-        display: block;
-    }
-
-    .nft-products-container,
-    .nft-products-container.container-2{
-        grid-template-columns: 1fr;
-    }
-
-    .nft-products-container .sidebar-widget{
-        position: fixed;
-        top: 0;
-        left: -100%;
-        z-index: 10;
-        transition: left .1s ease-in;
-    }
-
-    .nft-products-container .sidebar-widget.active{
-        left: 0;
-    }
-
-    /* .nft-cart{
-        position: fixed;
-        top: 0;
-        right: -100%;
-        z-index: 10;
-    } */
-
-    .filter-cls{
-        position: absolute;
-        right: 0;
-        display: inline-block;
-        cursor: pointer;
-    }
-
-    .nft-products{
-        grid-template-columns: repeat(4,1fr);
-    }
 }
 
 /* Max Width 1024px */
@@ -416,270 +207,764 @@
 
 @media only screen and (max-width:991px){
 
-    .container{
-        max-width: 90% !important;
+    h1 {
+        font-size: 50px;
+        line-height: 57px;
+        letter-spacing: -0.04em;
     }
 
-    .kt-table-wpr{
-        padding-bottom: 50px;
+    h3{
+        font-size: 16px;
+        line-height: 23px;
     }
 
-    table.kt-table{
-        display: block;
+    .sec-spacer{
+        padding: 80px 0;
     }
 
-    /* Mobile Nav End */
-
-    .nav-toggle{
-        display: inline-block;
-        width: 48px;
-        height: 48px;
-        background-color: var(--secondary-color);
-        border-radius: 10px;
-        text-align: center;
-        line-height: 56px;
-        cursor: pointer;
+    .kt-header{
+        top: 20px;
     }
 
-    .nav-toggle i{
-        font-size: 24px;
-        text-indent: 2px;
+    .logo img{
+        max-width: 100px;
     }
 
-    .kt-main-nav{
-        position: absolute;
-        top: calc(100% + 20px);
-        left: 0;
-        display: none;
-        width: 100%;
-        background-color: var(--primary-color);
-        border: 1px solid var(--white-color);
-        padding: 8px 24px;
-        z-index: 100;
+    .header-right{
+        gap: 12px;
+    }
+
+    .header-right .btn{
+        height: 27px;
+        font-size: 8px;
+        line-height: 27px;
+        padding: 0 12px;
     }
 
     .nav-menu{
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 0;
-    }
-
-    .nav-menu a{
-        width: 100%;
-        border-bottom: 1px dashed var(--secondary-color);
-        padding: 8px 0;
-    }
-
-    .nav-menu a:last-child{
-        border-bottom: 0;
-    }
-
-    .content-wpr h1{
-        font-size: 65px;
-        line-height: 80px;
-    }
-
-    .switch-button{
-        width: 150px;
-        font-size: 16px;
-        padding-right: 80px;
-    }
-
-    .switch-button:before{
-        width: 70px;
-    }
-
-    .switch-button-checkbox:checked + .switch-button-label:before {
-        transform: translateX(80px);
-        transition: transform 300ms linear;
-    }
-
-    .dash-heading{
-        padding: 16px 8px;
-    }
-
-    .dash-heading .task-btn{
-        margin-right: 16px;
-        margin-left: 0;
-    }
-
-    .nft-task-modal{
-        align-items: flex-start;
-        overflow-y: auto;
-    }
-
-    .modal-wpr{
-        height: max-content;
-    }
-
-    .task-form fieldset{
-        padding: 24px 0;
-    }
-
-    .nft-task-modal .input-grp label{
-        margin-bottom: 10px !important;
-    }
-
-    .task-form .action-btns{
-        margin-top: 16px;
-    }
-
-    .task-form .action-btns .btn{
-        width: 50%;
-    }
-
-    .nft-watchlist .toolbar-left{
-        width: 100%;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        gap: 14px;
-    }
-
-    .nft-watchlist .table-toolbar{
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .nft-watchlist .table-sorting-wpr{
-        justify-content: space-between;
-    }
-
-    .nft-watchlist .task-btn{
-        padding: 0 16px;
-        margin-right: 8px;
-    }
-
-    .wallet-generator .task-btn-wpr{
-        display: flex;
-        flex-wrap: wrap;
         gap: 16px;
     }
 
-    .wallet-generator .task-btn{
+    .nav-menu a,
+    .lang-switcher .lang{
+        font-size: 8px;
+        line-height: 10px;
+    }
+
+    .kt-banner{
+        padding: 130px 0 80px;
+    }
+
+    .kt-banner::before{
+        content: "";
+    }
+
+    .banner-list{
+        grid-column-gap: 16px;
+        margin: 16px 0;
+    }
+
+    .banner-list p{
+        font-size: 9px;
+        line-height: 14px;
+        padding-left: 24px;
+        margin-bottom: 12px;
+    }
+
+    .banner-list p::before{
+        top: -6px;
+        transform: scale(.5);
+    }
+
+    .banner-content .btn{
+        width: 147px;
+        height: 36px;
+        font-size: 10px;
+        line-height: 36px;
+        border-radius: 61px;
+    }
+
+    .banner-imgs img{
+        max-width: 297px;
+    }
+
+    .banner-imgs .img-1{
+        margin-top: 60px;
+    }
+
+    .banner-imgs .img-2{
+        right: -2%;
+        top: -60px;
+    }
+
+    .banner-imgs .chart-img{
+        max-width: 60%;
+        left: 45%;
+    }
+
+    .kt-banner .curve-1 {
+        width: 65%;
+        bottom: -40px;
+    }
+
+    .kt-differ .sec-title{
+        font-size: 34px;
+        line-height: 41px;
+        margin-bottom: 32px;
+    }
+
+    .differ-cards .single-card{
+        grid-template-columns: 24px 1fr;
+        grid-gap: 12px;
+        padding: 16px 12px;
+    }
+
+    .differ-cards .single-card p{
+        font-size: 8px;
+        line-height: 14px;
+        margin-top: 8px;
+    }
+
+    .connector{
+        width: 76px;
+        height: 104px;
+        line-height: 104px;
+    }
+
+    .connector img{
+        max-width: 49px;
+    }
+
+    .connector-wpr::before{
+        content: url("../images/shapes/connt-left-md.png");
+    }
+
+    .connector-wpr::after{
+        content: url("../images/shapes/connt-right-md.png");
+    }
+
+    .kt-scale .sec-title{
+        font-size: 33px;
+        line-height: 39px;
+        margin-bottom: 16px;
+    }
+
+    .kt-scale{
+        padding-top: 80px;
+    }
+
+    .kt-scale::after{
+        bottom: 130px;
+        height: 100%;
+    }
+
+    .kt-scale .sec-des{
+        max-width: 318px;
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+    .scale-features{
+        margin-top: 40px;
+    }
+
+    /* .features-wpr{
+        gap: 32px;
+    } */
+
+    .wpr-2{
+        margin-top: 32px;
+    }
+
+    .single-feature{
+        padding: 8px;
+    }
+
+    .single-feature.circle{
+        width: 38px;
+        height: 38px;
+    }
+
+    .single-feature.circle p{
+        font-size: 5px;
+        line-height: 7px;
+    }
+
+    .single-feature .icon{
+        width: 20px;
+        height: 20px;
+        line-height: 20px;
+        margin-right: 8px;
+    }
+
+    .single-feature .icon img{
+        width: 12px;
+        height: 12px;
+    }
+
+    .single-feature h3{
+        font-size: 16px;
+        line-height: 15px;
+    }
+
+    .single-feature b,
+    .single-feature p{
+        font-size: 9px;
+        line-height: 16px;
+    }
+
+    .prime-features{
+        margin: 60px 20px 30px 20px
+    }
+
+    .prime-features h3{
+        font-size: 22px;
+        line-height: 27px;
+        margin-bottom: 16px;
+    }
+
+    .prime-features p{
+        font-size: 8px;
+        line-height: 12px;
+    }
+
+    .prime-features .feature-list{
+        grid-gap: 8px 24px;
+    }
+
+    .prime-features li{
+        font-size: 9px;
+        line-height: 13px;
+        gap: 8px;
+    }
+
+    .prime-features li img{
+        width: 14px;
+        height: 14px;
+    }
+
+    .tab-links{
+        padding: 8px;
+    }
+
+    .tab-links .nav-link{
+        font-size: 14px;
+        line-height: 20px;
+        padding: 8px 16px;
+    }
+
+    .accounts-content{
+        padding: 40px 24px;
+        margin-top: 32px;
+    }
+
+    table.kt-table th{
+        font-size: 14px;
+        line-height: 20px;
+        padding: 0 12px 8px;
+    }
+
+    table.kt-table td{
+        font-size: 14px;
+        line-height: 20px;
+        padding: 12px 16px;
+    }
+
+    .td-btn{
+        padding: 6px 12px;
+    }
+
+    .accounts-content .btn{
+        height: 32px;
+        font-size: 9px;
+        line-height: 32px;
         padding: 0 16px;
-        margin: 0;
+        margin-top: 32px;
     }
 
-    .nft-market .search-filter input{
-        width: 350px !important;
+    .trade-info h2{
+        font-size: 34px;
+        line-height: 41px;
+    }
+    
+    .info-list{
+        margin: 24px 0;
+        padding-right: 24px;
     }
 
-    .nft-products{
-        grid-template-columns: repeat(3,1fr);
+    .info-list li{
+        font-size: 11px;
+        line-height: 17px;
+        margin-bottom: 10px;
+        padding-left: 32px;
     }
 
+    .info-list li::before{
+        top: -8px;
+        transform: scale(.5);
+    }
+
+    .info-btns .btn{
+        height: 37px;
+        font-size: 9px;
+        line-height: 37px;
+        padding: 0 16px;
+    }
+
+    .info-btns .btn img{
+        max-width: 9px;
+        margin-left: 6px;
+    }
+
+    .info-btns .color-btn{
+        margin-left: 12px;
+    }
+
+    .trade-image .img-sm{
+        max-width: 147px;
+    }
+
+    .footer-wpr{
+        margin: 50px 0;
+        padding: 24px 40px;
+    }
+
+    .footer-wpr .logo{
+        width: 127px;
+    }
+
+    .footer-social-links a{
+        width: 32px;
+        height: 32px;
+        border-radius: 13px;
+    }
+
+    .footer-social-links img{
+        max-width: 16px;
+    }
+
+    .footer-content p{
+        font-size: 13px;
+        line-height: 17px;
+        padding-right: 32px;
+    }
+
+    .footer-widget h5{
+        font-size: 12px;
+        line-height: 17px;
+        margin-bottom: 8px;
+    }
+
+    .footer-menu li a{
+        font-size: 10px;
+        line-height: 15px;
+        margin-bottom: 4px;
+    }
+
+    .footer-social-links{
+        margin: 16px 0;
+    }
+
+    .footer-input{
+        width: 158px;
+        margin-top: 16px;
+    }
+
+    .footer-input input{
+        height: 28px;
+        font-size: 8px;
+        line-height: 13px;
+    }
+
+    .footer-input input::placeholder{
+        font-size: 8px;
+        line-height: 13px;
+    }
+
+    .footer-input button{
+        width: 20px;
+        height: 20px;
+        border-radius: 6px;
+        line-height: 15px;
+    }
 }
 
 /* Max Width 767px */
 @media only screen and (max-width:767px){
 
-    .container{
-        max-width: 95% !important;
+    h3{
+        font-size: 16px;
+        line-height: 23px;
+    }
+
+    .sec-spacer{
+        padding: 80px 0;
+    }
+
+    .kt-header{
+        top: 20px;
     }
 
     .logo img{
-        width: 40px;
+        max-width: 100px;
     }
 
-    .search img{
-        width: 16px;
-        top: 12px;
-        left: 8px;
+    .header-right{
+        gap: 12px;
     }
 
-    .search input{
-        font-size: 14px;
-        width: 200px;
-        border-radius: 5px;
-        padding: 8px 8px 8px 32px;
+    .header-right .btn{
+        height: 27px;
+        font-size: 8px;
+        line-height: 27px;
+        padding: 0 12px;
     }
 
-    .search input::placeholder{
-        font-size: 14px;
-    }
-
-    .header-right .icon img{
-        width: 20px;
-    }
-
-    .nav-toggle{
-        width: 40px;
-        height: 40px;
-        line-height: 45px;
-        border-radius: 5px;
-    }
-
-    .nav-toggle i{
-        font-size: 20px;
-    }
-
-    .table-toolbar h2{
-        font-size: 35px;
-    }
-
-    .table-sorting-filter p{
-        font-size: 16px;
-    }
-
-    .table-sorting-filter select{
-        font-size: 16px;
-    }
-
-    table.kt-table th,
-    table.kt-table td{
-        font-size: 16px;
-    }
-
-    .content-wpr h1 {
-        font-size: 58px;
-        line-height: 70px;
-    }
-
-    .pagination{
-        margin-top: 50px;
-    }
-
-    .pagination .pagination-btn{
-        padding: 0 32px;
-    }
-
-    .toolbar-filter-wpr .search input{
-        width: 240px;
-    }
-
-    .toolbar-filter-wpr .search input::placeholder{
-        font-size: 14px;
-    }
-
-    .switch-wpr{
+    .nav-menu{
         gap: 16px;
     }
 
-    .toolbar-filter-wpr .search img{
-        top: 12px;
+    .nav-menu a,
+    .lang-switcher .lang{
+        font-size: 8px;
+        line-height: 10px;
     }
 
-    .selected-item-price{
-        padding: 8px 12px;
+    .kt-banner{
+        padding: 130px 0 80px;
     }
 
-    .range-field{
-        padding: 24px 12px;
-        margin-left: 0;
+    .kt-banner::before{
+        content: "";
     }
 
-    .total-items{
+    .banner-content{
+        text-align: center;
+        margin-bottom: 32px;
+    }
+
+    .banner-list{
+        grid-column-gap: 16px;
+        margin: 16px auto;
+    }
+
+    .banner-list p{
+        font-size: 12px;
+        text-align: left;
+    }
+
+    .banner-list p::before{
+        top: -6px;
+        transform: scale(.7);
+    }
+
+    .banner-content .btn{
+        width: 147px;
+        height: 36px;
+        font-size: 10px;
+        line-height: 36px;
+        border-radius: 61px;
+    }
+
+    .banner-imgs img{
+        max-width: 297px;
+    }
+
+    .banner-imgs .img-1{
+        margin-top: 60px;
+    }
+
+    .banner-imgs .img-2{
+        right: -2%;
+        top: -60px;
+    }
+
+    .banner-imgs .chart-img{
+        max-width: 40%;
+        left: 30%;
+    }
+
+    .kt-banner .curve-1 {
+        width: 65%;
+        bottom: -40px;
+    }
+
+    .kt-differ .sec-title{
+        font-size: 34px;
+        line-height: 41px;
+        margin-bottom: 32px;
+    }
+
+    .differ-cards .single-card{
+        grid-template-columns: 24px 1fr;
+        grid-gap: 12px;
         padding: 16px 12px;
     }
 
-    .nft-market .filter-toolbar{
-        flex-wrap: wrap;
-        gap: 32px;
+    .differ-cards .single-card p{
+        font-size: 8px;
+        line-height: 14px;
+        margin-top: 8px;
     }
 
-    .nft-market .container-2 .nft-products{
-        grid-template-columns: repeat(3,1fr);
+    .connector{
+        width: 76px;
+        height: 104px;
+        line-height: 104px;
+    }
+
+    .connector img{
+        max-width: 49px;
+    }
+
+    .connector-wpr::before,
+    .connector-wpr::after{
+        content: "";
+    }
+
+    .kt-scale .sec-title{
+        font-size: 33px;
+        line-height: 39px;
+        margin-bottom: 16px;
+    }
+
+    .kt-scale{
+        padding-top: 80px;
+    }
+
+    .kt-scale::after{
+        bottom: 130px;
+        height: 100%;
+    }
+
+    .kt-scale .sec-des{
+        max-width: 318px;
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+    .scale-features{
+        margin-top: 40px;
+    }
+
+    /* .features-wpr{
+        gap: 32px;
+    } */
+
+    .wpr-2{
+        margin-top: 32px;
+    }
+
+    .single-feature{
+        padding: 8px;
+    }
+
+    .single-feature.circle{
+        width: 38px;
+        height: 38px;
+    }
+
+    .single-feature.circle p{
+        font-size: 5px;
+        line-height: 7px;
+    }
+
+    .single-feature .icon{
+        width: 20px;
+        height: 20px;
+        line-height: 20px;
+        margin-right: 8px;
+    }
+
+    .single-feature .icon img{
+        width: 12px;
+        height: 12px;
+    }
+
+    .single-feature h3{
+        font-size: 16px;
+        line-height: 15px;
+    }
+
+    .single-feature b,
+    .single-feature p{
+        font-size: 9px;
+        line-height: 16px;
+    }
+
+    .prime-features{
+        margin: 60px 20px 30px 20px
+    }
+
+    .prime-features h3{
+        font-size: 22px;
+        line-height: 27px;
+        margin-bottom: 16px;
+    }
+
+    .prime-features p{
+        font-size: 8px;
+        line-height: 12px;
+    }
+
+    .prime-features .feature-list{
+        grid-gap: 8px 24px;
+    }
+
+    .prime-features li{
+        font-size: 9px;
+        line-height: 13px;
+        gap: 8px;
+    }
+
+    .prime-features li img{
+        width: 14px;
+        height: 14px;
+    }
+
+    .tab-links{
+        padding: 8px;
+    }
+
+    .tab-links .nav-link{
+        font-size: 14px;
+        line-height: 20px;
+        padding: 8px 16px;
+    }
+
+    .accounts-content{
+        padding: 40px 24px;
+        margin-top: 32px;
+    }
+
+    table.kt-table th{
+        font-size: 14px;
+        line-height: 20px;
+        padding: 0 12px 8px;
+    }
+
+    table.kt-table td{
+        font-size: 14px;
+        line-height: 20px;
+        padding: 12px 16px;
+    }
+
+    .td-btn{
+        padding: 6px 12px;
+    }
+
+    .accounts-content .btn{
+        height: 32px;
+        font-size: 9px;
+        line-height: 32px;
+        padding: 0 16px;
+        margin-top: 32px;
+    }
+
+    .trade-info h2{
+        font-size: 34px;
+        line-height: 41px;
+    }
+    
+    .info-list{
+        margin: 24px 0;
+        padding-right: 24px;
+    }
+
+    .info-list li{
+        font-size: 11px;
+        line-height: 17px;
+        margin-bottom: 10px;
+        padding-left: 32px;
+    }
+
+    .info-list li::before{
+        top: -8px;
+        transform: scale(.5);
+    }
+
+    .info-btns .btn{
+        height: 37px;
+        font-size: 9px;
+        line-height: 37px;
+        padding: 0 16px;
+    }
+
+    .info-btns .btn img{
+        max-width: 9px;
+        margin-left: 6px;
+    }
+
+    .info-btns .color-btn{
+        margin-left: 12px;
+    }
+
+    .trade-image .img-sm{
+        max-width: 147px;
+    }
+
+    .footer-wpr{
+        margin: 50px 0;
+        padding: 24px 40px;
+    }
+
+    .footer-wpr .logo{
+        width: 127px;
+    }
+
+    .footer-social-links a{
+        width: 32px;
+        height: 32px;
+        border-radius: 13px;
+    }
+
+    .footer-social-links img{
+        max-width: 16px;
+    }
+
+    .footer-content p{
+        font-size: 13px;
+        line-height: 17px;
+        padding-right: 32px;
+    }
+
+    .footer-widget h5{
+        font-size: 12px;
+        line-height: 17px;
+        margin-bottom: 8px;
+    }
+
+    .footer-menu li a{
+        font-size: 10px;
+        line-height: 15px;
+        margin-bottom: 4px;
+    }
+
+    .footer-social-links{
+        margin: 16px 0;
+    }
+
+    .footer-input{
+        width: 158px;
+        margin-top: 16px;
+    }
+
+    .footer-input input{
+        height: 28px;
+        font-size: 8px;
+        line-height: 13px;
+    }
+
+    .footer-input input::placeholder{
+        font-size: 8px;
+        line-height: 13px;
+    }
+
+    .footer-input button{
+        width: 20px;
+        height: 20px;
+        border-radius: 6px;
+        line-height: 15px;
     }
     
 }
