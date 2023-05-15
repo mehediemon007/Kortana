@@ -69,7 +69,7 @@
 
     const headerContainer = document.querySelector(".kt-header");
     window.onscroll = ()=>{
-        this.scrollY > 50 ? headerContainer.classList.add("sticky") : headerContainer.classList.remove("sticky");
+        this.scrollY > 30 ? headerContainer.classList.add("sticky") : headerContainer.classList.remove("sticky");
     }
 
     // Switch Button
