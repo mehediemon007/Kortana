@@ -865,7 +865,7 @@ tr:nth-child(even) td:last-child{
 .trade-image .img-sm{
     position: absolute;
     top: 50%;
-    left: -25%;
+    left: -22%;
     transform: translate(20%, -50%);
     animation: float-bob-y 3s linear infinite;
 }
