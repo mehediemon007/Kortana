@@ -180,29 +180,18 @@
 
 @media only screen and (max-width:1199px){
 
-}
-
-/* Max Width 1099px */
-@media only screen and (max-width:1099px){
-
-}
-
-/* Max Width 1024px */
-@media only screen and (max-width:1024px){
-
     h1 {
-        font-size: 50px;
-        line-height: 57px;
-        letter-spacing: -0.04em;
+        font-size: 60px;
+        line-height: 80px;
     }
 
     h3{
-        font-size: 16px;
-        line-height: 23px;
+        font-size: 24px;
+        line-height: 30px;
     }
 
     .sec-spacer{
-        padding: 80px 0;
+        padding: 100px 0;
     }
 
     .kt-header{
@@ -219,9 +208,9 @@
 
     .header-right .btn{
         height: 27px;
-        font-size: 8px;
+        font-size: 12px;
         line-height: 27px;
-        padding: 0 12px;
+        padding: 0 16px;
     }
 
     .nav-menu{
@@ -230,16 +219,8 @@
 
     .nav-menu a,
     .lang-switcher .lang{
-        font-size: 8px;
+        font-size: 12px;
         line-height: 10px;
-    }
-
-    .kt-banner{
-        padding: 130px 0 80px;
-    }
-
-    .kt-banner::before{
-        content: "";
     }
 
     .banner-list{
@@ -248,63 +229,48 @@
     }
 
     .banner-list p{
-        font-size: 9px;
-        line-height: 14px;
+        font-size: 12px;
+        line-height: 16px;
         padding-left: 24px;
-        margin-bottom: 12px;
+        margin-bottom: 16px;
     }
 
     .banner-list p::before{
         top: -6px;
-        transform: scale(.5);
+        transform: scale(.7);
     }
 
     .banner-content .btn{
         width: 147px;
-        height: 36px;
-        font-size: 10px;
-        line-height: 36px;
+        height: 40px;
+        font-size: 12px;
+        line-height: 40px;
         border-radius: 61px;
     }
 
-    .banner-imgs img{
-        max-width: 297px;
-    }
-
     .banner-imgs .img-1{
-        margin-top: 60px;
+        margin-top: 80px;
     }
 
-    .banner-imgs .img-2{
-        right: -2%;
-        top: -60px;
-    }
-
-    .banner-imgs .chart-img{
-        max-width: 60%;
-        left: 45%;
-    }
-
-    .kt-banner .curve-1 {
-        width: 65%;
-        bottom: -40px;
+    .kt-banner .curve-1{
+        bottom: -70px;
     }
 
     .kt-differ .sec-title{
-        font-size: 34px;
-        line-height: 41px;
+        font-size: 40px;
+        line-height: 45px;
         margin-bottom: 32px;
     }
 
     .differ-cards .single-card{
-        grid-template-columns: 24px 1fr;
-        grid-gap: 12px;
+        grid-template-columns: 32px 1fr;
+        grid-gap: 16px;
         padding: 16px 12px;
     }
 
     .differ-cards .single-card p{
-        font-size: 8px;
-        line-height: 14px;
+        font-size: 12px;
+        line-height: 18px;
         margin-top: 8px;
     }
 
@@ -324,6 +290,228 @@
 
     .connector-wpr::after{
         content: url("../images/shapes/connt-right-md.png");
+    }
+
+    .prime-features h3{
+        font-size: 32px;
+        line-height: 28px;
+        margin-bottom: 20px;
+    }
+
+    .prime-features p{
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .prime-features .feature-list{
+        grid-gap: 8px 24px;
+    }
+
+    .prime-features li{
+        font-size: 14px;
+        line-height: 20px;
+        gap: 8px;
+    }
+
+    .prime-features li img{
+        width: 20px;
+        height: 20px;
+    }
+
+    .tab-links{
+        padding: 8px;
+    }
+
+    .tab-links .nav-link{
+        font-size: 14px;
+        line-height: 20px;
+        padding: 8px 16px;
+    }
+
+    .accounts-content{
+        padding: 40px 24px;
+        margin-top: 32px;
+    }
+
+    table.kt-table th{
+        font-size: 14px;
+        line-height: 20px;
+        padding: 0 12px 8px;
+    }
+
+    table.kt-table td{
+        font-size: 14px;
+        line-height: 20px;
+        padding: 12px 16px;
+    }
+
+    .td-btn{
+        padding: 6px 12px;
+    }
+
+    .accounts-content .btn{
+        height: 40px;
+        font-size: 12px;
+        line-height: 40px;
+        padding: 0 24px;
+        margin-top: 32px;
+    }
+
+    .trade-info h2{
+        font-size: 48px;
+        line-height: 60px;
+    }
+    
+    .info-list{
+        margin: 24px 0;
+        padding-right: 24px;
+    }
+
+    .info-list li{
+        font-size: 14px;
+        line-height: 18px;
+        margin-bottom: 10px;
+        padding-left: 32px;
+    }
+
+    .info-list li::before{
+        top: -8px;
+        transform: scale(.5);
+    }
+
+    .info-btns .btn{
+        height: 40px;
+        font-size: 13px;
+        line-height: 40px;
+        padding: 0 24px;
+    }
+
+    .info-btns .btn img{
+        max-width: 12px;
+        margin-left: 6px;
+    }
+
+    .info-btns .color-btn{
+        margin-left: 12px;
+    }
+
+    .trade-image .img-sm{
+        max-width: 147px;
+    }
+
+    .footer-wpr{
+        margin: 50px 0;
+        padding: 24px 40px;
+    }
+
+    .footer-wpr .logo{
+        width: 127px;
+    }
+
+    .footer-social-links a{
+        width: 32px;
+        height: 32px;
+        border-radius: 13px;
+    }
+
+    .footer-social-links img{
+        max-width: 16px;
+    }
+
+    .footer-content p{
+        font-size: 16px;
+        line-height: 20px;
+        padding-right: 32px;
+    }
+
+    .footer-widget h5{
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 8px;
+    }
+
+    .footer-menu li a{
+        font-size: 12px;
+        line-height: 16px;
+        margin-bottom: 4px;
+    }
+
+    .footer-social-links{
+        margin: 16px 0;
+    }
+
+    .footer-input{
+        width: 180px;
+        margin-top: 16px;
+    }
+
+    .footer-input input{
+        height: 32px;
+        font-size: 12px;
+        line-height: 13px;
+    }
+
+    .footer-input input::placeholder{
+        font-size: 12px;
+        line-height: 13px;
+    }
+
+    .footer-input button{
+        width: 20px;
+        height: 20px;
+        border-radius: 6px;
+        line-height: 15px;
+    }
+
+}
+
+/* Max Width 1099px */
+@media only screen and (max-width:1099px){
+
+}
+
+/* Max Width 1024px */
+@media only screen and (max-width:1024px){
+
+    h1 {
+        font-size: 50px;
+        line-height: 57px;
+        letter-spacing: -0.04em;
+    }
+
+    .sec-spacer{
+        padding: 80px 0;
+    }
+
+    .kt-banner{
+        padding: 130px 0 80px;
+    }
+
+    .kt-banner::before{
+        content: "";
+    }
+
+    .banner-imgs img{
+        max-width: 297px;
+    }
+
+    .banner-imgs .img-1{
+        margin-top: 60px;
+    }
+
+    .banner-imgs .img-2{
+        right: -2%;
+        top: -60px;
+    }
+
+    .kt-banner .curve-1 {
+        width: 65%;
+        bottom: -40px;
+    }
+
+    .banner-imgs .chart-img{
+        max-width: 50%;
+        left: 30%;
     }
 
     .kt-scale .sec-title{
@@ -411,10 +599,6 @@
         line-height: 12px;
     }
 
-    .prime-features .feature-list{
-        grid-gap: 8px 24px;
-    }
-
     .prime-features li{
         font-size: 9px;
         line-height: 13px;
@@ -426,65 +610,21 @@
         height: 14px;
     }
 
-    .tab-links{
-        padding: 8px;
-    }
-
-    .tab-links .nav-link{
-        font-size: 14px;
-        line-height: 20px;
-        padding: 8px 16px;
-    }
-
-    .accounts-content{
-        padding: 40px 24px;
-        margin-top: 32px;
-    }
-
-    table.kt-table th{
-        font-size: 14px;
-        line-height: 20px;
-        padding: 0 12px 8px;
-    }
-
-    table.kt-table td{
-        font-size: 14px;
-        line-height: 20px;
-        padding: 12px 16px;
-    }
-
-    .td-btn{
-        padding: 6px 12px;
-    }
-
     .accounts-content .btn{
         height: 32px;
         font-size: 9px;
         line-height: 32px;
         padding: 0 16px;
-        margin-top: 32px;
     }
 
     .trade-info h2{
         font-size: 34px;
         line-height: 41px;
     }
-    
-    .info-list{
-        margin: 24px 0;
-        padding-right: 24px;
-    }
 
     .info-list li{
         font-size: 11px;
         line-height: 17px;
-        margin-bottom: 10px;
-        padding-left: 32px;
-    }
-
-    .info-list li::before{
-        top: -8px;
-        transform: scale(.5);
     }
 
     .info-btns .btn{
@@ -529,19 +669,16 @@
     .footer-content p{
         font-size: 13px;
         line-height: 17px;
-        padding-right: 32px;
     }
 
     .footer-widget h5{
         font-size: 12px;
         line-height: 17px;
-        margin-bottom: 8px;
     }
 
     .footer-menu li a{
         font-size: 10px;
         line-height: 15px;
-        margin-bottom: 4px;
     }
 
     .footer-social-links{
@@ -550,18 +687,15 @@
 
     .footer-input{
         width: 158px;
-        margin-top: 16px;
     }
 
     .footer-input input{
         height: 28px;
         font-size: 8px;
-        line-height: 13px;
     }
 
     .footer-input input::placeholder{
         font-size: 8px;
-        line-height: 13px;
     }
 
     .footer-input button{
@@ -591,22 +725,8 @@
         padding: 80px 0;
     }
 
-    .kt-header{
-        top: 20px;
-    }
-
-    .logo img{
-        max-width: 100px;
-    }
-
-    .header-right{
-        gap: 12px;
-    }
-
     .header-right .btn{
-        height: 27px;
         font-size: 8px;
-        line-height: 27px;
         padding: 0 12px;
     }
 
@@ -617,7 +737,6 @@
     .nav-menu a,
     .lang-switcher .lang{
         font-size: 8px;
-        line-height: 10px;
     }
 
     .kt-banner{
@@ -679,19 +798,16 @@
     .kt-differ .sec-title{
         font-size: 34px;
         line-height: 41px;
-        margin-bottom: 32px;
     }
 
     .differ-cards .single-card{
         grid-template-columns: 24px 1fr;
         grid-gap: 12px;
-        padding: 16px 12px;
     }
 
     .differ-cards .single-card p{
         font-size: 8px;
         line-height: 14px;
-        margin-top: 8px;
     }
 
     .connector{
@@ -786,196 +902,36 @@
         margin: 60px 20px 30px 20px
     }
 
-    .prime-features h3{
-        font-size: 22px;
-        line-height: 27px;
-        margin-bottom: 16px;
-    }
-
-    .prime-features p{
-        font-size: 8px;
-        line-height: 12px;
-    }
-
-    .prime-features .feature-list{
-        grid-gap: 8px 24px;
-    }
-
-    .prime-features li{
-        font-size: 9px;
-        line-height: 13px;
-        gap: 8px;
-    }
-
-    .prime-features li img{
-        width: 14px;
-        height: 14px;
-    }
-
-    .tab-links{
-        padding: 8px;
-    }
-
-    .tab-links .nav-link{
-        font-size: 14px;
-        line-height: 20px;
-        padding: 8px 16px;
-    }
-
-    .accounts-content{
-        padding: 40px 24px;
-        margin-top: 32px;
-    }
-
-    table.kt-table th{
-        font-size: 14px;
-        line-height: 20px;
-        padding: 0 12px 8px;
-    }
-
-    table.kt-table td{
-        font-size: 14px;
-        line-height: 20px;
-        padding: 12px 16px;
-    }
-
-    .td-btn{
-        padding: 6px 12px;
-    }
-
-    .accounts-content .btn{
-        height: 32px;
-        font-size: 9px;
-        line-height: 32px;
-        padding: 0 16px;
-        margin-top: 32px;
-    }
-
-    .trade-info h2{
-        font-size: 34px;
-        line-height: 41px;
-    }
-    
-    .info-list{
-        margin: 24px 0;
-        padding-right: 24px;
-    }
-
-    .info-list li{
-        font-size: 11px;
-        line-height: 17px;
-        margin-bottom: 10px;
-        padding-left: 32px;
-    }
-
-    .info-list li::before{
-        top: -8px;
-        transform: scale(.5);
-    }
-
-    .info-btns .btn{
-        height: 37px;
-        font-size: 9px;
-        line-height: 37px;
-        padding: 0 16px;
-    }
-
-    .info-btns .btn img{
-        max-width: 9px;
-        margin-left: 6px;
-    }
-
-    .info-btns .color-btn{
-        margin-left: 12px;
-    }
-
-    .trade-image .img-sm{
-        max-width: 147px;
-    }
-
-    .footer-wpr{
-        margin: 50px 0;
-        padding: 24px 40px;
-    }
-
-    .footer-wpr .logo{
-        width: 127px;
-    }
-
-    .footer-social-links a{
-        width: 32px;
-        height: 32px;
-        border-radius: 13px;
-    }
-
-    .footer-social-links img{
-        max-width: 16px;
-    }
-
-    .footer-content p{
-        font-size: 13px;
-        line-height: 17px;
-        padding-right: 32px;
-    }
-
-    .footer-widget h5{
-        font-size: 12px;
-        line-height: 17px;
-        margin-bottom: 8px;
-    }
-
-    .footer-menu li a{
-        font-size: 10px;
-        line-height: 15px;
-        margin-bottom: 4px;
-    }
-
-    .footer-social-links{
-        margin: 16px 0;
-    }
-
-    .footer-input{
-        width: 158px;
-        margin-top: 16px;
-    }
-
-    .footer-input input{
-        height: 28px;
-        font-size: 8px;
-        line-height: 13px;
-    }
-
-    .footer-input input::placeholder{
-        font-size: 8px;
-        line-height: 13px;
-    }
-
-    .footer-input button{
-        width: 20px;
-        height: 20px;
-        border-radius: 6px;
-        line-height: 15px;
-    }
 }
 
 /* Max Width 767px */
 @media only screen and (max-width:767px){
 
+    h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    
     h3{
         font-size: 16px;
         line-height: 23px;
     }
 
     .sec-spacer{
-        padding: 80px 0;
+        padding: 50px 0;
     }
 
     .kt-header{
-        top: 20px;
+        top: 10px;
+    }
+
+    .header-container{
+        background-color: transparent;
+        padding: 12px 0;
     }
 
     .logo img{
-        max-width: 100px;
+        max-width: 80px;
     }
 
     .header-right{
@@ -983,24 +939,82 @@
     }
 
     .header-right .btn{
-        height: 27px;
-        font-size: 8px;
-        line-height: 27px;
-        padding: 0 12px;
+        display: none;
+    }
+
+    .kt-main-nav{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        display: none;
+        width: 100%;
+        background-color: #1D1D26;
+        padding: 8px 24px;
+        z-index: 100;
     }
 
     .nav-menu{
-        gap: 16px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0;
     }
 
-    .nav-menu a,
+    .nav-menu a{
+        width: 100%;
+        border-bottom: 1px dashed var(--secondary-color);
+        padding: 8px 0;
+    }
+
+    .nav-menu a:last-child{
+        border-bottom: 0;
+    }
+
+    .nav-menu .btn{
+        height: 32px;
+        font-size: 12px;
+        border: 1px solid var(--secondary-color);
+        margin-top: 8px;
+        padding: 0;
+        line-height: 32px;
+    }
+
+    .lang-switcher{
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 49px;
+        padding: 0 12px 2px;
+    }
+
     .lang-switcher .lang{
-        font-size: 8px;
-        line-height: 10px;
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .lang-switcher .lang-list .single-lang .lang-text{
+        font-size: 10px;
+    }
+
+    .lang-switcher .lang-list-open{
+        top: 45px;
+    }
+
+    .nav-toggle{
+        display: inline-block;
+        width: 32px;
+        height: 32px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 50%;
+        text-align: center;
+        line-height: 32px;
+        cursor: pointer;
+    }
+
+    .nav-toggle i{
+        font-size: 18px;
+        text-indent: 2px;
     }
 
     .kt-banner{
-        padding: 130px 0 80px;
+        padding: 100px 0 80px;
     }
 
     .kt-banner::before{
@@ -1040,6 +1054,7 @@
     }
 
     .banner-imgs .img-1{
+        width: max-content;
         margin-top: 60px;
     }
 
@@ -1049,25 +1064,31 @@
     }
 
     .banner-imgs .chart-img{
-        max-width: 40%;
-        left: 30%;
+        max-width: 60%;
+        left: 45%;
     }
 
     .kt-banner .curve-1 {
-        width: 65%;
-        bottom: -40px;
+        width: 60%;
+        bottom: 40px;
+    }
+
+    .kt-banner .curve-2{
+        width: 25%;
+        bottom: 60px;
     }
 
     .kt-differ .sec-title{
-        font-size: 34px;
-        line-height: 41px;
-        margin-bottom: 32px;
+        font-size: 28px;
+        line-height: 33px;
+        margin-bottom: 24px;
     }
 
     .differ-cards .single-card{
         grid-template-columns: 24px 1fr;
         grid-gap: 12px;
         padding: 16px 12px;
+        background-color: red;
     }
 
     .differ-cards .single-card p{
@@ -1114,6 +1135,7 @@
 
     .scale-features{
         margin-top: 40px;
+        display: none;
     }
 
     /* .features-wpr{
@@ -1162,26 +1184,32 @@
     }
 
     .prime-features{
-        margin: 60px 20px 30px 20px
+        margin: 60px 0 16px;
+        padding: 24px 16px;
     }
 
     .prime-features h3{
         font-size: 22px;
         line-height: 27px;
-        margin-bottom: 16px;
+        margin-bottom: 8px;
+        text-align: center;
     }
 
     .prime-features p{
+        max-width: 90%;
         font-size: 8px;
         line-height: 12px;
+        text-align: center;
+        margin: 0 auto;
     }
 
     .prime-features .feature-list{
-        grid-gap: 8px 24px;
+        grid-gap: 8px 16px;
+        margin-top: 24px;
     }
 
     .prime-features li{
-        font-size: 9px;
+        font-size: 8px;
         line-height: 13px;
         gap: 8px;
     }
@@ -1192,64 +1220,82 @@
     }
 
     .tab-links{
-        padding: 8px;
+        padding: 4px;
+    }
+    
+    .tab-links li{
+        line-height: .5;
     }
 
     .tab-links .nav-link{
-        font-size: 14px;
-        line-height: 20px;
-        padding: 8px 16px;
+        font-size: 6px;
+        line-height: 9px;
+        padding: 4px 8px;
     }
 
     .accounts-content{
-        padding: 40px 24px;
-        margin-top: 32px;
+        padding: 24px 12px;
+        margin-top: 24px;
     }
 
     table.kt-table th{
-        font-size: 14px;
-        line-height: 20px;
-        padding: 0 12px 8px;
+        font-size: 6px;
+        line-height: 9px;
+        padding: 0 8px 4px;
     }
 
     table.kt-table td{
-        font-size: 14px;
-        line-height: 20px;
-        padding: 12px 16px;
+        font-size: 6px;
+        line-height: 9px;
+        padding: 6px 8px;
     }
 
+    table.kt-table .acc-name + img{
+        width: 8px;
+        height: 8px
+    };
+
     .td-btn{
-        padding: 6px 12px;
+        padding: 4px 8px;
     }
 
     .accounts-content .btn{
-        height: 32px;
-        font-size: 9px;
-        line-height: 32px;
+        height: 28px;
+        font-size: 8px;
+        line-height: 28px;
         padding: 0 16px;
-        margin-top: 32px;
+        margin-top: 24px;
     }
 
     .trade-info h2{
-        font-size: 34px;
-        line-height: 41px;
+        max-width: 90%;
+        font-size: 28px;
+        line-height: 38px;
+        text-align: center;
+        margin: 0 auto;
     }
     
     .info-list{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         margin: 24px 0;
-        padding-right: 24px;
+        padding-right: 0;
     }
 
     .info-list li{
-        font-size: 11px;
-        line-height: 17px;
-        margin-bottom: 10px;
+        font-size: 8px;
+        line-height: 12px;
+        margin-bottom: 8px;
         padding-left: 32px;
     }
 
     .info-list li::before{
-        top: -8px;
-        transform: scale(.5);
+        top: -10px;
+        transform: scale(.4);
+    }
+
+    .info-btns{
+        text-align: center;
     }
 
     .info-btns .btn{
@@ -1268,45 +1314,52 @@
         margin-left: 12px;
     }
 
+    .trade-image{
+        left: 16.99%;
+        margin-top: 40px;
+    }
+
     .trade-image .img-sm{
         max-width: 147px;
     }
 
     .footer-wpr{
-        margin: 50px 0;
-        padding: 24px 40px;
+        padding: 24px 16px;
     }
 
     .footer-wpr .logo{
-        width: 127px;
+        width: 100px;
     }
 
     .footer-social-links a{
-        width: 32px;
-        height: 32px;
+        width: 16px;
+        height: 16px;
         border-radius: 13px;
     }
 
     .footer-social-links img{
-        max-width: 16px;
+        max-width: 8px;
     }
 
     .footer-content p{
-        font-size: 13px;
-        line-height: 17px;
-        padding-right: 32px;
+        font-size: 5px;
+        line-height: 8px;
+        padding-right: 16px;
     }
 
     .footer-widget h5{
-        font-size: 12px;
-        line-height: 17px;
-        margin-bottom: 8px;
+        font-size: 6px;
+        line-height: 8px;
+        margin-bottom: 6px;
+    }
+
+    .footer-menu li{
+        line-height: 0.5;
     }
 
     .footer-menu li a{
-        font-size: 10px;
-        line-height: 15px;
-        margin-bottom: 4px;
+        font-size: 4.5px;
+        line-height: 7px;
     }
 
     .footer-social-links{
@@ -1314,26 +1367,27 @@
     }
 
     .footer-input{
-        width: 158px;
+        width: 100px;
         margin-top: 16px;
     }
 
     .footer-input input{
-        height: 28px;
-        font-size: 8px;
-        line-height: 13px;
+        height: 24px;
+        font-size: 4px;
+        line-height: 8px;
     }
 
     .footer-input input::placeholder{
-        font-size: 8px;
-        line-height: 13px;
+        font-size: 4px;
+        line-height: 8px;
     }
 
     .footer-input button{
-        width: 20px;
-        height: 20px;
+        top: 13px;
+        width: 16px;
+        height: 16px;
         border-radius: 6px;
-        line-height: 15px;
+        line-height: 8px;
     }
     
 }
@@ -1341,145 +1395,16 @@
 /* Max Width 575px */
 @media only screen and (max-width:575px){
 
-    .table-sorting-wpr{
-        gap: 24px;
-    }
-
-    .table-sorting-filter{
-        width: max-content;
-    }
+    
     
 }
 
 /* Max Width 480px */
 @media only screen and (max-width:480px){
-    
-    .content-wpr img{
-        max-width: 100px;
-    }
 
-    .content-wpr h1 {
-        font-size: 45px;
-        line-height: 55px;
-    }
-
-    .content-wpr .connect-btn{
-        width: max-content;
-        margin-top: 24px;
-        padding: 16px 32px;
-    }
-
-    .cntrct-mintner .table-toolbar{
-        margin: 40px 0;
-    }
-
-    .task-btn{
-        margin-right: 12px;
-    }
-
-    .pagination{
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    table.wallet-tracker th:first-child, 
-    table.wallet-tracker td:first-child{
-        padding-left: 24px;
-    }
-
-    .toolbar-filter-wpr .search,
-    .toolbar-filter-wpr .search input{
-        width: 100%;
-    }
-
-    .toolbar-filter-wpr{
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .switch-button,
-    .switch-button-checkbox + .switch-button-label{
-        height: 40px;
-        line-height: 40px;
-    }
-
-    .nft-sale-report .card-heading .d-flex{
-        flex-direction: column;
-        align-items: flex-start !important;
-        gap: 16px;
-    }
-
-    .dash-heading .task-btn,
-    .dashboard-right .task-btn{
-        width: 100px;
-    }
-
-    .dash-footer{
-        flex-direction: column;
-        padding: 16px;
-    }
-
-    .dashboard-left .nft-price-table{
-        display: block;
-    }
-
-    .dashboard-left .nft-price-table th,
-    .dashboard-left .nft-price-table td{
-        width: max-content !important;
-        white-space: nowrap;
-    }
-
-    .dashboard-left td > .d-flex{
-        min-width: 100px;
-    }
-
-    .dashboard-left td .crypto-name{
-        margin-left: 4px;
-    }
-
-    .modal-wpr{
-        padding: 24px;
-    }
-
-    .nft-task-modal .input-grp label,
-    .nft-task-modal .check-input h5{
-        font-size: 18px;
-    }
-
-    .nft-task-modal .input-grp input:not([type='checkbox']){
-        height: 50px;
-        padding: 8px 16px;
-    }
-
-    .nft-task-modal .check-input{
-        flex-direction: column;
-        gap: 0;
-    }
-
-    .nft-watchlist .toolbar-left{
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 0;
-    }
-
-    .nft-products-container .sidebar-widget{
-        width: 290px;
-        height: 100vh;
-        overflow-y: auto;
-    }
-
-    .rank-filter p{
-        font-size: 18px;
-    }
-
-    .nft-products,
-    .nft-market .container-2 .nft-products{
-        grid-template-columns: repeat(2,1fr);
-        grid-gap: 16px;
-    }
-
-    .nft-products-wpr .table-sorting-wpr.sorting-wpr-2{
-        flex-wrap: wrap;
+    h1 {
+        font-size: 32px;
+        line-height: 42px;
     }
 
 }
@@ -1488,99 +1413,7 @@
 
 @media only screen and (max-width:416px){
 
-    .search input{
-        width: 150px;
-    }
-
-    .search input::placeholder{
-        color: transparent;
-    }
-
-    .nft-products-wpr .search input::placeholder{
-        color: inherit;
-    }
-
-    .table-toolbar h2{
-        font-size: 40px;
-    }
-
-    .table-sorting-wpr{
-        gap: 16px;
-    }
-
-    .table-sorting-filter{
-        padding: 8px 0 8px 16px;
-        border-radius: 5px;
-    }
-
-    .table-sorting-filter select{
-        background-position-x: 90%;
-        padding-right: 32px;
-    }
-
-    .content-wpr h1 {
-        font-size: 32px;
-        line-height: 40px;
-    }
-
-    .content-wpr img{
-        max-width: 80px;
-    }
-
-    .content-wpr .connect-btn{
-        width: max-content;
-        font-size: 16px;
-        margin-top: 16px;
-        padding: 12px 24px;
-    }
-
-    .cntrct-mintner .table-toolbar h2{
-        font-size: 40px;
-    }
-
-    .task-btn-wpr{
-        display: flex;
-        gap: 12px;
-    }
-
-    .task-btn{
-        font-size: 16px;
-        margin-right: 0;
-        padding: 0 20px;
-    }
-
-    .dash-heading .nft-logo{
-        gap: 16px;
-    }
-
-    .dash-heading .nft-logo h3{
-        font-size: 40px;
-    }
-
-    .nft-statistics{
-        gap: 16px;
-        overflow-x: auto;
-    }
-
-    .nft-statistics .single-stats .name,
-    .single-stats .val{
-        width: max-content;
-    }
-
-    .single-stats .val{
-        margin-top: 8px;
-        font-size: 16px;
-    }
-
-    .nft-market .search-filter input {
-        width: 310px !important;
-    }
-
-    .rank-filter{
-        flex-wrap: wrap;
-        gap: 8px;
-    }
-
+    
 }
 
 /* Max Width 390px */
@@ -1591,29 +1424,13 @@
         max-width: 100% !important;
     }
 
-    .nft-watchlist .task-btn-wpr{
-        gap: 0;
-    }
-
-    .nft-market .search-filter input {
-        width: 260px !important;
-    }
-    
 }
 
 /* Max Width 380px */
 
 @media only screen and (max-width:380px){
 
-    .header-left,
-    .header-right{
-        gap: 8px;
-    }
 
-    .table-sorting-wpr.sorting-wpr-2,
-    .table-sorting-wpr{
-        gap: 12px;
-    }
 }
 
 /* Max Width 320px */

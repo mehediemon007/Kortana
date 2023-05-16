@@ -2,19 +2,7 @@
 
     $(".nav-toggle").on("click",function(){
         $("i", this).toggleClass("fa-solid fa-bars fa-solid fa-xmark");
-        $(".nf-main-nav").slideToggle("500")
-    })
-
-    $("select").on("click",function(){
-        $(this).toggleClass("active")
-    })
-
-    $(".search-filter .filter-btn").on("click",function(){
-        $(".sidebar-widget").addClass("active")
-    })
-
-    $(".filter-cls").on("click",function(){
-        $(".sidebar-widget").removeClass("active")
+        $(".kt-main-nav").slideToggle("500")
     })
 
     // totop scroller
