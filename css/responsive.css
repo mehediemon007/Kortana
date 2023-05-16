@@ -995,6 +995,10 @@
         border-radius: 61px;
     }
 
+    .banner-imgs{
+        animation: float-bob-y 3s linear infinite;
+    }
+
     .banner-imgs img{
         max-width: 297px;
     }
@@ -1387,6 +1391,10 @@
         font-size: 8px;
         font-weight: var(--font-weight-medium);
         line-height: 14px;
+    }
+
+    .trade-image .img-sm{
+        left: -18%;
     }
 
 }
