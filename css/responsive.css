@@ -190,16 +190,385 @@
 /* Max Width 1024px */
 @media only screen and (max-width:1024px){
 
-    .project-slider .project-content{
-        margin-top: 100px;
+    h1 {
+        font-size: 50px;
+        line-height: 57px;
+        letter-spacing: -0.04em;
     }
 
-    .project-slider .owl-nav{
-        left: 48%;
+    h3{
+        font-size: 16px;
+        line-height: 23px;
     }
 
-    .project-slider .project-name{
-        top: 10px;
+    .sec-spacer{
+        padding: 80px 0;
+    }
+
+    .kt-header{
+        top: 20px;
+    }
+
+    .logo img{
+        max-width: 100px;
+    }
+
+    .header-right{
+        gap: 12px;
+    }
+
+    .header-right .btn{
+        height: 27px;
+        font-size: 8px;
+        line-height: 27px;
+        padding: 0 12px;
+    }
+
+    .nav-menu{
+        gap: 16px;
+    }
+
+    .nav-menu a,
+    .lang-switcher .lang{
+        font-size: 8px;
+        line-height: 10px;
+    }
+
+    .kt-banner{
+        padding: 130px 0 80px;
+    }
+
+    .kt-banner::before{
+        content: "";
+    }
+
+    .banner-list{
+        grid-column-gap: 16px;
+        margin: 16px 0;
+    }
+
+    .banner-list p{
+        font-size: 9px;
+        line-height: 14px;
+        padding-left: 24px;
+        margin-bottom: 12px;
+    }
+
+    .banner-list p::before{
+        top: -6px;
+        transform: scale(.5);
+    }
+
+    .banner-content .btn{
+        width: 147px;
+        height: 36px;
+        font-size: 10px;
+        line-height: 36px;
+        border-radius: 61px;
+    }
+
+    .banner-imgs img{
+        max-width: 297px;
+    }
+
+    .banner-imgs .img-1{
+        margin-top: 60px;
+    }
+
+    .banner-imgs .img-2{
+        right: -2%;
+        top: -60px;
+    }
+
+    .banner-imgs .chart-img{
+        max-width: 60%;
+        left: 45%;
+    }
+
+    .kt-banner .curve-1 {
+        width: 65%;
+        bottom: -40px;
+    }
+
+    .kt-differ .sec-title{
+        font-size: 34px;
+        line-height: 41px;
+        margin-bottom: 32px;
+    }
+
+    .differ-cards .single-card{
+        grid-template-columns: 24px 1fr;
+        grid-gap: 12px;
+        padding: 16px 12px;
+    }
+
+    .differ-cards .single-card p{
+        font-size: 8px;
+        line-height: 14px;
+        margin-top: 8px;
+    }
+
+    .connector{
+        width: 76px;
+        height: 104px;
+        line-height: 104px;
+    }
+
+    .connector img{
+        max-width: 49px;
+    }
+
+    .connector-wpr::before{
+        content: url("../images/shapes/connt-left-md.png");
+    }
+
+    .connector-wpr::after{
+        content: url("../images/shapes/connt-right-md.png");
+    }
+
+    .kt-scale .sec-title{
+        font-size: 33px;
+        line-height: 39px;
+        margin-bottom: 16px;
+    }
+
+    .kt-scale{
+        padding-top: 80px;
+    }
+
+    .kt-scale::after{
+        bottom: 130px;
+        height: 100%;
+    }
+
+    .kt-scale .sec-des{
+        max-width: 318px;
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+    .scale-features{
+        margin-top: 40px;
+    }
+
+    /* .features-wpr{
+        gap: 32px;
+    } */
+
+    .wpr-2{
+        margin-top: 32px;
+    }
+
+    .single-feature{
+        padding: 8px;
+    }
+
+    .single-feature.circle{
+        width: 38px;
+        height: 38px;
+    }
+
+    .single-feature.circle p{
+        font-size: 5px;
+        line-height: 7px;
+    }
+
+    .single-feature .icon{
+        width: 20px;
+        height: 20px;
+        line-height: 20px;
+        margin-right: 8px;
+    }
+
+    .single-feature .icon img{
+        width: 12px;
+        height: 12px;
+    }
+
+    .single-feature h3{
+        font-size: 16px;
+        line-height: 15px;
+    }
+
+    .single-feature b,
+    .single-feature p{
+        font-size: 9px;
+        line-height: 16px;
+    }
+
+    .prime-features{
+        margin: 60px 20px 30px 20px
+    }
+
+    .prime-features h3{
+        font-size: 22px;
+        line-height: 27px;
+        margin-bottom: 16px;
+    }
+
+    .prime-features p{
+        font-size: 8px;
+        line-height: 12px;
+    }
+
+    .prime-features .feature-list{
+        grid-gap: 8px 24px;
+    }
+
+    .prime-features li{
+        font-size: 9px;
+        line-height: 13px;
+        gap: 8px;
+    }
+
+    .prime-features li img{
+        width: 14px;
+        height: 14px;
+    }
+
+    .tab-links{
+        padding: 8px;
+    }
+
+    .tab-links .nav-link{
+        font-size: 14px;
+        line-height: 20px;
+        padding: 8px 16px;
+    }
+
+    .accounts-content{
+        padding: 40px 24px;
+        margin-top: 32px;
+    }
+
+    table.kt-table th{
+        font-size: 14px;
+        line-height: 20px;
+        padding: 0 12px 8px;
+    }
+
+    table.kt-table td{
+        font-size: 14px;
+        line-height: 20px;
+        padding: 12px 16px;
+    }
+
+    .td-btn{
+        padding: 6px 12px;
+    }
+
+    .accounts-content .btn{
+        height: 32px;
+        font-size: 9px;
+        line-height: 32px;
+        padding: 0 16px;
+        margin-top: 32px;
+    }
+
+    .trade-info h2{
+        font-size: 34px;
+        line-height: 41px;
+    }
+    
+    .info-list{
+        margin: 24px 0;
+        padding-right: 24px;
+    }
+
+    .info-list li{
+        font-size: 11px;
+        line-height: 17px;
+        margin-bottom: 10px;
+        padding-left: 32px;
+    }
+
+    .info-list li::before{
+        top: -8px;
+        transform: scale(.5);
+    }
+
+    .info-btns .btn{
+        height: 37px;
+        font-size: 9px;
+        line-height: 37px;
+        padding: 0 16px;
+    }
+
+    .info-btns .btn img{
+        max-width: 9px;
+        margin-left: 6px;
+    }
+
+    .info-btns .color-btn{
+        margin-left: 12px;
+    }
+
+    .trade-image .img-sm{
+        max-width: 147px;
+    }
+
+    .footer-wpr{
+        margin: 50px 0;
+        padding: 24px 40px;
+    }
+
+    .footer-wpr .logo{
+        width: 127px;
+    }
+
+    .footer-social-links a{
+        width: 32px;
+        height: 32px;
+        border-radius: 13px;
+    }
+
+    .footer-social-links img{
+        max-width: 16px;
+    }
+
+    .footer-content p{
+        font-size: 13px;
+        line-height: 17px;
+        padding-right: 32px;
+    }
+
+    .footer-widget h5{
+        font-size: 12px;
+        line-height: 17px;
+        margin-bottom: 8px;
+    }
+
+    .footer-menu li a{
+        font-size: 10px;
+        line-height: 15px;
+        margin-bottom: 4px;
+    }
+
+    .footer-social-links{
+        margin: 16px 0;
+    }
+
+    .footer-input{
+        width: 158px;
+        margin-top: 16px;
+    }
+
+    .footer-input input{
+        height: 28px;
+        font-size: 8px;
+        line-height: 13px;
+    }
+
+    .footer-input input::placeholder{
+        font-size: 8px;
+        line-height: 13px;
+    }
+
+    .footer-input button{
+        width: 20px;
+        height: 20px;
+        border-radius: 6px;
+        line-height: 15px;
     }
 }
 
