@@ -4,74 +4,6 @@
         max-width: 1550px !important;
     }
 
-    .search input{
-        width: 375px !important;
-    }
-
-    .table-sorting-wpr{
-        gap: 150px;
-    }
-
-    table.kt-table th:first-child,
-    .kt-table-wpr .task-btn-wpr{
-        padding-left: 90px !important;
-    }
-
-    table.kt-table-2 td:first-child{
-        padding-left: 80px !important;
-    }
-
-    table.cntrct-table{
-        display: table;
-    }
-
-    table.cntrct-table th:last-child,
-    table.cntrct-table td:last-child{
-        min-width: max-content;
-    }
-
-    th.hassort{
-        padding-right: 12px !important;
-    }
-
-    .dash-heading .task-btn{
-        width: 150px;
-    }
-
-    .dashboard-left .nft-logo h3{
-        font-size: 50px;
-    }
-
-    .nft-statistics{
-        gap: 50px;
-    }
-
-    .nft-statistics.stats-2,
-    .dashboard-left .dash-heading .nft-logo{
-        gap: 32px;
-    }
-
-    .graph-container .chart-card .card-heading{
-        flex-direction: row;
-        align-items: center;
-    }
-
-    .nft-products{
-        grid-template-columns: repeat(5,1fr);
-    }
-
-    .nft-market .container-2 .nft-products{
-        grid-template-columns: repeat(6,1fr);
-    }
-
-    .nft-market .filter-toolbar{
-        justify-content: space-between;
-        gap: 24px;
-    }
-
-    .nft-market .search-filter input{
-        width: 785px !important;
-    }
 }
 
 /* Min Width 1400px */
@@ -95,6 +27,11 @@
 
     .banner-imgs .img-2{
         right: -4%;
+    }
+
+    .banner-imgs .chart-img{
+        left: 45%;
+        transform: translate(-60%, -50%);
     }
 }
 
@@ -979,7 +916,7 @@
     }
 
     .lang-switcher{
-        border: 1px solid rgba(255, 255, 255, 0.1);
+        border: 1px solid rgba(255, 255, 255, 0.2);
         border-radius: 49px;
         padding: 0 12px 2px;
     }
@@ -1001,7 +938,7 @@
         display: inline-block;
         width: 32px;
         height: 32px;
-        border: 1px solid rgba(255, 255, 255, 0.1);
+        border: 1px solid rgba(255, 255, 255, 0.2);
         border-radius: 50%;
         text-align: center;
         line-height: 32px;

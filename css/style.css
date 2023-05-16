@@ -39,6 +39,7 @@ body {
 
 body{
     background-color: var(--black-color);
+    overflow-x: hidden;
 }
 
 img {
@@ -407,7 +408,6 @@ button{
 }
 
 .kt-header.sticky{
-    position: sticky;
     top: 0;
     background-color: var(--black-color);
     border-color:rgb(29, 29, 38);
@@ -584,6 +584,10 @@ button{
     color: #1A1A1A;
     background-color: var(--white-color);
     line-height: 64px;
+}
+
+.banner-imgs{
+    animation: float-bob-x 3s linear infinite;
 }
 
 .banner-imgs .img-1{
@@ -838,6 +842,7 @@ tr:nth-child(even) td:last-child{
     top: 50%;
     left: -25%;
     transform: translate(20%, -50%);
+    animation: float-bob-y 3s linear infinite;
 }
 
 /* Trade Scaling */
@@ -1229,4 +1234,38 @@ tr:nth-child(even) td:last-child{
 	box-sizing:border-box;
 	-webkit-transition: all 200ms linear;
     transition: all 200ms linear;
+}
+
+@keyframes float-bob-x {
+    0% {
+        -webkit-transform: translateX(-30px);
+        transform: translateX(-30px);
+    }
+
+    50% {
+        -webkit-transform: translateX(-10px);
+        transform: translateX(-10px);
+    }
+
+    100% {
+        -webkit-transform: translateX(-30px);
+        transform: translateX(-30px);
+    }
+}
+
+@keyframes float-bob-y {
+    0% {
+        -webkit-transform: translateY(-30px);
+        transform: translateY(-30px);
+    }
+
+    50% {
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
+
+    100% {
+        -webkit-transform: translateY(-30px);
+        transform: translateY(-30px);
+    }
 }
