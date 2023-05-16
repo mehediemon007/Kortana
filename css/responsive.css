@@ -1084,25 +1084,51 @@
         margin-bottom: 24px;
     }
 
+    .differ-cards{
+        position: relative;
+        z-index: 1;
+    }
+
+    .differ-cards::before{
+        position: absolute;
+        content: url("../images/shapes/connt-left-sm.png");
+        top: 6%;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: -1;
+    }
+
+    .differ-cards::after{
+        position: absolute;
+        content: url("../images/shapes/connt-right-sm.png");
+        bottom: 4%;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: -1;
+    }
+
+    .differ-cards .row{
+        gap: 32px;
+    }
+
     .differ-cards .single-card{
         grid-template-columns: 24px 1fr;
         grid-gap: 12px;
-        padding: 16px 12px;
-        background-color: red;
+        padding: 16px;
     }
 
     .differ-cards .single-card p{
-        font-size: 8px;
-        line-height: 14px;
+        font-size: 12px;
+        font-weight: var(--font-weight-normal);
+        line-height: 16px;
         margin-top: 8px;
     }
 
     .connector{
-        width: 76px;
-        height: 104px;
-        line-height: 104px;
+        position: relative;
+        margin: 32px 0;
     }
-
+    
     .connector img{
         max-width: 49px;
     }
@@ -1405,6 +1431,16 @@
     h1 {
         font-size: 32px;
         line-height: 42px;
+    }
+
+    .differ-cards .single-card{
+        padding: 16px 12px;
+    }
+
+    .differ-cards .single-card p{
+        font-size: 8px;
+        font-weight: var(--font-weight-medium);
+        line-height: 14px;
     }
 
 }
