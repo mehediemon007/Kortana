@@ -81,8 +81,17 @@
 /* Max Width 1299px */
 @media only screen and (max-width: 1299px){
 
+    h1{
+        font-size: 75px;
+        line-height: 90px;
+    }
+
     .header-container {
         padding: 12px 20px;
+    }
+
+    .banner-imgs .img-1{
+        margin-top: 110px;
     }
 
     .banner-imgs .img-2{
@@ -91,7 +100,7 @@
 
     .kt-banner .curve-1 {
         width: 65%;
-        bottom: -110px;
+        bottom: -90px;
     }
 
     .scale-features{
