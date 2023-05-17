@@ -128,7 +128,7 @@ a:active,
 a:hover {
     text-decoration: none;
     outline: 0 none;
-    color: var(--primary-color);
+    color: #f36eae;
 }
 
 .fix {
@@ -447,10 +447,6 @@ button{
     font-weight: var(--font-weight-medium);
     line-height: 17px;
     text-transform: capitalize;
-}
-
-.nav-menu a:hover{
-    color: #f36eae;
 }
 
 .header-right{
