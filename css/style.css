@@ -709,7 +709,7 @@ button{
 .tab-links{
     background-color:  #1D1D26;
     border: 1px solid rgba(255, 255, 255, 0.06);
-    border-radius: 100px;
+    border-radius: 4px;
     padding: 14px;
 }
 
@@ -718,7 +718,7 @@ button{
     font: var(--font-weight-semi-bold) 24px/34px var(--body-font);
     color: rgba(255, 255, 255, 0.72);
     background-image: none;
-    border-radius: 100px;
+    border-radius: 4px;
     margin-bottom: 0;
     padding: 12px 24px;
 }
@@ -1127,6 +1127,15 @@ tr:nth-child(even) td:last-child{
 
 .footer-menu li:last-child a{
     margin-bottom: 0;
+}
+
+.payments{
+    max-width: 80%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 24px;
 }
 
 .footer-input{
