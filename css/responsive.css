@@ -1500,6 +1500,10 @@
 
 @media only screen and (max-width:380px){
 
+    .payments{
+        gap: 6px 4px;
+    }
+
     .payments img{
         max-width: 16px;
     }
