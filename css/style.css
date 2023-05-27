@@ -698,6 +698,10 @@ button{
     z-index: -1;
 }
 
+.point-icon{
+    display: none;
+}
+
 /* Account Type Table */
 
 .accoutns-tab-wpr .heading{

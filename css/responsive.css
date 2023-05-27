@@ -1096,6 +1096,7 @@
     }
 
     .differ-cards .single-card{
+        position: relative;
         grid-template-columns: 24px 1fr;
         grid-gap: 12px;
         padding: 16px;
@@ -1120,6 +1121,16 @@
     .connector-wpr::before,
     .connector-wpr::after{
         content: "";
+    }
+
+    .point-icon{
+        display: inline-block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        filter: blur(16px);
+        z-index: -1;
     }
 
     .kt-scale .sec-title{
