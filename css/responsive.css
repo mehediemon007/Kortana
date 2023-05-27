@@ -360,6 +360,65 @@
         margin-top: 32px;
     }
 
+    .kt-testimonial{
+        padding: 50px 0;
+    }
+
+    .kt-testimonial .sec-title{
+        margin-bottom: 30px;
+    }
+
+    .reviews-sum h4{
+        font-size: 28px;
+        line-height: 24px;
+    }
+
+    .reviews-sum p{
+        font-size: 20px;
+        line-height: 24px;
+        margin-bottom: 24px;
+    }
+
+    .ratings img{
+        max-width: 45px;
+        height: 45px;
+    }
+
+    .testi-slider-wpr{
+        padding-bottom: 30px;
+    }
+
+    .testi-slider .single-slide h5{
+        font-size: 16px;
+        line-height: 24px;
+        margin: 16px 0;
+    }
+
+    .testi-slider .content p{
+        font-size: 11px;
+        line-height: 18px;
+    }
+
+    .kt-testimonial .btn{
+        width: 147px;
+        height: 40px;
+        font-size: 12px;
+        line-height: 40px;
+        border-radius: 61px;
+    }
+
+    .testi-slider-wpr .owl-carousel .owl-nav .owl-prev, 
+    .testi-slider-wpr .owl-carousel .owl-nav .owl-next{
+        width: 45px;
+        height: 45px;
+    }
+
+    .owl-nav span{
+        font-size: 20px;
+        line-height: 45px;
+    }
+
+    .kt-testimonial .sec-title,
     .trade-info h2{
         font-size: 48px;
         line-height: 60px;
@@ -619,6 +678,7 @@
         padding: 0 16px;
     }
 
+    .kt-testimonial .sec-title,
     .trade-info h2{
         font-size: 34px;
         line-height: 41px;
@@ -880,6 +940,26 @@
     .wpr-2 .single-feature::after {
         right: -18px;
         bottom: -60px;
+    }
+
+    .reviews-sum{
+        margin-bottom: 40px;
+    }
+
+    .reviews-sum h4 {
+        font-size: 28px;
+        line-height: 36px;
+        margin-bottom: 20px;
+    }
+
+    .reviews-sum p {
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 16px;
+    }
+
+    .owl-nav .owl-prev{
+        left: -13%;
     }
 
     .payments img{
@@ -1310,6 +1390,36 @@
         margin-top: 24px;
     }
 
+    .kt-testimonial .sec-title{
+        font-size: 28px;
+        line-height: 38px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .reviews-sum h4{
+        font-size: 24px;
+        line-height: 28px;
+        margin-bottom: 16px;
+    }
+
+    .ratings img{
+        max-width: 32px;
+        height: 32px;
+    }
+
+    .reviews-sum a img{
+        max-width: 150px;
+    }
+
+    .testi-slider-wpr{
+        padding-bottom: 10px;
+    }
+
+    .owl-nav .owl-next{
+        right: -.5%;
+    }
+
     .trade-info h2{
         max-width: 90%;
         font-size: 28px;
@@ -1466,6 +1576,36 @@
 
     .trade-image .img-sm{
         left: -18%;
+    }
+
+    .testi-slider-wpr{
+        padding: 0;
+    }
+
+    .testi-slider .single-slide{
+        opacity: 1;
+    }
+
+    .owl-nav{
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+        margin: 16px 0 32px;
+    }
+
+    .testi-slider-wpr .owl-carousel .owl-nav .owl-prev, 
+    .testi-slider-wpr .owl-carousel .owl-nav .owl-next{
+        position: relative;
+        top: auto;
+        left: auto;
+        right: auto;
+        width: 35px;
+        height: 35px;
+    }
+
+    .owl-nav span{
+        font-size: 14px;
+        line-height: 35px;
     }
 
     .payments{

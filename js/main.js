@@ -68,7 +68,6 @@
 
     $(".testi-slider").owlCarousel({
         loop:true,
-        margin:24,
         slideBy:2,
         dots: false,
         nav:true,
@@ -76,14 +75,13 @@
         stagePadding: 30,
         mouseDrag:false,
         responsive:{
-            1200:{
-                items:2
-            },
-            992:{
-                items:4,
+            768:{
+                items:2,
+                margin:24,
             },
             0:{
-                items:2
+                items:1,
+                margin:8,
             }
         }
     })
