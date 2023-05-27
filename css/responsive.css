@@ -1479,6 +1479,9 @@
 
 @media only screen and (max-width:416px){
 
+    .payments img{
+        max-width: 18px;
+    }
     
 }
 
@@ -1492,16 +1495,6 @@
 
     .kt-scale::after{
         height: 75%;
-    }
-
-    .payments {
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        grid-gap: 8px 6px;
-    }
-
-    .payments img{
-        max-width: 100%;
     }
 
 }
@@ -1518,5 +1511,12 @@
 
 @media only screen and (max-width:320px){
 
-    
+    .payments{
+        gap: 6px 4px;
+        margin-top: 8px;
+    }
+
+    .payments img{
+        max-width: 16px;
+    }
 }
