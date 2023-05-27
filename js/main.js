@@ -64,6 +64,30 @@
 
     })
 
+    // Slider
+
+    $(".testi-slider").owlCarousel({
+        loop:true,
+        margin:24,
+        slideBy:2,
+        dots: false,
+        nav:true,
+        navText:[$(".owl-navigation .owl-nav-prev"),$(".owl-navigation .owl-nav-next")],
+        stagePadding: 30,
+        mouseDrag:false,
+        responsive:{
+            1200:{
+                items:2
+            },
+            992:{
+                items:4,
+            },
+            0:{
+                items:2
+            }
+        }
+    })
+
     new WOW().init();
 
  
