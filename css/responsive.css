@@ -38,6 +38,9 @@
 /* Min Width 1200px */
 @media only screen and (min-width:1200px){
     
+    .payments{
+        max-width: 80%;
+    }
 }
 
 
@@ -875,6 +878,10 @@
         bottom: -60px;
     }
 
+    .payments img{
+        max-width: 32px;
+    }
+
 }
 
 /* Max Width 767px */
@@ -1440,6 +1447,15 @@
 
     .trade-image .img-sm{
         left: -18%;
+    }
+
+    .payments{
+        gap: 8px;
+        margin-top: 16px;
+    }
+
+    .payments img{
+        max-width: 24px;
     }
 
 }

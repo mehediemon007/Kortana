@@ -1156,7 +1156,6 @@ td .info-text.active{
 }
 
 .payments{
-    max-width: 80%;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
