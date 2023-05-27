@@ -1126,7 +1126,9 @@
     }
 
     .kt-scale::after{
-        bottom: 200px;
+        top: -150px;
+        bottom: auto;
+        height: 80%;
     }
 
     .kt-scale .sec-des{
@@ -1139,45 +1141,67 @@
         margin-top: 40px;
     }
 
-    .wpr-2{
-        margin-top: 32px;
+    .features-wpr{
+        flex-direction: column;
+        gap: 0;
     }
 
     .single-feature{
-        padding: 8px;
+        padding: 8px 32px;
+        margin-bottom: 24px;
     }
 
-    .single-feature.circle{
-        width: 38px;
-        height: 38px;
+    .single-feature:first-child{
+        padding: 12px 40px;
     }
 
-    .single-feature.circle p{
-        font-size: 5px;
-        line-height: 7px;
+    .single-feature:not(:last-of-type)::after{
+        content: "";
+        top: -12px;
+        left: 50%;
+        width: 1px;
+        height: 24px;
+        background-color: rgba(255, 255, 255, 0.24);
     }
 
-    .single-feature .icon{
-        width: 20px;
-        height: 20px;
-        line-height: 20px;
-        margin-right: 8px;
+    .single-feature:first-child::after{
+        content: none;
     }
 
-    .single-feature .icon img{
-        width: 12px;
-        height: 12px;
+    .single-feature:last-child::before,
+    .single-feature:last-child::after{
+        position: absolute;
+        content: "";
+        top: -24px;
+        left: 50%;
+        width: 1px;
+        height: 24px;
+        background-color: rgba(255, 255, 255, 0.24);
+    }
+
+    .single-feature:last-child::after{
+        top: auto;
+        bottom: -24px;
     }
 
     .single-feature h3{
         font-size: 16px;
-        line-height: 15px;
+        line-height: 19px;
     }
 
-    .single-feature b,
-    .single-feature p{
+    .features-wpr h6{
+        font: var(--font-weight-medium) 12px/16px var(--body-font);
+        margin: 8px 0 24px;
+    }
+
+    .single-feature b{
         font-size: 9px;
         line-height: 16px;
+    }
+
+    .single-feature p{
+        font-size: 14px;
+        line-height: 20px;
     }
 
     .prime-features{

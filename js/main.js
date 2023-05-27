@@ -46,6 +46,24 @@
         });
     });
 
+    // Table Info
+
+    $(".info").on("click", function(){
+
+        if($("td .info-text").hasClass("active")){
+
+            if($('.info-text', this).hasClass("active")){
+                
+            }else{
+                $("td .info-text").removeClass("active")
+            }
+           
+        }
+
+        $(".info-text", this).toggleClass("active");
+
+    })
+
     new WOW().init();
 
  
