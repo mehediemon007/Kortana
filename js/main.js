@@ -68,7 +68,8 @@
 
     $(".testi-slider").owlCarousel({
         loop:true,
-        slideBy:2,
+        autoplay:true,
+        slideBy:1,
         dots: false,
         nav:true,
         navText:[$(".owl-navigation .owl-nav-prev"),$(".owl-navigation .owl-nav-next")],
