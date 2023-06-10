@@ -66,6 +66,30 @@
 
     // Slider
 
+    $(".testi-slider.slider-2").owlCarousel({
+        loop:true,
+        autoplay:true,
+        slideBy:1,
+        dots: false,
+        nav:true,
+        navText:[$(".owl-navigation .owl-nav-prev"),$(".owl-navigation .owl-nav-next")],
+        mouseDrag:false,
+        responsive:{
+            992:{
+                items: 4,
+                margin:24,
+            },
+            768:{
+                items:2,
+                margin:24,
+            },
+            0:{
+                items:1,
+                margin:8,
+            }
+        }
+    })
+
     $(".testi-slider").owlCarousel({
         loop:true,
         autoplay:true,
