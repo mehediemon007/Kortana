@@ -1214,12 +1214,34 @@ td .info-text.active{
     background-color: #c1467d;
 }
 
+.testi-slider-2 .owl-carousel .owl-nav .owl-prev,
+.testi-slider-2 .owl-carousel .owl-nav .owl-next {
+    position: absolute;
+    top: 32%;
+    width: 37px;
+    height: 37px;
+    background-color: #220819;
+    border: 1px solid rgba(244, 55, 173, 0.08);
+    border-radius: 50% !important;
+    outline: none;
+    z-index: 1;
+}
+
 .owl-nav .owl-next {
     right: -2.5%;
 }
 
 .owl-nav .owl-prev {
     left: -10.5%;
+}
+
+.testi-slider-2 .owl-carousel .owl-nav .owl-prev,
+.testi-slider-2 .owl-carousel .owl-nav .owl-next{
+    top: 24%;
+}
+
+.testi-slider-2 .owl-nav .owl-prev{
+    left: -60px;
 }
 
 .owl-nav span{
@@ -1286,6 +1308,65 @@ td .info-text.active{
     border-color: rgba(255, 255, 255, 0.08);
 }
 
+.testi-2{
+    padding: 60px 0;
+}
+
+.testi-2 .sec-title{
+    font: var(--font-weight-semi-bold) 44px/53px var(--body-font);
+    margin-bottom: 80px;
+}
+
+.testi-2 .reviews-sum h4{
+    font: var(--font-weight-semi-bold) 18px/22px var(--body-font);
+    margin-bottom: 12px;
+}
+
+.testi-2 .reviews-sum p{
+    font: var(--font-weight-medium) 12px/15px var(--body-font);
+    color: rgba(255, 255, 255, 0.72);
+    margin: 8px 0 6px;
+}
+
+.testi-2 .ratings{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+.testi-2 .ratings img{
+    max-width: 25px;
+    height: 25px;
+}
+
+.testi-slider-2 .single-slide{
+    background-color: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: 24px;
+    padding: 20px 20px 24px;
+}
+
+.testi-slider-2 .single-slide h5{
+    font: var(--font-weight-semi-bold) 18px/23px var(--body-font);
+    margin: 12px 0 8px;
+}
+
+.testi-slider-2 .content p{
+    font: var(--font-weight-medium) 13px/20px var(--body-font);
+    color: rgba(255, 255, 255, 0.72);
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+    overflow-y: hidden;
+    text-overflow: ellipsis;
+}
+
+.testi-slider-2 .single-slide .ratings img{
+    max-width: 19px;
+    height: 19px;
+}
+
 /* Trading Start Info */
 
 .kt-start-trade{
@@ -1350,6 +1431,99 @@ td .info-text.active{
     left: -20%;
     transform: translate(20%, -50%);
     animation: float-bob-y 3s linear infinite;
+}
+
+.trade-2{
+    padding: 140px 0;
+}
+
+.trade-2 .trade-info{
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.trade-2 .sec-title{
+    font: var(--font-weight-bold) 40px/50px var(--body-font);
+    margin-bottom: 16px;
+}
+
+.trade-2 .info-list li{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font: var(--font-weight-medium) 20px/20px var(--body-font);
+    color: #8B8B8D;
+    margin-bottom: 20px;
+}
+
+.trade-2 .info-list li span{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 27px;
+    height: 27px;
+    border: 1.5px solid #1F1F23;
+    border-radius: 50%;
+}
+
+.trade-faq{
+    flex: 1;
+    border-left: 1.5px solid #1F1F23;
+    padding: 40px 80px;
+}
+
+.trade-faq .sec-title{
+    max-width: 60%;
+}
+
+.trade-faq p{
+    font: var(--font-weight-medium) 20px/30px var(--body-font);
+    color: #8B8B8D;
+    margin-bottom: 28px;
+}
+
+.trade-faq .btn{
+    width: 170px;
+    height: 52px;
+    font: var(--font-weight-bold) 18px/18px var(--body-font);
+    color: #000;
+    background-image: linear-gradient(97.38deg, #DC8DF8 -8.73%, #F4AEBB 94.39%);
+    border-radius: 0;
+    line-height: 52px;
+}
+
+/* Brand Review */
+
+.kt-brands{
+    background-color: #18181B;
+    padding: 100px 0;
+}
+
+.bnd-reviews .slide{
+    max-width: 80%;
+    border-left: 1px solid #2A2A2E;
+    border-right: 1px solid #2A2A2E;
+    margin: 0 auto;
+    padding: 0 50px;
+    text-align: center;
+}
+
+.bnd-reviews .slide h2{
+    font: var(--font-weight-bold) 48px/48px var(--body-font);
+}
+
+.bnd-reviews .slide p{
+    max-width: 65%;
+    font: var(--font-weight-normal) 24px/32px var(--body-font);
+    color: rgba(255, 255, 255, 0.5);
+    margin: 24px auto 32px;
+}
+
+.brand-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
 }
 
 /* Footer */
