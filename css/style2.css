@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Manrope:wght@200;300;400;500;600;700&family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap');
+@import url('../font/stylesheet.css');
 
 :root {
     /* Color */
@@ -12,8 +12,8 @@
     --black-color: #010102;
 
     /* Typography */
-    --body-font: 'Inter', sans-serif;
-    --title-font: 'Inter', sans-serif;
+    --body-font: 'Helvetica Now Display', sans-serif;
+    --title-font: 'Helvetica Now Display', sans-serif;
     --font-weight-normal: 400;
     --font-weight-medium: 500;
     --font-weight-semi-bold: 600;
@@ -420,6 +420,15 @@ button{
     border-color:rgb(29, 29, 38);
 }
 
+.header-2{
+    top: 0;
+    padding-top: 20px;
+}
+
+.header-2.sticky{
+    border-color: transparent;
+}
+
 .header-container{
     position: relative;
     display: flex;
@@ -430,39 +439,60 @@ button{
     padding: 12px 40px;
 }
 
-.kt-header.sticky .header-container{
+.kt-header.sticky .header-container,
+.header-2 .header-container{
     background-color: transparent;
 }
 
-.nav-menu{
+.header-2 .header-left{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+.header-2 .nav-menu{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 32px;
+    gap: 40px;
 }
 
-.nav-menu a{
+.header-2 .nav-menu a{
     display: block;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: var(--font-weight-medium);
-    line-height: 17px;
+    color: #A1A1AA;
+    line-height: 18px;
     text-transform: capitalize;
 }
 
-.header-right{
+.header-2 .header-right{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 24px;
+    gap: 100px;
 }
 
-.header-right .btn{
-    border: 1px solid rgba(255, 255, 255, 0.08);
+.header-2 .btn{
+    height: 52px;
+    font-size: 18px;
+    font-weight: var(--font-weight-bold);
+    background-color: #141417;
+    border-radius: 0;
     padding: 0 24px;
+    line-height: 50px;
 }
 
-.header-right .primary-btn{
-    border: 0;
+.header-2 .shapes img{
+    position: absolute;
+    top: 0;
+    right: -50px;
+    max-height: 120px;
+    z-index: -1;
+}
+
+.header-2 .shapes img:last-child{
+    max-height: 170px;
 }
 
 /* Lang Switcher */
@@ -534,39 +564,93 @@ button{
 
 /* Banner */
 
-.kt-banner{
+.banner-2{
+    padding: 190px 0 120px;
+}
+
+.banner-2 .banner-content{
+    text-align: center;
+}
+
+.banner-2 .banner-title{
+    max-width: 508px;
+    font-size: 72px;
+    background-image: linear-gradient(90.25deg, #B186CB 2.32%, #FDB5B8 40.66%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* animation: textanim 2s linear infinite; */
+    line-height: 82px;
+    margin: 0 auto;
+}
+
+.banner-2 p{
+    max-width: 442px;
+    font: var(--font-weight-normal) 20px/30px var(--body-font);
+    color: #A1A1AA;
+    margin: 20px auto 28px;
+}
+
+.banner-2 .banner-content .btn{
+    width: 256px;
+    height: 56px;
+    font: var(--font-weight-bold) 18px/18px var(--body-font);
+    color: #000000;
+    background-image: linear-gradient(94.25deg, #B186CB 2.32%, #FDB5B8 101.66%);
+    border: 0;
+    border-radius: 4px;
+    line-height: 56px;
+}
+
+.banner-2 .btn i{
+    font-weight: var(--font-weight-semi-bold);
+    vertical-align: middle;
+}
+
+.banner-2 .banner-imgs{
+    animation: float-bob-y 3s linear infinite;
+}
+
+/* Features */
+
+.kt-features{
+    background-color: #141417;
+    border: 1px solid #2F2F34;
+}
+
+.features-wpr{
+    display: flex;
+    justify-content: space-between;
+}
+
+.single-feature{
     position: relative;
-    padding: 180px 0 100px;
+    border: 1px solid transparent;
+    padding: 64px 32px;
+    text-align: center;
     z-index: 1;
 }
 
-.banner-title{
-    max-width: 647px;
+.single-feature.active::before{
+    position: absolute;
+    content: "";
+    top: -2px;
+    left: 0;
+    width: 100%;
+    height: calc(100% + 4px);
+    background-color: #0B0B0C;
+    border-color:#0B0B0C;
+    z-index: -1;
 }
 
-.banner-list p{
-    position: relative;
-    font: var(--font-weight-medium) 16px/24px var(--body-font);
-    margin-bottom: 16px;
-    padding-left: 40px;
+.single-feature h3{
+    font: var(--font-weight-medium) 36px/36px var(--body-font);
+    margin-bottom: 20px;
 }
 
-.banner-content .btn{
-    width: 260px;
-    height: 64px;
-    font: var(--font-weight-semi-bold) 18px/23px 'Plus Jakarta Sans', sans-serif;
-    color: #1A1A1A;
-    background-color: var(--white-color);
-    line-height: 64px;
-    transition: .1s all ease-in;
-}
-
-.banner-content .btn:hover{
-    color: var(--white-color);
-}
-
-.banner-imgs{
-    animation: float-bob-x 3s linear infinite;
+.single-feature p{
+    font: var(--font-weight-medium) 20px/20px var(--body-font);
+    color: #A1A1AA;
 }
 
 /* Why Choose Us */
@@ -860,21 +944,25 @@ td .info-text.active{
 
 /* Footer */
 
-.footer-social-links{
+.footer-2{
+    padding-top: 140px;
+}
+
+.footer-2 .social-links{
     display: flex;
     justify-content: flex-start;
     align-items: center;
     gap: 16px;
 }
 
-.footer-content p{
+.footer-2 .footer-content p{
     max-width: 178px;
     font: var(--font-weight-normal) 16px/26px var(--body-font);
     color: rgba(255, 255, 255, 0.5);
     margin: 12px 0;
 }
 
-.footer-widget h5{
+.footer-2 .footer-widget h5{
     font: var(--font-weight-bold) 14px/20px var(--body-font);
     color: rgba(255, 255, 255, 0.7);
     text-transform: uppercase;
@@ -882,22 +970,32 @@ td .info-text.active{
     margin-bottom: 8px;
 }
 
-.footer-menu li a{
+.footer-2 .footer-menu li a{
     display: inline-block;
     font: var(--font-weight-normal) 15px/24px var(--body-font);
     color: #8B8B8D;
     margin-bottom: 8px;
 }
 
-.footer-menu li:last-child a{
+.footer-2 .footer-menu li:last-child a{
     margin-bottom: 0;
 }
 
-.payments{
+.footer-2 .payments{
     display: flex;
     align-items: center;
-    gap: 16px;
+    gap: 8px;
     margin-top: 24px;
+}
+
+.footer-2 .payments img{
+    width: 24px;
+}
+
+.footer-widget .shape{
+    position: relative;
+    top: -16px;
+    left: -50px;
 }
 
 .footer-bottom{

@@ -1,9 +1,21 @@
 /* Min Width 1600px */
+@media only screen and (min-width: 1800px){
+    
+    .header-2 .shapes img{
+        min-width: 55% !important;
+    }
+}
+
+/* Min Width 1600px */
 @media only screen and (min-width: 1600px){
     .container{
         max-width: 1550px !important;
     }
-
+    
+    .header-2 .shapes img{
+        right: 0;
+        min-width: 50%;
+    }
 }
 
 /* Min Width 1400px */
