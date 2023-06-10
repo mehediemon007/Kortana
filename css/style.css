@@ -858,8 +858,11 @@ button{
 
 .prime-slider{
     max-width: 88%;
-    border-radius: 18px;
     margin: 0 auto;
+}
+
+.prime-slider .owl-stage-outer{
+    border-radius: 18px;
 }
 
 .prime-slider .slide{
@@ -868,7 +871,6 @@ button{
     align-items: center;
     gap: 24px;
     background-color: #000000;
-    border-radius: 18px;
     padding: 40px 50px 60px 40px;
 }
 
