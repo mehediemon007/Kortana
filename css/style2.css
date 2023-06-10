@@ -655,7 +655,68 @@ button{
 
 /* Why Choose Us */
 
+/* Prime Features */
 
+.kt-prime{
+    background-color: #18181B;
+    padding: 100px 0;
+}
+
+.kt-prime .sec-title{
+    font: var(--font-weight-bold) 46px/46px var(--body-font);
+}
+
+.kt-prime .sec-des{
+    max-width: 45%;
+    font: var(--font-weight-normal) 20px/28px var(--body-font);
+    color: #8B8B8D;
+    margin: 16px auto 40px;
+}
+
+.prime-slider .slide{
+    max-width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    background-color: #000000;
+    border-radius: 18px;
+    padding: 40px 50px 60px 40px;
+    margin: 0 auto;
+}
+
+.prime-slider .slide p{
+    font: var(--font-weight-normal) 24px/34px var(--body-font);
+    color: var(--white-color);
+    opacity: .8;
+}
+
+.prime-slider .slide b{
+    min-width: max-content;
+    display: grid;
+    grid-template-columns: 1fr 30px;
+    align-items: center;
+    grid-gap: 12px;
+    font: var(--font-weight-medium) 30px/40px var(--body-font);
+}
+
+.react-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    margin-top: 32px;
+}
+
+.react-icons .icon{
+    width: 70px;
+    height: 70px;
+    background-color: #1F1F23;
+    border: 0.8px solid #2C2C32;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 70px;
+}
 
 /* Account Type Table */
 
