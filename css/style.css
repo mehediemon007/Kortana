@@ -401,6 +401,21 @@ button{
     box-shadow: none;
 }
 
+.owl-prev,
+.owl-next{
+    position: absolute;
+    top: 50%;
+    left: -28px;
+    font-size: 20px !important;
+    outline: none;
+    z-index: 1;
+}
+
+.owl-next{
+    left: auto;
+    right: -28px;
+}
+
 /* Header */
 
 .kt-header{
@@ -775,6 +790,119 @@ button{
 .single-feature p{
     font: var(--font-weight-medium) 20px/20px var(--body-font);
     color: #A1A1AA;
+}
+
+/* Why Choose Us */
+
+.kt-choose-us{
+    padding: 130px 0;
+}
+
+.kt-choose-us .sec-title{
+    font: var(--font-weight-bold) 50px/60px var(--body-font);
+    margin-bottom: 90px;
+}
+
+.kt-choose-us .single-card:not(:last-of-type){
+    margin-bottom: 60px;
+}
+
+.kt-choose-us .single-card{
+    display: grid;
+    grid-template-columns: 1fr 600px;
+    grid-gap: 100px;
+}
+
+.kt-choose-us .single-card.reverse{
+    grid-template-columns: 600px 1fr;
+}
+
+.card-content h3{
+    font: var(--font-weight-bold) 40px/52px var(--body-font);
+    padding-top: 90px;
+}
+
+.card-content p{
+    font: var(--font-weight-normal) 20px/28px var(--body-font);
+    color: rgba(255, 255, 255, 0.5);
+    margin: 24px 0;
+}
+
+.card-content .btn{
+    width: 170px;
+    height: 52px;
+    font: var(--font-weight-bold) 18px/18px var(--body-font);
+    color: #000;
+    background-image: linear-gradient(92.71deg, #B488CA -3.66%, #F9B3B9 111.36%);
+    border-radius: 0;
+    line-height: 52px;
+}
+
+/* Prime Features */
+
+.kt-prime{
+    background-color: #18181B;
+    padding: 100px 0;
+}
+
+.kt-prime .sec-title{
+    font: var(--font-weight-bold) 46px/46px var(--body-font);
+}
+
+.kt-prime .sec-des{
+    max-width: 45%;
+    font: var(--font-weight-normal) 20px/28px var(--body-font);
+    color: #8B8B8D;
+    margin: 16px auto 40px;
+}
+
+.prime-slider{
+    max-width: 88%;
+    border-radius: 18px;
+    margin: 0 auto;
+}
+
+.prime-slider .slide{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    background-color: #000000;
+    border-radius: 18px;
+    padding: 40px 50px 60px 40px;
+}
+
+.prime-slider .slide p{
+    font: var(--font-weight-normal) 24px/34px var(--body-font);
+    color: var(--white-color);
+    opacity: .8;
+}
+
+.prime-slider .slide b{
+    min-width: max-content;
+    display: grid;
+    grid-template-columns: 1fr 30px;
+    align-items: center;
+    grid-gap: 12px;
+    font: var(--font-weight-medium) 30px/40px var(--body-font);
+}
+
+.react-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    margin-top: 32px;
+}
+
+.react-icons .icon{
+    width: 70px;
+    height: 70px;
+    background-color: #1F1F23;
+    border: 0.8px solid #2C2C32;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 70px;
 }
 
 /* Key Difference */
@@ -1339,11 +1467,11 @@ td .info-text.active{
     z-index: 1;
 }
 
-.owl-nav .owl-next {
+.testi-slider-wpr .owl-nav .owl-next {
     right: -2.5%;
 }
 
-.owl-nav .owl-prev {
+.testi-slider-wpr .owl-nav .owl-prev {
     left: -10.5%;
 }
 
@@ -1611,12 +1739,14 @@ td .info-text.active{
     padding: 100px 0;
 }
 
+.bnd-reviews{
+    max-width: 70%;
+    margin: 0 auto;
+}
+
 .bnd-reviews .slide{
-    max-width: 80%;
     border-left: 1px solid #2A2A2E;
     border-right: 1px solid #2A2A2E;
-    margin: 0 auto;
-    padding: 0 50px;
     text-align: center;
 }
 

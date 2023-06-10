@@ -8,9 +8,6 @@
 
 /* Min Width 1600px */
 @media only screen and (min-width: 1600px){
-    .container{
-        max-width: 1550px !important;
-    }
     
     .header-2 .shapes img{
         right: 0;
@@ -22,12 +19,10 @@
 @media only screen and (min-width:1400px){
 
     .container{
-        max-width: 1320px !important;
-        padding-right: var(--bs-gutter-x,.75rem);
-        padding-left: var(--bs-gutter-x,.75rem);
+        max-width: 1180px !important;
     }
 
-    .testi-slider-wpr .owl-nav .owl-next {
+    .owl-nav .owl-next {
         right: -56px;
     }
 
@@ -35,11 +30,6 @@
 
 /* Min Width 1300px */
 @media only screen and (min-width:1300px){
-
-    .container{
-        max-width: 1292px;
-        padding: 0;
-    }
 
     .banner-imgs .img-2{
         right: -4%;
