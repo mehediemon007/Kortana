@@ -83,7 +83,7 @@
                 items: 3,
                 margin:20,
             },
-            768:{
+            480:{
                 items:4,
                 margin:12,
             },
