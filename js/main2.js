@@ -71,7 +71,7 @@
         autoplay:true,
         slideBy:1,
         dots: false,
-        nav:true,
+        nav:false,
         navText:[$(".owl-navigation .owl-nav-prev"),$(".owl-navigation .owl-nav-next")],
         mouseDrag:false,
         responsive:{
@@ -79,9 +79,10 @@
                 items:2,
                 margin:20,
             },
-            480:{
+            576:{
                 items:2,
                 margin:12,
+                nav: true
             },
             0:{
                 items:2,
