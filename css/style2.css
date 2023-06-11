@@ -457,6 +457,7 @@ button{
 .kt-header.sticky .header-container,
 .header-2 .header-container{
     background-color: transparent;
+    padding: 12px 0;
 }
 
 .header-2 .header-left{

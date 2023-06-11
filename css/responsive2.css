@@ -100,45 +100,10 @@
 /* Max Width 1299px */
 @media only screen and (max-width: 1299px){
 
-    h1{
-        font-size: 75px;
-        line-height: 90px;
-    }
-
     .header-container {
         padding: 12px 20px;
     }
 
-    .banner-imgs .img-1{
-        margin-top: 110px;
-    }
-
-    .banner-imgs .img-2{
-        right: -4%;
-    }
-
-    .kt-banner .curve-1 {
-        width: 65%;
-        bottom: -90px;
-    }
-
-    .scale-features{
-        padding: 0;
-    }
-
-    .single-feature{
-        padding: 16px 24px;
-    }
-
-    .wpr-2 .single-feature::after{
-        right: 16px;
-        transform: scaleX(.70);
-    }
-
-    .single-feature h3{
-        font-size: 28px;
-        line-height: 32px;
-    }
 }
 
 /* Max Width 1199px */
@@ -228,436 +193,387 @@
 /* Max Width 1024px */
 @media only screen and (max-width:1024px){
 
-    h1 {
-        font-size: 50px;
-        line-height: 57px;
-        letter-spacing: -0.04em;
-    }
 
-    .sec-spacer{
-        padding: 80px 0;
-    }
 
-    .kt-banner{
-        padding: 130px 0 80px;
-    }
-
-    .kt-banner::before{
-        content: "";
-    }
-
-    .banner-imgs img{
-        max-width: 297px;
-    }
-
-    .banner-imgs .img-1{
-        margin-top: 60px;
-    }
-
-    .banner-imgs .img-2{
-        right: -2%;
-        top: -60px;
-    }
-
-    .kt-banner .curve-1 {
-        width: 65%;
-        bottom: -40px;
-    }
-
-    .banner-imgs .chart-img{
-        max-width: 50%;
-        left: 30%;
-    }
-
-    .kt-scale .sec-title{
-        font-size: 33px;
-        line-height: 39px;
-        margin-bottom: 16px;
-    }
-
-    .kt-scale{
-        padding-top: 80px;
-    }
-
-    .kt-scale::after{
-        bottom: 165px;
-        height: 100%;
-    }
-
-    .kt-scale .sec-des{
-        max-width: 318px;
-        font-size: 10px;
-        line-height: 15px;
-    }
-
-    .scale-features{
-        margin-top: 40px;
-    }
-
-    .wpr-2{
-        margin-top: 32px;
-    }
-
-    .single-feature.circle{
-        width: 60px;
-        height: 60px;
-    }
-
-    .single-feature.circle p{
-        font-size: 10px;
-        line-height: 8px;
-    }
-
-    .single-feature h3{
-        font-size: 16px;
-        line-height: 15px;
-    }
-
-    .single-feature b,
-    .single-feature p{
-        font-size: 9px;
-        line-height: 16px;
-    }
-
-    .wpr-2 .single-feature{
-        left: -90px;
-    }
-
-    .wpr-1 .single-feature:last-of-type::after{
-        transform: scale(.5);
-    }
-
-    .wpr-2 .single-feature::before {
-        top: -70px;
-        left: 35px;
-        transform: scale(.9);
-    }
-
-    .wpr-2 .single-feature::after {
-        bottom: -65px;
-        transform: scaleX(.60);
-    }
-
-    .prime-features{
-        margin: 95px 20px 30px 20px
-    }
-
-    .prime-features h3{
-        font-size: 24px;
-        line-height: 28px;
-        margin-bottom: 16px;
-    }
-
-    .prime-features p{
-        font-size: 12px;
-        line-height: 16px;
-    }
-
-    .prime-features li{
-        font-size: 12px;
-        line-height: 16px;
-        gap: 8px;
-    }
-
-    .prime-features li img{
-        width: 14px;
-        height: 14px;
-    }
-
-    .accounts-content .btn{
-        height: 32px;
-        font-size: 9px;
-        line-height: 32px;
-        padding: 0 16px;
-    }
-
-    .kt-testimonial .sec-title,
-    .trade-info h2{
-        font-size: 34px;
-        line-height: 41px;
-    }
-
-    .info-list li{
-        font-size: 11px;
-        line-height: 17px;
-    }
-
-    .info-btns .btn{
-        height: 37px;
-        font-size: 9px;
-        line-height: 37px;
-        padding: 0 16px;
-    }
-
-    .info-btns .btn img{
-        max-width: 9px;
-        margin-left: 6px;
-    }
-
-    .info-btns .color-btn{
-        margin-left: 12px;
-    }
-
-    .trade-image .img-sm{
-        max-width: 147px;
-    }
-
-    .footer-wpr{
-        margin: 50px 0;
-        padding: 24px 40px;
-    }
-
-    .footer-wpr .logo{
-        width: 127px;
-    }
-
-    .footer-social-links a{
-        width: 32px;
-        height: 32px;
-        border-radius: 13px;
-    }
-
-    .footer-social-links img{
-        max-width: 16px;
-    }
-
-    .footer-content p{
-        font-size: 13px;
-        line-height: 17px;
-    }
-
-    .footer-widget h5{
-        font-size: 12px;
-        line-height: 17px;
-    }
-
-    .footer-menu li a{
-        font-size: 10px;
-        line-height: 15px;
-    }
-
-    .footer-social-links{
-        margin: 16px 0;
-    }
-
-    .footer-input{
-        width: 158px;
-    }
-
-    .footer-input input{
-        height: 28px;
-        font-size: 8px;
-    }
-
-    .footer-input input::placeholder{
-        font-size: 8px;
-    }
-
-    .footer-input button{
-        width: 20px;
-        height: 20px;
-        border-radius: 6px;
-        line-height: 15px;
-    }
 }
 
 /* Max Width 991px */
 
 @media only screen and (max-width:991px){
 
-    h1 {
-        font-size: 50px;
-        line-height: 57px;
-        letter-spacing: -0.04em;
-    }
-
-    h3{
-        font-size: 16px;
-        line-height: 23px;
-    }
-
-    .sec-spacer{
+    .sec-spacer, 
+    .kt-choose-us{
         padding: 80px 0;
     }
 
-    .header-right .btn{
-        font-size: 8px;
-        padding: 0 12px;
+    .header-2 .nav-menu{
+        gap: 28px;
     }
 
-    .nav-menu{
-        gap: 16px;
+    .header-2 .nav-menu a{
+        font-size: 11px;
+        height: 11px;
     }
 
-    .nav-menu a,
     .lang-switcher .lang{
         font-size: 8px;
     }
 
-    .kt-banner{
-        padding: 130px 0 80px;
+    .header-2 .btn{
+        height: 32px;
+        font-size: 11px;
+        line-height: 32px;
     }
 
-    .kt-banner::before{
-        content: "";
+    .header-2 .shapes img {
+        max-height: 80px;
     }
 
-    .banner-list{
-        grid-column-gap: 16px;
-        margin: 16px 0;
+    .header-2 .shapes img:last-child{
+        max-height: 110px;
     }
 
-    .banner-list p{
-        font-size: 9px;
-        line-height: 14px;
-        padding-left: 24px;
-        margin-bottom: 12px;
+    .banner-2{
+        padding: 150px 0 80px;
     }
 
-    .banner-list p::before{
-        top: -6px;
-        transform: scale(.5);
+    .banner-2 .banner-title{
+        font-size: 43px;
+        line-height: 50px;
     }
 
-    .banner-content .btn{
-        width: 147px;
-        height: 36px;
+    .banner-2 p{
+        max-width: 280px;
+        font-size: 12px;
+        line-height: 18px;
+        margin: 16px auto 24px;
+    }
+
+    .banner-2 .banner-content .btn{
+        width: 154px;
+        height: 32px;
         font-size: 10px;
-        line-height: 36px;
-        border-radius: 61px;
+        line-height: 11px;
+        line-height: 32px;
     }
 
-    .banner-imgs img{
-        max-width: 297px;
+    .features-2 .single-feature h3{
+        font-size: 18px;
+        line-height: 18px;
+        margin-bottom: 16px;
     }
 
-    .banner-imgs .img-1{
-        margin-top: 60px;
+    .features-2 .single-feature p{
+        font-size: 10px;
+        line-height: 10px;
     }
 
-    .banner-imgs .img-2{
-        right: -2%;
-        top: -60px;
+    .features-2 .single-feature{
+        padding: 32px 16px;
     }
 
-    .banner-imgs .chart-img{
-        max-width: 60%;
-        left: 45%;
-    }
-
-    .kt-banner .curve-1 {
-        width: 65%;
-        bottom: -40px;
-    }
-
-    .kt-differ .sec-title{
+    .kt-choose-us .sec-title{
         font-size: 34px;
         line-height: 41px;
+        margin-bottom: 48px;
     }
 
-    .differ-cards .single-card{
-        grid-template-columns: 24px 1fr;
-        grid-gap: 12px;
+    .kt-choose-us .single-card{
+        grid-template-columns: 1fr 415px;
+        grid-gap: 24px;
     }
 
-    .differ-cards .single-card p{
-        font-size: 8px;
-        line-height: 14px;
+    .kt-choose-us .single-card.reverse {
+        grid-template-columns: 415px 1fr;
     }
 
-    .kt-scale::after{
-        bottom: 150px;
+    .card-content h3{
+        font-size: 28px;
+        line-height: 34px;
+        padding-top: 32px !important;
     }
 
-    .single-feature{
-        padding: 8px;
+    .card-content p{
+        font-size: 14px;
+        line-height: 19px;
     }
 
-    .single-feature.circle{
-        width: 38px;
-        height: 38px;
+    .card-content .btn{
+        width: 118px;
+        height: 36px;
+        font-size: 12px;
+        line-height: 36px;
     }
 
-    .single-feature.circle p{
-        font-size: 5px;
-        line-height: 7px;
+    .kt-prime .sec-title{
+        font-size: 23px;
+        line-height: 24px;
     }
 
-    .single-feature .icon{
-        width: 20px;
-        height: 20px;
-        line-height: 20px;
-        margin-right: 8px;
-    }
-
-    .single-feature .icon img{
-        width: 12px;
-        height: 12px;
-    }
-
-    .single-feature h3{
-        font-size: 16px;
-        line-height: 15px;
-    }
-
-    .single-feature b,
-    .single-feature p{
-        font-size: 9px;
+    .kt-prime .sec-des{
+        max-width: 303px;
+        font-size: 10px;
         line-height: 16px;
+        margin: 16px auto 24px;
     }
 
-    .prime-features{
-        margin: 60px 20px 30px 20px
+    .prime-slider{
+        max-width: 75%;
     }
 
-    .wpr-1 .single-feature:last-of-type::after{
-        right: -125%;
-        transform: scale(.8);
+    .prime-slider .slide{
+        padding: 24px;
     }
 
-    .wpr-3 .single-feature:first-of-type::before {
-        top: 27px;
-        transform: scale(.6);
+    .prime-slider .slide p{
+        font-size: 12px;
+        line-height: 17px;
     }
 
-    .wpr-2 .single-feature{
-        left: 10px;
+    .prime-slider .slide b{
+        grid-template-columns: 1fr 16px;
+        font-size: 15px;
+        line-height: 20px;
     }
 
-    .wpr-2 .single-feature::before{
-        top: -65px;
-        left: 18px;
-        transform: scale(.8);
+    .react-icons{
+        gap: 8px;
     }
 
-    .wpr-2 .single-feature::after {
-        right: -18px;
-        bottom: -60px;
+    .react-icons .icon {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+    }
+
+    .react-icons .icon img{
+        max-width: 16px;
+    }
+
+    .trade-acunts-2 .sec-title{
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    .trade-acunts-2 .sec-des{
+        max-width: 299px;
+        font-size: 13px;
+        line-height: 18px;
+    }
+
+    .trade-acunts-2 .tab-links{
+        margin: 48px 0 32px;
+    }
+
+    .trade-acunts-2 .nav-link{
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .trade-acunts-2 .kt-table th{
+        font-size: 15px;
+        line-height: 23px;
+    }
+
+    .trade-acunts-2 .kt-table td{
+        font-size: 13px;
+        line-height: 18px;
+        padding: 16px;
+    }
+
+    .acunts-total h3{
+        font-size: 18px;
+        line-height: 27px;
+    }
+
+    .acunts-total p{
+        font-size: 8px;
+        line-height: 12px;
+    }
+
+    .acunts-total .btn{
+        width: 91px;
+        height: 30px;
+        font-size: 10px;
+        line-height: 30px;
+    }
+
+    .acunts-total{
+        margin: 32px auto 40px;
+    }
+
+    .trade-acunts-2 .trading-sum{
+        gap: 40px;
+    }
+
+    .trade-acunts-2 .trading-sum p{
+        font-size: 10px;
+        line-height: 10px;
+    }
+
+    .testi-2 .sec-title{
+        font-size: 24px;
+        line-height: 29px;
+        margin-bottom: 40px;
     }
 
     .reviews-sum{
         margin-bottom: 40px;
     }
 
-    .reviews-sum h4 {
-        font-size: 28px;
-        line-height: 36px;
-        margin-bottom: 20px;
+    .testi-2 .reviews-sum h4 {
+        font-size: 10px;
+        line-height: 14px;
+        margin-bottom: 8px;
     }
 
-    .reviews-sum p {
-        font-size: 16px;
-        line-height: 20px;
+    .testi-2 .reviews-sum p {
+        font-size: 7px;
+        line-height: 8px;
+    }
+
+    .testi-2 .ratings img{
+        max-width: 14px;
+        height: 14px;
+    }
+
+    .testi-slider-2 .single-slide .ratings img{
+        max-width: 10px;
+        height: 10px;
+    }
+
+    .testi-slider-2 .single-slide h5{
+        font-size: 10px;
+        line-height: 13px;
+        margin-bottom: 4px;
+    }
+
+    .testi-slider-2 .single-slide{
+        border-radius: 9px;
+        padding: 8px;
+    }
+
+    .testi-slider-2 .content p{
+        font-size: 7px;
+        line-height: 11px
+    }
+
+    .testi-slider-2 .owl-carousel .owl-nav .owl-prev, 
+    .testi-slider-2 .owl-carousel .owl-nav .owl-next{
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 20px;
+        height: 20px;
+    }
+
+    .testi-slider-2 .owl-nav span{
+        font-size: 8px;
+        line-height: 1;
+    }
+
+    .kt-prime{
+        padding: 50px 0;
+    }
+
+    .trade-2{
+        padding: 80px 0;
+    }
+
+    .trade-2 .sec-title{
+        max-width: 75%;
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .trade-2 .info-list li{
+        font-size: 15px;
+        line-height: 16px;
         margin-bottom: 16px;
     }
 
-    .owl-nav .owl-prev{
-        left: -13%;
+    .trade-faq p{
+        font-size: 15px;
+        line-height: 23px;
     }
 
-    .payments img{
-        max-width: 32px;
+    .trade-faq .btn{
+        width: 130px;
+        height: 40px;
+        font-size: 13px;
+        line-height: 40px;
     }
+
+    .kt-brands{
+        padding: 50px 0;
+    }
+
+    .bnd-reviews{
+        max-width: 80%;
+    }
+
+    .bnd-reviews .slide h2{
+        font-size: 28px;
+        line-height: 27px;
+    }
+
+    .bnd-reviews .slide p{
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .brand-list{
+        gap: 14px;
+    }
+
+    .brand-list img{
+        max-width: 90px;
+    }
+
+    .footer-2{
+        padding-top: 70px;
+    }
+
+    .footer-2 .social-links{
+        gap: 12px;
+    }
+    
+    .footer-2 .social-links img{
+        max-width: 20px;
+    }
+    
+    .footer-2 .footer-content p{
+        max-width: 132px;
+        font-size: 11px;
+        line-height: 17px;
+        margin: 10px 0;
+    }
+    
+    .footer-2 .footer-widget h5{
+        font-size: 10px;
+        line-height: 15px;
+        margin-bottom: 6px;
+    }
+
+    .footer-2 .payments{
+        margin-top: 12px;
+    }
+
+    .footer-2 .payments img{
+        max-width: 16px;
+    }
+    
+    .footer-2 .footer-menu li a{
+        font-size: 11px;
+        line-height: 18px;
+        margin-bottom: 6px;
+    }
+
+    .footer-bottom p{
+        font-size: 11px;
+        line-height: 18px;
+    }
+
 
 }
 

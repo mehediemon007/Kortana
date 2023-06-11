@@ -84,8 +84,8 @@
                 margin:20,
             },
             768:{
-                items:2,
-                margin:16,
+                items:4,
+                margin:12,
             },
             0:{
                 items:1,
