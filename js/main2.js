@@ -75,13 +75,17 @@
         navText:[$(".owl-navigation .owl-nav-prev"),$(".owl-navigation .owl-nav-next")],
         mouseDrag:false,
         responsive:{
-            992:{
+            1200:{
                 items: 4,
                 margin:24,
             },
+            992:{
+                items: 3,
+                margin:20,
+            },
             768:{
                 items:2,
-                margin:24,
+                margin:16,
             },
             0:{
                 items:1,

@@ -145,396 +145,64 @@
 
 @media only screen and (max-width:1199px){
 
-    h1 {
+    .banner-2 .banner-title{
         font-size: 60px;
-        line-height: 80px;
+        line-height: 70px;
     }
 
-    h3{
-        font-size: 24px;
-        line-height: 30px;
-    }
-
-    .sec-spacer{
+    .sec-spacer,
+    .kt-choose-us{
         padding: 100px 0;
     }
 
-    .kt-header{
-        top: 20px;
+    .kt-choose-us .single-card{
+        grid-gap: 50px;
     }
 
-    .logo img{
-        max-width: 100px;
-    }
-
-    .header-right{
-        gap: 12px;
-    }
-
-    .header-right .btn{
-        height: 27px;
-        font-size: 12px;
-        line-height: 27px;
-        padding: 0 16px;
-    }
-
-    .nav-menu{
-        gap: 16px;
-    }
-
-    .nav-menu a,
-    .lang-switcher .lang{
-        font-size: 12px;
-        line-height: 10px;
-    }
-
-    .banner-list{
-        grid-column-gap: 16px;
-        margin: 16px 0;
-    }
-
-    .banner-list p{
-        font-size: 12px;
-        line-height: 16px;
-        padding-left: 24px;
-        margin-bottom: 16px;
-    }
-
-    .banner-list p::before{
-        top: -6px;
-        transform: scale(.7);
-    }
-
-    .banner-content .btn{
-        width: 147px;
-        height: 40px;
-        font-size: 12px;
-        line-height: 40px;
-        border-radius: 61px;
-    }
-
-    .banner-imgs .img-1{
-        margin-top: 80px;
-    }
-
-    .kt-banner .curve-1{
-        bottom: -70px;
-    }
-
-    .kt-differ .sec-title{
-        font-size: 40px;
-        line-height: 45px;
-        margin-bottom: 32px;
-    }
-
-    .differ-cards .single-card{
-        grid-template-columns: 32px 1fr;
-        grid-gap: 16px;
-        padding: 16px 12px;
-    }
-
-    .differ-cards .single-card p{
-        font-size: 12px;
-        line-height: 18px;
-        margin-top: 8px;
-    }
-
-    .connector{
-        width: 76px;
-        height: 104px;
-        line-height: 104px;
-    }
-
-    .connector img{
-        max-width: 49px;
-    }
-
-    .connector-wpr::before{
-        content: url("../images/shapes/connt-left-md.png");
-    }
-
-    .connector-wpr::after{
-        content: url("../images/shapes/connt-right-md.png");
-    }
-
-    .prime-features h3{
+    .card-content h3{
         font-size: 32px;
-        line-height: 28px;
-        margin-bottom: 20px;
+        line-height: 42px;
+        padding-top: 70px;
     }
 
-    .prime-features p{
-        font-size: 14px;
-        line-height: 20px;
+    .prime-slider{
+        max-width: 95%;
     }
 
-    .prime-features .feature-list{
-        grid-gap: 8px 24px;
+    .kt-prime .sec-des{
+        max-width: 65%;
     }
 
-    .prime-features li{
-        font-size: 14px;
-        line-height: 20px;
-        gap: 8px;
+    .trade-acunts-2 .sec-des{
+        max-width: 60%;
     }
 
-    .prime-features li img{
-        width: 20px;
-        height: 20px;
+    .testi-2{
+        padding: 0;
     }
 
-    .single-feature{
-        padding: 12px 20px;
+    .trade-2 .trade-info{
+        max-width: 100%;
     }
 
-    .single-feature.circle{
-        width: 70px;
-        height: 70px;
+    .trade-2 .sec-title{
+        max-width: 80%;
     }
 
-    .wpr-1 .single-feature:last-of-type::after{
-        right: -80%;
+    .trade-faq .sec-title{
+        max-width: 100%;
     }
 
-    .wpr-2 .single-feature{
-        left: 26px;
+    .trade-faq{
+        padding-right: 0;
     }
 
-    .wpr-2 .single-feature::before{
-        top: -75px;
-        left: 35px;
+    .bnd-reviews .slide p{
+        max-width: 90%;
     }
 
-    .wpr-2 .single-feature::after {
-        right: -6px;
-        bottom: -70px;
-        transform: scaleX(.40);
-    }
-
-    .single-feature .icon{
-        margin-right: 12px;
-    }
-
-    .single-feature h3 {
-        font-size: 22px;
-    }
-
-    .single-feature b{
-        font-size: 16px;
-        line-height: 24px;
-    }
-
-    .single-feature p{
-        font-size: 12px;
-        line-height: 20px;
-    }
-
-    .prime-features {
-        margin: 95px 20px 40px 20px;
-    }
-
-    .tab-links{
-        padding: 8px;
-    }
-
-    .tab-links .nav-link{
-        font-size: 14px;
-        line-height: 20px;
-        padding: 8px 16px;
-    }
-
-    .accounts-content{
-        padding: 40px 24px;
-        margin-top: 32px;
-    }
-
-    table.kt-table th{
-        font-size: 14px;
-        line-height: 20px;
-        padding: 0 12px 8px;
-    }
-
-    table.kt-table td{
-        font-size: 14px;
-        line-height: 20px;
-        padding: 12px 16px;
-    }
-
-    .td-btn{
-        padding: 6px 12px;
-    }
-
-    .accounts-content .btn{
-        height: 40px;
-        font-size: 12px;
-        line-height: 40px;
-        padding: 0 24px;
-        margin-top: 32px;
-    }
-
-    .kt-testimonial{
-        padding: 50px 0;
-    }
-
-    .kt-testimonial .sec-title{
-        margin-bottom: 30px;
-    }
-
-    .reviews-sum h4{
-        font-size: 28px;
-        line-height: 24px;
-    }
-
-    .reviews-sum p{
-        font-size: 20px;
-        line-height: 24px;
-        margin-bottom: 24px;
-    }
-
-    .ratings img{
-        max-width: 45px;
-        height: 45px;
-    }
-
-    .testi-slider-wpr{
-        padding-bottom: 30px;
-    }
-
-    .testi-slider .single-slide h5{
-        font-size: 16px;
-        line-height: 24px;
-        margin: 16px 0;
-    }
-
-    .testi-slider .content p{
-        font-size: 11px;
-        line-height: 18px;
-    }
-
-    .kt-testimonial .btn{
-        width: 147px;
-        height: 40px;
-        font-size: 12px;
-        line-height: 40px;
-        border-radius: 61px;
-    }
-
-    .testi-slider-wpr .owl-carousel .owl-nav .owl-prev, 
-    .testi-slider-wpr .owl-carousel .owl-nav .owl-next{
-        width: 45px;
-        height: 45px;
-    }
-
-    .owl-nav span{
-        font-size: 20px;
-        line-height: 45px;
-    }
-
-    .kt-testimonial .sec-title,
-    .trade-info h2{
-        font-size: 48px;
-        line-height: 60px;
-    }
-    
-    .info-list{
-        margin: 24px 0;
-        padding-right: 24px;
-    }
-
-    .info-list li{
-        font-size: 14px;
-        line-height: 18px;
-        margin-bottom: 10px;
-        padding-left: 32px;
-    }
-
-    .info-list li::before{
-        top: -8px;
-        transform: scale(.5);
-    }
-
-    .info-btns .btn{
-        height: 40px;
-        font-size: 13px;
-        line-height: 40px;
-        padding: 0 24px;
-    }
-
-    .info-btns .btn img{
-        max-width: 12px;
-        margin-left: 6px;
-    }
-
-    .info-btns .color-btn{
-        margin-left: 12px;
-    }
-
-    .trade-image .img-sm{
-        max-width: 147px;
-    }
-
-    .footer-wpr{
-        margin: 50px 0;
-        padding: 24px 40px;
-    }
-
-    .footer-wpr .logo{
-        width: 127px;
-    }
-
-    .footer-social-links a{
-        width: 32px;
-        height: 32px;
-        border-radius: 13px;
-    }
-
-    .footer-social-links img{
-        max-width: 16px;
-    }
-
-    .footer-content p{
-        font-size: 16px;
-        line-height: 20px;
-        padding-right: 32px;
-    }
-
-    .footer-widget h5{
-        font-size: 16px;
-        line-height: 20px;
-        margin-bottom: 8px;
-    }
-
-    .footer-menu li a{
-        font-size: 12px;
-        line-height: 16px;
-        margin-bottom: 4px;
-    }
-
-    .footer-social-links{
-        margin: 16px 0;
-    }
-
-    .footer-input{
-        width: 180px;
-        margin-top: 16px;
-    }
-
-    .footer-input input{
-        height: 32px;
-        font-size: 12px;
-        line-height: 13px;
-    }
-
-    .footer-input input::placeholder{
-        font-size: 12px;
-        line-height: 13px;
-    }
-
-    .footer-input button{
-        width: 20px;
-        height: 20px;
-        border-radius: 6px;
-        line-height: 15px;
+    .testi-slider-2 .owl-nav .owl-prev {
+        left: -20px;
     }
 
 }

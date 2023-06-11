@@ -638,7 +638,7 @@ button{
     justify-content: space-between;
 }
 
-.single-feature{
+.features-2 .single-feature{
     position: relative;
     border: 1px solid transparent;
     padding: 64px 32px;
@@ -646,7 +646,7 @@ button{
     z-index: 1;
 }
 
-.single-feature.active::before{
+.features-2 .single-feature.active::before{
     position: absolute;
     content: "";
     top: -2px;
@@ -658,12 +658,12 @@ button{
     z-index: -1;
 }
 
-.single-feature h3{
+.features-2 .single-feature h3{
     font: var(--font-weight-medium) 36px/36px var(--body-font);
     margin-bottom: 20px;
 }
 
-.single-feature p{
+.features-2 .single-feature p{
     font: var(--font-weight-medium) 20px/20px var(--body-font);
     color: #A1A1AA;
 }
