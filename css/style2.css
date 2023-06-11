@@ -910,6 +910,18 @@ button{
     gap: 75px;
 }
 
+.trade-acunts-2 .shape-imgs img{
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+
+.trade-acunts-2 .shape-imgs img:last-child{
+    left: auto;
+    right: 0;
+    z-index: -1;
+}
+
 /* Testimonial */
 
 .testi-2{
@@ -985,6 +997,11 @@ button{
 .owl-next:hover span,
 .owl-prev:hover span{
     color: var(--white-color);
+}
+
+.testi-slider-2 .slide-grp{
+    display: flex;
+    gap: 20px;
 }
 
 .testi-slider-2 .single-slide{
