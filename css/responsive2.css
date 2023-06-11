@@ -716,20 +716,51 @@
         border-bottom: 0;
     }
 
-    .header-2 .nav-toggle{
-        display: inline-block;
+    .mobile-menu-icon {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 4px;
         width: 32px;
         height: 32px;
         border: 1px solid rgba(255, 255, 255, 0.2);
-        border-radius: 0;
-        text-align: center;
-        line-height: 32px;
+        transform: rotate(0deg);
+        transition: 0.5s ease-in-out;
+        outline: none;
         cursor: pointer;
+        z-index: 10;
     }
 
-    .nav-toggle i{
-        font-size: 18px;
-        text-indent: 2px;
+    .mobile-menu-icon span {
+        position: relative;
+        display: inline-block;
+        height: 1px;
+        width: 11px;
+        background: var(--white-color);
+        opacity: .6;
+        transform: rotate(0deg);
+        transition: 0.25s ease-in-out;
+    }
+
+    .mobile-menu-icon span:nth-child(2){
+        width: 8px;
+        opacity: 1;
+    }
+
+    .mobile-menu-icon.open span:nth-child(1) {
+        top: 6px;
+        transform: rotate(135deg);
+    }
+
+    .mobile-menu-icon.open span:nth-child(2) {
+        opacity: 0;
+        left: -60px;
+    }
+
+    .mobile-menu-icon.open span:nth-child(3) {
+        top: -4px;
+        transform: rotate(-135deg);
     }
 
     /* Mobile Nav End */

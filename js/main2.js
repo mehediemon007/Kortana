@@ -1,9 +1,21 @@
 (function($){
 
-    $(".nav-toggle").on("click",function(){
-        $("i", this).toggleClass("fa-solid fa-bars fa-solid fa-xmark");
-        $(".kt-main-nav").slideToggle("500")
-    })
+    // $(".nav-toggle").on("click",function(){
+    //     $("i", this).toggleClass("fa-solid fa-bars fa-solid fa-xmark");
+    //     $(".kt-main-nav").slideToggle("500")
+    // })
+
+    var mobileMenuIcon = $('.mobile-menu-icon');
+
+    
+    if (mobileMenuIcon.length) {
+        mobileMenuIcon.on('click', function (e) {
+            e.preventDefault();
+            $(this).toggleClass('open');
+            $('.kt-main-nav').slideToggle();
+        });
+
+    }
 
     // totop scroller
 
