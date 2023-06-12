@@ -953,6 +953,10 @@ button{
     margin: 8px 0 6px;
 }
 
+.testi-2 .reviews-sum a.total-reviews:hover{
+    color: #04da8d;
+}
+
 .testi-2 .ratings{
     display: flex;
     justify-content: center;
