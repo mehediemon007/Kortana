@@ -58,6 +58,14 @@
         });
     });
 
+    win.on("click",function(e){
+
+        if($(".lang-switcher").has(e.target).length === 0){
+            $(".lang-list").removeClass("lang-list-open");
+        }
+
+    })
+
     // Table Info
 
     $(".info").on("click", function(){
@@ -83,7 +91,7 @@
         autoplay:true,
         slideBy:1,
         dots: false,
-        nav:false,
+        nav:true,
         navText:[$(".owl-navigation .owl-nav-prev"),$(".owl-navigation .owl-nav-next")],
         mouseDrag:false,
         responsive:{
@@ -94,11 +102,11 @@
             576:{
                 items:2,
                 margin:12,
-                nav: true
             },
             0:{
                 items:2,
                 margin:8,
+                nav: false
             }
         }
     })

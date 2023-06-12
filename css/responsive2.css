@@ -427,7 +427,7 @@
         margin-bottom: 8px;
     }
 
-    .testi-2 .reviews-sum p {
+    .testi-2 .reviews-sum a.total-reviews {
         font-size: 7px;
         line-height: 8px;
     }
@@ -1023,7 +1023,7 @@
         margin-bottom: 8px;
     }
 
-    .testi-2 .reviews-sum p {
+    .testi-2 .reviews-sum a.total-reviews {
         font-size: 7px;
         line-height: 8px;
     }

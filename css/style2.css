@@ -938,7 +938,8 @@ button{
     margin-bottom: 12px;
 }
 
-.testi-2 .reviews-sum p{
+.testi-2 .reviews-sum a.total-reviews{
+    display: block;
     font: var(--font-weight-medium) 12px/15px var(--body-font);
     color: rgba(255, 255, 255, 0.72);
     margin: 8px 0 6px;
