@@ -416,6 +416,10 @@ button{
     right: -28px;
 }
 
+.owl-dot{
+    cursor: pointer;
+}
+
 /* Header */
 
 .kt-header{
@@ -1108,14 +1112,14 @@ button{
     padding: 100px 0;
 }
 
-.bnd-reviews{
+.bnd-reviews-wpr{
     max-width: 70%;
+    border-left: 1px solid #2A2A2E;
+    border-right: 1px solid #2A2A2E;
     margin: 0 auto;
 }
 
 .bnd-reviews .slide{
-    border-left: 1px solid #2A2A2E;
-    border-right: 1px solid #2A2A2E;
     text-align: center;
 }
 

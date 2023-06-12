@@ -118,11 +118,18 @@
         loop:true,
         autoplay:true,
         slideBy:1,
-        dots: false,
+        smartSpeed: 400,
+        dots: true,
+        dotsSpeed: 400,
+        dotsContainer: '#prime-owl-dots',
         nav:true,
         navText:[$("<i class='fa-solid fa-chevron-left'></i>"),$("<i class='fa-solid fa-chevron-right'></i>")],
         mouseDrag:false,
     })
+
+    $('#prime-owl-dots .owl-dot').click(function () {
+        $('.prime-slider').trigger('to.owl.carousel', [$(this).index(), 400]);
+    });
 
     // Slider
 
@@ -131,11 +138,18 @@
         loop:true,
         autoplay:true,
         slideBy:1,
-        dots: false,
+        smartSpeed: 400,
+        dots: true,
+        dotsSpeed: 400,
+        dotsContainer: '#bnd-owl-dots',
         nav:true,
         navText:[$("<i class='fa-solid fa-chevron-left'></i>"),$("<i class='fa-solid fa-chevron-right'></i>")],
         mouseDrag:false,
     })
+
+    $('#bnd-owl-dots .owl-dot').click(function () {
+        $('.bnd-reviews').trigger('to.owl.carousel', [$(this).index(), 400]);
+    });
 
     new WOW().init();
 

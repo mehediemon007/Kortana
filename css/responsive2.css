@@ -68,6 +68,10 @@
         display: block !important;
     }
 
+    .react-icons .lg-icon{
+        width: 30px;
+    }
+
 }
 
 /* Max Width 1399px */
@@ -508,7 +512,7 @@
         padding: 50px 0;
     }
 
-    .bnd-reviews{
+    .bnd-reviews-wpr{
         max-width: 80%;
     }
 
@@ -1118,7 +1122,7 @@
         padding: 50px 0;
     }
 
-    .bnd-reviews{
+    .bnd-reviews-wpr{
         max-width: 90%;
     }
 
