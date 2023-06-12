@@ -675,6 +675,10 @@ button{
 
 /* Why Choose Us */
 
+#choose-us{
+    scroll-margin-top: 56px;
+}
+
 .kt-choose-us{
     padding: 130px 0;
 }

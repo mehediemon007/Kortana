@@ -219,6 +219,10 @@
         line-height: 16px;
     }
 
+    .lang-switcher{
+        min-width: max-content;
+    }
+
     .lang-switcher .lang{
         font-size: 8px;
     }
@@ -432,8 +436,8 @@
     }
 
     .testi-2 .reviews-sum a.total-reviews {
-        font-size: 7px;
-        line-height: 8px;
+        font-size: 8px;
+        line-height: 10px;
     }
 
     .testi-2 .ratings img{
@@ -458,8 +462,8 @@
     }
 
     .testi-slider-2 .content p{
-        font-size: 7px;
-        line-height: 11px
+        font-size: 8px;
+        line-height: 12px
     }
 
     .testi-slider-2 .owl-carousel .owl-nav .owl-prev, 
@@ -1027,11 +1031,6 @@
         margin-bottom: 8px;
     }
 
-    .testi-2 .reviews-sum a.total-reviews {
-        font-size: 7px;
-        line-height: 8px;
-    }
-
     .testi-2 .ratings img{
         max-width: 14px;
         height: 14px;
@@ -1052,12 +1051,7 @@
         border-radius: 9px;
         padding: 8px;
     }
-
-    .testi-slider-2 .content p{
-        font-size: 7px;
-        line-height: 11px
-    }
-
+    
     .testi-slider-2 .owl-carousel .owl-nav .owl-prev, 
     .testi-slider-2 .owl-carousel .owl-nav .owl-next{
         display: inline-flex;
@@ -1088,13 +1082,12 @@
     }
 
     .trade-2 .info-list{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        column-gap: 32px;
+        column-count: 2;
     }
 
     .trade-2 .info-list li{
+        display: grid;
+        grid-template-columns: 27px 1fr;
         font-size: 12px;
         line-height: 18px;
         margin-bottom: 12px;
@@ -1169,15 +1162,15 @@
     }
     
     .footer-2 .footer-content p{
-        max-width: 70px;
-        font-size: 5px;
-        line-height: 8px;
+        max-width: 80px;
+        font-size: 8px;
+        line-height: 12px;
         margin: 6px 0;
     }
     
     .footer-2 .footer-widget h5{
-        font-size: 4px;
-        line-height: 7px;
+        font-size: 6px;
+        line-height: 10px;
         margin-bottom: 4px;
     }
 
@@ -1200,8 +1193,8 @@
     }
 
     .footer-bottom p{
-        font-size: 5px;
-        line-height: 8px;
+        font-size: 8px;
+        line-height: 12px;
     }
     
 }
