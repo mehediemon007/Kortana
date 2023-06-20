@@ -420,6 +420,13 @@ button{
     cursor: pointer;
 }
 
+.sec-title .clr-text{
+    background-image: linear-gradient(94.84deg, #B186CB 5.59%, #FDA9B6 96.44%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 /* Header */
 
 .kt-header{
@@ -490,29 +497,21 @@ button{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 100px;
+    gap: 80px;
 }
 
 .header-2 .btn{
     height: 52px;
     font-size: 18px;
-    font-weight: var(--font-weight-bold);
+    font-weight: var(--font-weight-medium);
     background-color: #141417;
     border-radius: 0;
     padding: 0 24px;
     line-height: 50px;
 }
 
-.header-2 .shapes img{
-    position: absolute;
-    top: 0;
-    right: -50px;
-    max-height: 120px;
-    z-index: -1;
-}
-
-.header-2 .shapes img:last-child{
-    max-height: 170px;
+.header-2 .primary-btn{
+    background-image: linear-gradient(95.22deg, #B186CB -6.09%, #F9B2B9 108.11%);
 }
 
 /* Lang Switcher */
@@ -585,7 +584,7 @@ button{
 /* Banner */
 
 .banner-2{
-    padding: 190px 0 120px;
+    padding: 220px 0 120px;
 }
 
 .banner-2 .banner-content{
@@ -593,9 +592,8 @@ button{
 }
 
 .banner-2 .banner-title{
-    max-width: 508px;
     font-size: 72px;
-    background-image: linear-gradient(90.25deg, #B186CB 2.32%, #FDB5B8 40.66%);
+    background-image: linear-gradient(94.84deg, #B186CB 5.59%, #FDA9B6 96.44%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -605,21 +603,21 @@ button{
 }
 
 .banner-2 p{
-    max-width: 442px;
+    max-width: 666px;
     font: var(--font-weight-normal) 20px/30px var(--body-font);
     color: #A1A1AA;
     margin: 20px auto 28px;
 }
 
 .banner-2 .banner-content .btn{
-    width: 256px;
-    height: 56px;
-    font: var(--font-weight-bold) 18px/18px var(--body-font);
+    width: 162px;
+    height: 50px;
+    font: var(--font-weight-bold) 16px/16px var(--body-font);
     color: #000000;
     background-image: linear-gradient(94.25deg, #B186CB 2.32%, #FDB5B8 101.66%);
     border: 0;
-    border-radius: 4px;
-    line-height: 56px;
+    border-radius: 0;
+    line-height: 50px;
 }
 
 .banner-2 .btn i{
@@ -642,8 +640,10 @@ button{
 }
 
 .kt-choose-us .sec-title{
-    font: var(--font-weight-bold) 50px/60px var(--body-font);
-    margin-bottom: 90px;
+    max-width: 653px;
+    font: var(--font-weight-bold) 50px/62px var(--body-font);
+    text-align: center;
+    margin: 0 auto 90px;
 }
 
 .kt-choose-us .single-card:not(:last-of-type){
@@ -661,241 +661,30 @@ button{
 }
 
 .card-content h3{
-    font: var(--font-weight-bold) 40px/52px var(--body-font);
+    font: var(--font-weight-bold) 40px/50px var(--body-font);
     padding-top: 90px;
 }
 
 .card-content p{
-    font: var(--font-weight-normal) 20px/28px var(--body-font);
+    font: var(--font-weight-medium) 18px/28px var(--body-font);
     color: rgba(255, 255, 255, 0.5);
     margin: 24px 0;
 }
 
 .card-content .btn{
-    width: 170px;
-    height: 52px;
+    width: 131px;
+    height: 50px;
     font: var(--font-weight-bold) 18px/18px var(--body-font);
     color: #000;
     background-image: linear-gradient(92.71deg, #B488CA -3.66%, #F9B3B9 111.36%);
     border-radius: 0;
-    line-height: 52px;
-}
-
-/* Prime Features */
-
-.kt-prime{
-    background-color: #18181B;
-    padding: 100px 0;
-}
-
-.kt-prime .sec-title{
-    font: var(--font-weight-bold) 46px/46px var(--body-font);
-}
-
-.kt-prime .sec-des{
-    max-width: 45%;
-    font: var(--font-weight-normal) 20px/28px var(--body-font);
-    color: #8B8B8D;
-    margin: 16px auto 40px;
-}
-
-.prime-slider{
-    max-width: 88%;
-    margin: 0 auto;
-}
-
-.prime-slider .owl-stage-outer{
-    border-radius: 18px;
-}
-
-.prime-slider .slide{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 24px;
-    background-color: #000000;
-    padding: 40px 50px 60px 40px;
-}
-
-.prime-slider .slide p{
-    font: var(--font-weight-normal) 24px/34px var(--body-font);
-    color: var(--white-color);
-    opacity: .8;
-}
-
-.prime-slider .slide b{
-    min-width: max-content;
-    display: grid;
-    grid-template-columns: 1fr 30px;
-    align-items: center;
-    grid-gap: 12px;
-    font: var(--font-weight-medium) 30px/40px var(--body-font);
-}
-
-.react-icons{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 18px;
-    margin-top: 32px;
-}
-
-.react-icons .icon{
-    width: 70px;
-    height: 70px;
-    background-color: #1F1F23;
-    border: 0.8px solid #2C2C32;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 70px;
-}
-
-/* Account Type Table */
-
-.trade-acunts-2 .sec-title{
-    font: var(--font-weight-bold) 40px/50px var(--body-font);
-    margin-bottom: 16px;
-}
-
-.trade-acunts-2 .sec-des{
-    max-width: 40%;
-    font: var(--font-weight-normal) 24px/32px var(--body-font);
-    color: #8B8B8D;
-    margin: 0 auto;
-}
-
-.trade-acunts-2 .tab-links{
-    justify-content: space-between;
-    background-color:  #1D1D26;
-    border: 1px solid rgba(255, 255, 255, 0.06);
-    border-radius: 0;
-    padding: 4px;
-    margin: 70px 0 50px;
-}
-
-.trade-acunts-2 .nav-item{
-    flex: 1;
-    text-align: center;
-}
-
-.trade-acunts-2 .nav-link{
-    font: var(--font-weight-medium) 24px/35px var(--body-font);
-    color: var(--white-color);
-    background-image: none;
-    border-right: 1px solid rgba(255, 255, 255, 0.06);
-    margin-bottom: 0;
-}
-
-.trade-acunts-2 .nav-item:last-child .nav-link{
-    border: 0;
-}
-
-.trade-acunts-2 .nav-link.active{
-    background-image: linear-gradient(92.71deg, #B488CA -3.66%, #F9B3B9 111.36%);
-    border-color: transparent;
-}
-
-.kt-table::-webkit-scrollbar{
-    height: 3px;
-}
-
-.kt-table::-webkit-scrollbar-track {
-    background: var(--secondary-color);
-}
-
-.kt-table::-webkit-scrollbar-thumb {
-    background: var(--primary-color);
-}
-
-.trade-acunts-2 .accounts-content{
-    background-image: linear-gradient(92.71deg, rgba(180, 136, 202, 0.04) -3.66%, rgba(249, 179, 185, 0.04) 111.36%);
-    border: 1px solid rgba(255, 255, 255, 0.06);
-    border-radius: 0;
-    padding: 40px 32px;
-}
-
-.trade-acunts-2 .kt-table th{
-    min-width: max-content;
-    font: var(--font-weight-medium) 28px/41px var(--body-font);
-    color: var(--white-color);
-    white-space: nowrap;
-    border: 0;
-    padding: 0 16px 8px;
-}
-
-.trade-acunts-2 .kt-table td{
-    font: var(--font-weight-medium) 24px/32px var(--body-font);
-    color: var(--white-color);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
-    padding: 36px 16px;
-    vertical-align: middle;
-}
-
-.trade-acunts-2 .kt-table tr:nth-child(even){
-    background-color: transparent;
-}
-
-.acunts-total{
-    max-width: max-content;
-    display: flex;
-    align-items: center;
-    gap: 24px;
-    border: 1px solid rgba(255, 255, 255, 0.06);
-    margin: 32px auto 70px;
-    padding: 16px;
-    text-align: center;
-}
-
-.acunts-total h3{
-    font: var(--font-weight-medium) 32px/47px var(--body-font);
-    background-image: linear-gradient(92.71deg, #B488CA -3.66%, #F9B3B9 111.36%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-.acunts-total p{
-    font: var(--font-weight-medium) 14px/21px var(--body-font);
-    color: rgba(255, 255, 255, 0.56);
-}
-
-.acunts-total .btn{
-    width: 158px;
-    height: 52px;
-    font: var(--font-weight-bold) 18px/18px var(--body-font);
-    color: #000;
-    background-image: linear-gradient(92.71deg, #B488CA -3.66%, #F9B3B9 111.36%);
-    border-radius: 0;
-    line-height: 52px;
-}
-
-.trade-acunts-2 .trading-sum{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 75px;
-}
-
-.trade-acunts-2 .shape-imgs img{
-    position: absolute;
-    top: 50%;
-    left: 0;
-}
-
-.trade-acunts-2 .shape-imgs img:last-child{
-    left: auto;
-    right: 0;
-    z-index: -1;
+    line-height: 50px;
 }
 
 /* Testimonial */
 
-.testi-2{
-    padding: 60px 0;
-}
-
 .testi-2 .sec-title{
-    font: var(--font-weight-semi-bold) 44px/53px var(--body-font);
+    font: var(--font-weight-medium) 30px/30px var(--body-font);
     margin-bottom: 80px;
 }
 
@@ -1006,105 +795,35 @@ button{
     height: 19px;
 }
 
-/* Trading Start Info */
+/* Review */
 
-.trade-2{
-    padding: 140px 0;
-}
-
-.trade-2 .trade-info{
-    max-width: 50%;
-    margin: 0 auto;
-}
-
-.trade-2 .sec-title{
-    font: var(--font-weight-bold) 40px/50px var(--body-font);
-    margin-bottom: 16px;
-}
-
-.trade-2 .info-list li{
-    display: flex;
-    align-items: center;
-    gap: 16px;
-    font: var(--font-weight-medium) 20px/20px var(--body-font);
-    color: #8B8B8D;
-    margin-bottom: 20px;
-}
-
-.trade-2 .info-list li:last-child{
-    margin-bottom: 0;
-}
-
-.trade-2 .info-list li span{
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    width: 27px;
-    height: 27px;
-    border: 1.5px solid #1F1F23;
-    border-radius: 50%;
-}
-
-.trade-faq{
-    flex: 1;
-    border-left: 1.5px solid #1F1F23;
-    padding: 40px 80px;
-}
-
-.trade-faq .sec-title{
-    max-width: 60%;
-}
-
-.trade-faq p{
-    font: var(--font-weight-medium) 20px/30px var(--body-font);
-    color: #8B8B8D;
-    margin-bottom: 28px;
-}
-
-.trade-faq .btn{
-    width: 170px;
-    height: 52px;
-    font: var(--font-weight-bold) 18px/18px var(--body-font);
-    color: #000;
-    background-image: linear-gradient(97.38deg, #DC8DF8 -8.73%, #F4AEBB 94.39%);
-    border-radius: 0;
-    line-height: 52px;
-}
-
-/* Brand Review */
-
-.kt-brands{
-    background-color: #18181B;
-    padding: 100px 0;
-}
-
-.bnd-reviews-wpr{
+.kt-reviews .sec-title{
     max-width: 70%;
-    border-left: 1px solid #2A2A2E;
-    border-right: 1px solid #2A2A2E;
-    margin: 0 auto;
+    font: var(--font-weight-medium) 48px/60px var(--body-font);
+    margin: 0 auto 80px;
 }
 
-.bnd-reviews .slide{
+/* Newsletter */
+
+.ltr-content{
     text-align: center;
+    border-bottom: 1px solid rgba(20, 20, 23, 1);
+    padding: 170px 0 80px;
 }
 
-.bnd-reviews .slide h2{
-    font: var(--font-weight-bold) 48px/48px var(--body-font);
+.ltr-content h2{
+    font: var(--font-weight-medium) 35px/35px var(--body-font);
+    margin-bottom: 32px;
 }
 
-.bnd-reviews .slide p{
-    max-width: 65%;
-    font: var(--font-weight-normal) 24px/32px var(--body-font);
-    color: rgba(255, 255, 255, 0.5);
-    margin: 24px auto 32px;
-}
-
-.brand-list{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 28px;
+.ltr-content .btn{
+    width: 152px;
+    height: 58px;
+    font: var(--font-weight-bold) 21px/21px var(--body-font);
+    color: #000;
+    background-image: linear-gradient(92.71deg, #B488CA -3.66%, #F9B3B9 111.36%);
+    border-radius: 0;
+    line-height: 58px;
 }
 
 /* Footer */
