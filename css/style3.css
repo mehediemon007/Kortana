@@ -464,7 +464,6 @@ button{
 .header-3 .header-left{
     display: flex;
     align-items: center;
-    gap: 80px;
 }
 
 .header-3 .nav-menu{
@@ -799,31 +798,40 @@ button{
     border-bottom: 2px solid #28282B;
     text-align: center;
     padding-bottom: 32px;
-    margin: 0 auto 70px;
+    margin: 0 auto;
 }
 
 .price-cards{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: baseline;
+    margin-top: 110px;
 }
 
 .price-cards .single-plan{
     width: 470px;
     background-color: #272729;
-    border: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 .price-cards .single-plan.active{
     transform: scale(1.2);
+    box-shadow: 0px 37px 116px rgba(0, 0, 0, 0.8);
 }
 
-.single-plan h3{
+.single-plan .plan-content{
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-bottom: 0;
+}
+
+.plan-content h3{
     font: var(--font-weight-medium) 20px/28px var(--body-font);
     color: rgba(255, 255, 255, 0.56);
     border-bottom: 1px solid rgba(255, 255, 255, 0.06);
     margin: 0 24px;
+    padding: 16px 0;
     text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .2em;
 }
 
 .plan-details{
@@ -837,9 +845,15 @@ button{
     text-align: center;
 }
 
+.single-plan.active .price{
+    font: var(--font-weight-bold) 56px/82px var(--body-font);
+    margin: 24px 0;
+}
+
 .plan-details del{
     font: var(--font-weight-normal) 28px/36px var(--body-font);
     color: rgba(255, 255, 255, 0.56);
+    margin-top: 25px;
 }
 
 .plan-details .discount{
@@ -848,6 +862,7 @@ button{
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    margin-bottom: 25px;
 }
 
 .plan-details li{
@@ -881,12 +896,19 @@ button{
 .single-plan .btn{
     display: block;
     width: 100%;
-    height: 60px;
-    font: var(--font-weight-medium) 20px/28px var(--body-font);
+    height: 61px;
+    font: var(--font-weight-medium) 16px/24px var(--body-font);
     background-image: linear-gradient(95.22deg, #B186CB -6.09%, #F9B2B9 108.11%);
     border-radius: 0;
     border: 0;
-    line-height: 60px;
+    line-height: 61px;
+    margin-top: 16px;
+}
+
+.single-plan.active .btn{
+    height: 50px;
+    font: var(--font-weight-medium) 20px/28px var(--body-font);
+    line-height: 45px;
 }
 
 /* Review */

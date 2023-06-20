@@ -114,22 +114,18 @@
 
 @media only screen and (max-width:1199px){
 
-    .header-3 .header-left,
-    .header-3 .header-right{
-        gap: 50px;
+    .header-3 .header-right,
+    .header-3 .nav-menu{
+        gap: 16px;
     }
 
-    .header-3 .shapes img{
-        max-height: 100px;
-    }
-
-    .header-3 .shapes img:last-child{
-        max-height: 130px;
+    .header-3 .nav-menu a{
+        font-size: 16px;
     }
 
     .banner-2 .banner-title{
-        font-size: 60px;
-        line-height: 70px;
+        font-size: 55px;
+        line-height: 60px;
     }
 
     .sec-spacer,
@@ -138,13 +134,19 @@
     }
 
     .kt-choose-us .single-card{
+        grid-template-columns: 1fr 450px;
+        align-items: center;
         grid-gap: 50px;
+    }
+
+    .kt-choose-us .single-card.reverse{
+        grid-template-columns: 450px 1fr;
     }
 
     .card-content h3{
         font-size: 32px;
         line-height: 42px;
-        padding-top: 70px;
+        padding-top: 0px;
     }
 
     .prime-slider{
@@ -187,6 +189,10 @@
         left: -20px;
     }
 
+    .kt-reviews .sec-title{
+        max-width: 100%;
+    }
+
 }
 
 /* Max Width 1099px */
@@ -210,8 +216,8 @@
         padding: 80px 0;
     }
 
-    .header-3 .nav-menu{
-        gap: 28px;
+    .header-3 .header-container{
+        gap: 24px;
     }
 
     .header-3 .nav-menu a{
@@ -246,12 +252,12 @@
     }
 
     .banner-2 .banner-title{
-        font-size: 43px;
-        line-height: 50px;
+        font-size: 40px;
+        line-height: 48px;
     }
 
     .banner-2 p{
-        max-width: 280px;
+        max-width: 100%;
         font-size: 12px;
         line-height: 18px;
         margin: 16px auto 24px;
@@ -312,120 +318,10 @@
         font-size: 12px;
         line-height: 36px;
     }
-
-    .kt-prime .sec-title{
-        font-size: 23px;
-        line-height: 24px;
-    }
-
-    .kt-prime .sec-des{
-        max-width: 303px;
-        font-size: 10px;
-        line-height: 16px;
-        margin: 16px auto 24px;
-    }
-
-    .prime-slider{
-        max-width: 75%;
-    }
-
-    .prime-slider .slide{
-        padding: 24px;
-    }
-
-    .prime-slider .slide p{
-        font-size: 12px;
-        line-height: 17px;
-    }
-
-    .prime-slider .slide b{
-        grid-template-columns: 1fr 16px;
-        font-size: 15px;
-        line-height: 20px;
-    }
-
-    .react-icons{
-        gap: 8px;
-    }
-
-    .react-icons .icon {
-        width: 35px;
-        height: 35px;
-        line-height: 30px;
-    }
-
-    .react-icons .icon img{
-        max-width: 16px;
-    }
-
-    .trade-acunts-2 .sec-title{
-        font-size: 22px;
-        line-height: 28px;
-    }
-
-    .trade-acunts-2 .sec-des{
-        max-width: 299px;
-        font-size: 13px;
-        line-height: 18px;
-    }
-
-    .trade-acunts-2 .tab-links{
-        margin: 48px 0 32px;
-    }
-
-    .trade-acunts-2 .nav-link{
-        font-size: 13px;
-        line-height: 20px;
-    }
-
-    .trade-acunts-2 .kt-table th{
-        font-size: 15px;
-        line-height: 23px;
-    }
-
-    .trade-acunts-2 .kt-table td{
-        font-size: 13px;
-        line-height: 18px;
-        padding: 16px;
-    }
-
-    .acunts-total h3{
-        font-size: 18px;
-        line-height: 27px;
-    }
-
-    .acunts-total p{
-        font-size: 8px;
-        line-height: 12px;
-    }
-
-    .acunts-total .btn{
-        width: 91px;
-        height: 30px;
-        font-size: 10px;
-        line-height: 30px;
-    }
-
-    .acunts-total{
-        margin: 32px auto 40px;
-    }
-
-    .trade-acunts-2 .trading-sum{
-        gap: 40px;
-    }
-
-    .trade-acunts-2 .trading-sum p{
-        font-size: 10px;
-        line-height: 10px;
-    }
-
+    
     .testi-2 .sec-title{
         font-size: 24px;
         line-height: 29px;
-        margin-bottom: 40px;
-    }
-
-    .reviews-sum{
         margin-bottom: 40px;
     }
 
@@ -480,66 +376,26 @@
         line-height: 1;
     }
 
-    .kt-prime{
-        padding: 50px 0;
-    }
-
-    .trade-2{
-        padding: 80px 0;
-    }
-
-    .trade-2 .sec-title{
-        max-width: 75%;
-        font-size: 28px;
-        line-height: 36px;
-    }
-
-    .trade-2 .info-list li{
-        font-size: 15px;
-        line-height: 16px;
-        margin-bottom: 16px;
-    }
-
-    .trade-faq p{
-        font-size: 15px;
-        line-height: 23px;
-    }
-
-    .trade-faq .btn{
-        width: 130px;
-        height: 40px;
-        font-size: 13px;
-        line-height: 40px;
-    }
-
-    .kt-brands{
-        padding: 50px 0;
-    }
-
-    .bnd-reviews-wpr{
-        max-width: 80%;
-    }
-
-    .bnd-reviews .slide h2{
-        font-size: 28px;
-        line-height: 27px;
-    }
-
-    .bnd-reviews .slide p{
-        font-size: 14px;
-        line-height: 18px;
-    }
-
-    .brand-list{
-        gap: 14px;
-    }
-
-    .brand-list img{
-        max-width: 90px;
-    }
-
     .testi-slider-2 .slide-grp{
         gap: 12px;
+    }
+
+    .kt-reviews .sec-title{
+        font-size: 34px;
+        line-height: 41px;
+        margin-bottom: 48px;
+    }
+
+    .ltr-content .btn {
+        width: 140px;
+        height: 50px;
+        font: var(--font-weight-bold) 18px/18px var(--body-font);
+        border-radius: 0;
+        line-height: 50px;
+    }
+
+    .price-cards{
+        margin-top: 80px;
     }
 
     .footer-3{
@@ -591,104 +447,7 @@
 /* Max Width 767px */
 @media only screen and (max-width:767px){
 
-    .header-3 .header-left,
-    .header-3 .header-right{
-        gap: 12px;
-    }
-
-    .header-3 .nav-menu {
-        gap: 16px;
-    }
-
-    .header-3 .btn{
-        padding: 0 12px;
-    }
-
-    .banner-2 .banner-title {
-        font-size: 36px;
-        line-height: 42px;
-    }
-
-    .kt-choose-us .single-card{
-        display: flex;
-        flex-direction: column;
-        gap: 32px;
-        text-align: center;
-    }
-
-    .kt-choose-us .single-card.reverse{
-        flex-direction: column-reverse;
-    }
-
-    .kt-choose-us .single-card:not(:last-of-type){
-        margin-bottom: 32px;
-    }
-
-    .card-content h3 br{
-        display: none;
-    }
-
-    .trade-2 .info-list{
-        padding-right: 16px;
-    }
-
-    .trade-2 .sec-title {
-        font-size: 24px;
-        line-height: 32px;
-    }
-
-    .trade-faq {
-        padding: 16px 32px;
-    }
-
-    .trade-acunts-2 .trading-sum {
-        gap: 32px;
-    }
-
-    .footer-widget .shape {
-        top: 0px;
-        left: -32px;
-    }
-
-    .footer-bottom{
-        margin-top: 32px;
-    }
-}
-
-/* Max Width 575px */
-@media only screen and (max-width:575px){
-
-    .sec-spacer, 
-    .kt-choose-us{
-        padding: 40px 0;
-    }
-
-    .header-3{
-        top: 0;
-    }
-
-    .header-3 .logo img{
-        max-width: 60px;
-    }
-
-    .header-actions{
-        gap: 8px;
-    }
-
-    .lang-switcher .lang{
-        font-size: 8px;
-    }
-
-    .lang-switcher .lang-list .single-lang .lang-text {
-        font-size: 10px;
-    }
-
-    .header-3 .btn{
-        height: 28px;
-        font-size: 10px;
-        line-height: 28px;
-    }
-
+    
     /* Mobile Nav Start */
 
     .header-3 .header-left{
@@ -700,6 +459,7 @@
     .header-3 .header-right{
         flex: 1;
         justify-content: flex-end;
+        gap: 12px;
     }
 
     .header-3 .kt-main-nav{
@@ -778,6 +538,98 @@
     }
 
     /* Mobile Nav End */
+
+    .header-3 .btn{
+        padding: 0 12px;
+    }
+
+    .banner-2 .banner-title {
+        font-size: 36px;
+        line-height: 42px;
+    }
+
+    .kt-choose-us .single-card{
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        text-align: center;
+    }
+
+    .kt-choose-us .single-card.reverse{
+        flex-direction: column-reverse;
+    }
+
+    .kt-choose-us .single-card:not(:last-of-type){
+        margin-bottom: 32px;
+    }
+
+    .price-cards{
+        align-items: flex-end;
+    }
+
+    .price-cards .single-plan{
+        width: auto;
+        flex: 1;
+    }
+
+    .price-cards .single-plan.active{
+        flex: 1.2;
+        transform: scaleY(1.1);
+    }
+
+    .single-plan.active li {
+        font: var(--font-weight-medium) 16px/24px var(--body-font);
+        margin-bottom: 16px;
+    }
+
+    .single-plan.active li .icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    .footer-widget .shape {
+        top: 0px;
+        left: -32px;
+    }
+
+    .footer-bottom{
+        margin-top: 32px;
+    }
+}
+
+/* Max Width 575px */
+@media only screen and (max-width:575px){
+
+    .sec-spacer, 
+    .kt-choose-us{
+        padding: 40px 0;
+    }
+
+    .header-3{
+        top: 0;
+    }
+
+    .header-3 .logo img{
+        max-width: 60px;
+    }
+
+    .header-actions{
+        gap: 8px;
+    }
+
+    .lang-switcher .lang{
+        font-size: 8px;
+    }
+
+    .lang-switcher .lang-list .single-lang .lang-text {
+        font-size: 10px;
+    }
+
+    .header-3 .btn{
+        height: 28px;
+        font-size: 10px;
+        line-height: 28px;
+    }
 
     .lang-switcher .lang-list-open{
         top: 32px;
@@ -905,36 +757,63 @@
         font: var(--font-weight-medium) 10px/12px var(--body-font);
         border-bottom: 1px solid #28282B;
         padding-bottom: 12px;
-        margin: 0 auto 30px;
+        margin: 0 auto;
     }
 
-    .single-plan h3{
-        font: var(--font-weight-medium) 6px/10px var(--body-font);
-        margin: 0 16px;
+    .price-cards{
+        align-items: baseline;
+        margin-top: 40px;
+    }
+
+    .price-cards .single-plan{
+        width: auto;
+        flex: 1;
+    }
+
+    .price-cards .single-plan.active{
+        flex: 1.4;
+        transform: scaleY(1.2);
+    }
+
+    .single-plan .plan-content{
+        border: 0;
+    }
+
+    .plan-content h3{
+        font: var(--font-weight-medium) 8px/12px var(--body-font);
+        margin: 0 8px;
+        padding: 8px 0;
     }
 
     .plan-details .price{
-        font: var(--font-weight-bold) 20px/28px var(--body-font);
+        font: var(--font-weight-bold) 16px/24px var(--body-font);
         text-align: center;
+    }
+
+    .single-plan.active .price{
+        font: var(--font-weight-bold) 18px/28px var(--body-font);
+        margin: 4px 0;
     }
     
     .plan-details del{
         font: var(--font-weight-normal) 12px/16px var(--body-font);
+        margin-top: 8px;
     }
     
     .plan-details .discount{
         font: var(--font-weight-bold) 14px/18px var(--body-font);
+        margin-bottom: 8px;
     }
     
-    .plan-details li{
+    .plan-details li,
+    .single-plan.active li{
         gap: 8px;
         font: var(--font-weight-medium) 8px/12px var(--body-font);
         margin-bottom: 8px;
     }
     
     .single-plan.active li{
-        font: var(--font-weight-medium) 12px/16px var(--body-font);
-        margin-bottom: 12px;
+        margin-bottom: 10px;
     }
     
     .plan-details li .icon{
@@ -948,19 +827,29 @@
     }
 
     .single-plan.active li .icon{
-        width: 20px;
+        width: 24px;
         height: 20px;
+        line-height: 16px;
     }
 
     .single-plan.active .icon img{
         width: 12px;
         height: 12px;
     }
+
     
     .single-plan .btn{
-        height: 20px;
+        height: 21px;
         font: var(--font-weight-medium) 8px/12px var(--body-font);
-        line-height: 20px;
+        line-height: 21px;
+        margin-top: 16px;
+    }
+
+    .single-plan.active .btn{
+        height: 18px;
+        font: var(--font-weight-medium) 8px/12px var(--body-font);
+        line-height: 18px;
+        margin-top: 20px;
     }
 
     .single-plan .btn img{
@@ -996,6 +885,7 @@
     }
 
     .footer-3 .footer-top{
+        background-color: rgba(255, 255, 255, 0.02);
         border: 1px solid rgba(255, 255, 255, 0.06);
         border-radius: 16px;
         padding: 16px;
@@ -1009,10 +899,23 @@
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
+        margin-bottom: 14px;
     }
 
     .footer-3 .social-links{
+        justify-content: center;
+        flex-wrap: wrap;
         gap: 8px;
+    }
+
+    .footer-3 .single-link{
+        display: flex;
+        align-items: center;
+        gap: 4px;
+        font: var(--font-weight-medium) 10px/14px var(--body-font);
+        border: 1px solid rgba(255, 255, 255, 0.06);
+        border-radius: 8px;
+        padding: 6px;
     }
     
     .footer-3 .social-links img{
@@ -1020,10 +923,18 @@
     }
     
     .footer-3 .footer-content p{
-        max-width: 100px;
+        max-width: 100%;
         font-size: 10px;
         line-height: 14px;
         margin: 6px 0;
+    }
+
+    .footer-3 div[class^='col-3']{
+        padding-right: 0;
+    }
+
+    .footer-3 div[class^='col-3']:not(:last-of-type){
+        border-right: 1px solid rgba(255, 255, 255, 0.04);
     }
     
     .footer-3 .footer-widget h5{
