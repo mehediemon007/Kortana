@@ -431,7 +431,7 @@ button{
 
 .kt-header{
     position: fixed;
-    top: 40px;
+    top: 20px;
     left: 0;
     width: 100%;
     background-color: transparent;
@@ -446,15 +446,6 @@ button{
     border-color:rgb(29, 29, 38);
 }
 
-.header-2{
-    top: 0;
-    padding-top: 20px;
-}
-
-.header-2.sticky{
-    border-color: transparent;
-}
-
 .header-container{
     position: relative;
     display: flex;
@@ -465,26 +456,25 @@ button{
     padding: 12px 40px;
 }
 
-.kt-header.sticky .header-container,
-.header-2 .header-container{
+.header-3 .header-container{
     background-color: transparent;
     padding: 12px 0;
 }
 
-.header-2 .header-left{
+.header-3 .header-left{
     display: flex;
     align-items: center;
     gap: 80px;
 }
 
-.header-2 .nav-menu{
+.header-3 .nav-menu{
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 40px;
 }
 
-.header-2 .nav-menu a{
+.header-3 .nav-menu a{
     display: block;
     font-size: 18px;
     font-weight: var(--font-weight-medium);
@@ -493,7 +483,7 @@ button{
     text-transform: capitalize;
 }
 
-.header-2 .header-right,
+.header-3 .header-right,
 .header-actions{
     display: flex;
     justify-content: space-between;
@@ -505,7 +495,7 @@ button{
     gap: 16px;
 }
 
-.header-2 .btn{
+.header-3 .btn{
     height: 52px;
     font-size: 18px;
     font-weight: var(--font-weight-medium);
@@ -515,7 +505,7 @@ button{
     line-height: 50px;
 }
 
-.header-2 .primary-btn{
+.header-3 .primary-btn{
     background-image: linear-gradient(95.22deg, #B186CB -6.09%, #F9B2B9 108.11%);
 }
 
@@ -682,6 +672,7 @@ button{
     font: var(--font-weight-bold) 18px/18px var(--body-font);
     color: #000;
     background-image: linear-gradient(92.71deg, #B488CA -3.66%, #F9B3B9 111.36%);
+    border: 0;
     border-radius: 0;
     line-height: 50px;
 }
@@ -931,25 +922,25 @@ button{
 
 /* Footer */
 
-.footer-2{
+.footer-3{
     padding-top: 140px;
 }
 
-.footer-2 .social-links{
+.footer-3 .social-links{
     display: flex;
     justify-content: flex-start;
     align-items: center;
     gap: 16px;
 }
 
-.footer-2 .footer-content p{
+.footer-3 .footer-content p{
     max-width: 178px;
     font: var(--font-weight-normal) 16px/26px var(--body-font);
     color: rgba(255, 255, 255, 0.5);
     margin: 12px 0;
 }
 
-.footer-2 .footer-widget h5{
+.footer-3 .footer-widget h5{
     font: var(--font-weight-bold) 14px/20px var(--body-font);
     color: rgba(255, 255, 255, 0.7);
     text-transform: uppercase;
@@ -957,25 +948,25 @@ button{
     margin-bottom: 8px;
 }
 
-.footer-2 .footer-menu li a{
+.footer-3 .footer-menu li a{
     display: inline-block;
     font: var(--font-weight-normal) 15px/24px var(--body-font);
     color: #8B8B8D;
     margin-bottom: 8px;
 }
 
-.footer-2 .footer-menu li:last-child a{
+.footer-3 .footer-menu li:last-child a{
     margin-bottom: 0;
 }
 
-.footer-2 .payments{
+.footer-3 .payments{
     display: flex;
     align-items: center;
     gap: 8px;
     margin-top: 24px;
 }
 
-.footer-2 .payments img{
+.footer-3 .payments img{
     width: 24px;
 }
 

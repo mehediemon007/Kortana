@@ -1,7 +1,7 @@
 /* Min Width 1600px */
 @media only screen and (min-width: 1800px){
     
-    .header-2 .shapes img{
+    .header-3 .shapes img{
         min-width: 55% !important;
     }
 }
@@ -12,7 +12,7 @@
         max-width: 1550px !important;
     }
     
-    .header-2 .shapes img{
+    .header-3 .shapes img{
         right: 0;
         min-width: 50%;
     }
@@ -114,16 +114,16 @@
 
 @media only screen and (max-width:1199px){
 
-    .header-2 .header-left,
-    .header-2 .header-right{
+    .header-3 .header-left,
+    .header-3 .header-right{
         gap: 50px;
     }
 
-    .header-2 .shapes img{
+    .header-3 .shapes img{
         max-height: 100px;
     }
 
-    .header-2 .shapes img:last-child{
+    .header-3 .shapes img:last-child{
         max-height: 130px;
     }
 
@@ -210,11 +210,11 @@
         padding: 80px 0;
     }
 
-    .header-2 .nav-menu{
+    .header-3 .nav-menu{
         gap: 28px;
     }
 
-    .header-2 .nav-menu a{
+    .header-3 .nav-menu a{
         font-size: 11px;
         line-height: 16px;
     }
@@ -227,17 +227,17 @@
         font-size: 8px;
     }
 
-    .header-2 .btn{
+    .header-3 .btn{
         height: 32px;
         font-size: 11px;
         line-height: 32px;
     }
 
-    .header-2 .shapes img {
+    .header-3 .shapes img {
         max-height: 80px;
     }
 
-    .header-2 .shapes img:last-child{
+    .header-3 .shapes img:last-child{
         max-height: 110px;
     }
 
@@ -542,40 +542,40 @@
         gap: 12px;
     }
 
-    .footer-2{
+    .footer-3{
         padding-top: 70px;
     }
 
-    .footer-2 .social-links{
+    .footer-3 .social-links{
         gap: 12px;
     }
     
-    .footer-2 .social-links img{
+    .footer-3 .social-links img{
         max-width: 20px;
     }
     
-    .footer-2 .footer-content p{
+    .footer-3 .footer-content p{
         max-width: 132px;
         font-size: 10px;
         line-height: 17px;
         margin: 10px 0;
     }
     
-    .footer-2 .footer-widget h5{
+    .footer-3 .footer-widget h5{
         font-size: 10px;
         line-height: 15px;
         margin-bottom: 6px;
     }
 
-    .footer-2 .payments{
+    .footer-3 .payments{
         margin-top: 12px;
     }
 
-    .footer-2 .payments img{
+    .footer-3 .payments img{
         max-width: 16px;
     }
     
-    .footer-2 .footer-menu li a{
+    .footer-3 .footer-menu li a{
         font-size: 10px;
         line-height: 18px;
         margin-bottom: 6px;
@@ -591,16 +591,16 @@
 /* Max Width 767px */
 @media only screen and (max-width:767px){
 
-    .header-2 .header-left,
-    .header-2 .header-right{
+    .header-3 .header-left,
+    .header-3 .header-right{
         gap: 12px;
     }
 
-    .header-2 .nav-menu {
+    .header-3 .nav-menu {
         gap: 16px;
     }
 
-    .header-2 .btn{
+    .header-3 .btn{
         padding: 0 12px;
     }
 
@@ -663,41 +663,46 @@
         padding: 40px 0;
     }
 
-    .header-2{
-        padding-top: 0;
+    .header-3{
+        top: 0;
     }
-    
+
+    .header-3 .logo img{
+        max-width: 60px;
+    }
+
+    .header-actions{
+        gap: 8px;
+    }
+
     .lang-switcher .lang{
         font-size: 8px;
     }
 
-    .header-2 .btn{
-        height: 32px;
-        font-size: 11px;
-        line-height: 32px;
+    .lang-switcher .lang-list .single-lang .lang-text {
+        font-size: 10px;
     }
 
-    .header-2 .shapes img {
-        max-height: 80px;
-    }
-
-    .header-2 .shapes img:last-child{
-        max-height: 110px;
+    .header-3 .btn{
+        height: 28px;
+        font-size: 10px;
+        line-height: 28px;
     }
 
     /* Mobile Nav Start */
 
-    .header-2 .header-left{
+    .header-3 .header-left{
         flex: 1;
-        justify-content: space-between;
+        justify-content: flex-start;
+        gap: 16px;
     }
 
-    .header-2 .header-right{
+    .header-3 .header-right{
         flex: 1;
         justify-content: flex-end;
     }
 
-    .header-2 .kt-main-nav{
+    .header-3 .kt-main-nav{
         position: absolute;
         top: 100%;
         left: 0;
@@ -708,13 +713,13 @@
         z-index: 100;
     }
 
-    .header-2 .nav-menu{
+    .header-3 .nav-menu{
         flex-direction: column;
         align-items: flex-start;
         gap: 0;
     }
 
-    .header-2 .nav-menu a{
+    .header-3 .nav-menu a{
         width: 100%;
         border-bottom: 1px dashed var(--secondary-color);
         padding: 8px 0;
@@ -733,6 +738,7 @@
         width: 32px;
         height: 32px;
         border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 50%;
         transform: rotate(0deg);
         transition: 0.5s ease-in-out;
         outline: none;
@@ -783,7 +789,7 @@
 
     .banner-2 .row{
         display: grid !important;
-        grid-template-columns: 1fr 215px 1fr;
+        grid-template-columns: 1fr 244px 1fr;
         grid-gap: 16px;
     }
 
@@ -792,73 +798,30 @@
         padding: 0;
     }
 
-    .banner-2 .banner-title{
-        font-size: 32px;
-        line-height: 40px;
+    .banner-2 .banner-title {
+        font-size: 28px;
+        line-height: 36px;
     }
 
     .banner-2 p{
-        max-width: 189px;
+        max-width: 224px;
         font-size: 10px;
         line-height: 18px;
         margin: 12px auto 18px;
     }
 
     .banner-2 .banner-content .btn{
-        width: 154px;
-        height: 32px;
+        width: 100px;
+        height: 28px;
         font-size: 10px;
-        line-height: 11px;
-        line-height: 32px;
-    }
-
-    .kt-features{
-        border: 0;
-        padding: 24px;
-    }
-
-    .features-wpr{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        grid-gap: 24px;
-    }
-
-    .features-2 .single-feature{
-        border: 1px solid rgba(255, 255, 255, 0.06);
-    }
-
-    .features-2 .single-feature.active{
-        background-color: #000;
-        border-color: #000;
-    }
-
-    .features-2 .single-feature.active::before{
-        content: none;
-    }
-
-    .features-2 .single-feature h3{
-        font-size: 18px;
-        line-height: 18px;
-        margin-bottom: 16px;
-    }
-
-    .features-2 .single-feature p{
-        font-size: 10px;
-        line-height: 10px;
-    }
-
-    .features-2 .single-feature{
-        padding: 32px 16px;
+        line-height: 8px;
+        line-height: 28px;
     }
 
     .kt-choose-us .sec-title{
         font-size: 24px;
         line-height: 32px;
         margin-bottom: 32px;
-    }
-
-    .kt-choose-us .single-card:not(:last-of-type){
-        margin-bottom: 0;
     }
 
     .card-content h3{
@@ -881,54 +844,8 @@
         line-height: 36px;
     }
 
-    .kt-prime .sec-title{
-        font-size: 20px;
-        line-height: 28px;
-    }
-
-    .kt-prime .sec-des{
-        max-width: 263px;
-        font-size: 12px;
-        line-height: 16px;
-        margin: 16px auto 24px;
-    }
-
-    .prime-slider{
-        max-width: 90%;
-    }
-
-    .prime-slider .owl-stage-outer{
-        border-radius: 0;
-    }
-
-    .prime-slider .slide{
-        flex-direction: column;
-        border-radius: 0;
-        padding: 16px;
-    }
-
-    .prime-slider .slide p{
-        text-align: center;
-    }
-
-    .prime-slider .slide b{
-        grid-template-columns: 1fr 16px;
-        font-size: 14px;
-        line-height: 21px;
-    }
-
-    .react-icons{
-        gap: 8px;
-    }
-
-    .react-icons .icon {
-        width: 28px;
-        height: 28px;
-        line-height: 24px;
-    }
-
-    .react-icons .icon img{
-        max-width: 12px;
+    .kt-choose-us .single-card.mb-prb{
+        margin-bottom: 8px;
     }
 
     .testi-slider-2 .slide-grp{
@@ -936,93 +853,10 @@
         gap: 8px;
     }
 
-    .trade-acunts-2 .sec-title{
-        font-size: 20px;
-        line-height: 28px;
-    }
-
-    .trade-acunts-2 .sec-des{
-        max-width: 290px;
-        font-size: 12px;
-        line-height: 16px;
-    }
-
-    .trade-acunts-2 .tab-links{
-        margin: 32px 24px;
-    }
-
-    .trade-acunts-2 .nav-link{
-        font-size: 10px;
-        line-height: 15px;
-    }
-
-    .trade-acunts-2 .accounts-content{
-        border-radius: 8px;
-        padding: 24px;
-    }
-
-    .trade-acunts-2 .kt-table th{
-        font-size: 10px;
-        line-height: 15px;
-    }
-
-    .trade-acunts-2 .kt-table td{
-        font-size: 10px;
-        line-height: 15px;
-        padding: 12px;
-    }
-
-    .acunts-total h3{
-        font-size: 18px;
-        line-height: 27px;
-    }
-
-    .acunts-total p{
-        font-size: 8px;
-        line-height: 12px;
-    }
-
-    .acunts-total .btn{
-        width: 91px;
-        height: 30px;
-        font-size: 10px;
-        line-height: 30px;
-    }
-
-    .acunts-total{
-        margin: 32px auto 40px;
-    }
-
-    .trade-acunts-2 .trading-sum{
-        gap: 16px;
-    }
-
-    .trade-acunts-2 .trading-sum p{
-        font-size: 6px;
-        line-height: 9px;
-    }
-
-    .trade-acunts-2 .accounts-content{
-        border: 0;
-    }
-
-    .trade-acunts-2 .acc-table-wpr{
-        border: 1px solid rgba(255, 255, 255, 0.06);
-    }
-
-    .trade-acunts-2 .shape-imgs img{
-        top: 70%;
-        max-width: 50px;
-    }
-
     .testi-2 .sec-title{
         font-size: 20px;
         line-height: 28px;
         margin-bottom: 28px;
-    }
-
-    .reviews-sum{
-        margin-bottom: 40px;
     }
 
     .testi-2 .reviews-sum h4 {
@@ -1066,134 +900,160 @@
         line-height: 1;
     }
 
-    .kt-prime{
-        padding: 50px 0;
-    }
-
-    .trade-2{
-        padding: 40px 0;
-    }
-
-    .trade-2 .sec-title{
+    .kt-prices .sec-title {
         max-width: 100%;
-        font-size: 20px;
-        line-height: 28px;
+        font: var(--font-weight-medium) 10px/12px var(--body-font);
+        border-bottom: 1px solid #28282B;
+        padding-bottom: 12px;
+        margin: 0 auto 30px;
+    }
+
+    .single-plan h3{
+        font: var(--font-weight-medium) 6px/10px var(--body-font);
+        margin: 0 16px;
+    }
+
+    .plan-details .price{
+        font: var(--font-weight-bold) 20px/28px var(--body-font);
         text-align: center;
     }
-
-    .trade-2 .info-list{
-        column-count: 2;
+    
+    .plan-details del{
+        font: var(--font-weight-normal) 12px/16px var(--body-font);
+    }
+    
+    .plan-details .discount{
+        font: var(--font-weight-bold) 14px/18px var(--body-font);
+    }
+    
+    .plan-details li{
+        gap: 8px;
+        font: var(--font-weight-medium) 8px/12px var(--body-font);
+        margin-bottom: 8px;
+    }
+    
+    .single-plan.active li{
+        font: var(--font-weight-medium) 12px/16px var(--body-font);
+        margin-bottom: 12px;
+    }
+    
+    .plan-details li .icon{
+        width: 16px;
+        height: 16px;
     }
 
-    .trade-2 .info-list li{
-        display: grid;
-        grid-template-columns: 27px 1fr;
-        font-size: 12px;
-        line-height: 18px;
+    .plan-details .icon img{
+        width: 10px;
+        height: 10px;
+    }
+
+    .single-plan.active li .icon{
+        width: 20px;
+        height: 20px;
+    }
+
+    .single-plan.active .icon img{
+        width: 12px;
+        height: 12px;
+    }
+    
+    .single-plan .btn{
+        height: 20px;
+        font: var(--font-weight-medium) 8px/12px var(--body-font);
+        line-height: 20px;
+    }
+
+    .single-plan .btn img{
+        max-width: 8px;
+    }
+
+    .kt-reviews .sec-title {
+        max-width: 100%;
+        font: var(--font-weight-medium) 18px/24px var(--body-font);
+        margin: 0 auto 30px;
+    }
+
+    .ltr-content{
+        padding-bottom: 0;
+        border-bottom: 0;
+    }
+
+    .ltr-content h2{
+        font: var(--font-weight-medium) 18px/26px var(--body-font);
         margin-bottom: 12px;
     }
 
-    .trade-faq{
+    .ltr-content .btn {
+        width: 70px;
+        height: 27px;
+        font: var(--font-weight-bold) 10px/15px var(--body-font);
         border: 0;
+        line-height: 27px;
+    }
+
+    .footer-3{
+        padding-top: 60px;
+    }
+
+    .footer-3 .footer-top{
+        border: 1px solid rgba(255, 255, 255, 0.06);
+        border-radius: 16px;
         padding: 16px;
-        text-align: center;
     }
 
-    .trade-faq p{
-        font-size: 12px;
-        line-height: 18px;
-    }
-
-    .trade-faq .btn{
-        width: 86px;
-        height: 28px;
-        font-size: 10px;
-        line-height: 28px;
-    }
-
-    .kt-brands{
-        padding: 50px 0;
-    }
-
-    .bnd-reviews-wpr{
-        max-width: 90%;
-    }
-
-    .bnd-reviews .slide h2{
-        font-size: 20px;
-        line-height: 28px;
-    }
-
-    .bnd-reviews .slide p{
-        font-size: 12px;
-        line-height: 16px;
-    }
-
-    .brand-list{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        justify-items: center;
-    }
-
-    .brand-list img{
-        max-width: 90px;
-    }
-
-    .owl-prev, .owl-next{
-        left: -20px;
-        font-size: 16px !important;
-    }
-
-    .owl-next{
-        left: auto;
-        right: -20px;
-    }
-
-    .footer-2{
-        padding-top: 90px;
-    }
-
-    .footer-2 .logo{
+    .footer-3 .logo{
         max-width: 70px;
     }
 
-    .footer-2 .social-links{
+    .footer-content{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .footer-3 .social-links{
         gap: 8px;
     }
     
-    .footer-2 .social-links img{
+    .footer-3 .social-links img{
         max-width: 16px;
     }
     
-    .footer-2 .footer-content p{
+    .footer-3 .footer-content p{
         max-width: 100px;
         font-size: 10px;
         line-height: 14px;
         margin: 6px 0;
     }
     
-    .footer-2 .footer-widget h5{
+    .footer-3 .footer-widget h5{
         font-size: 10px;
         line-height: 14px;
         margin-bottom: 4px;
     }
 
-    .footer-2 .payments{
+    .footer-3 .payments{
         margin-top: 12px;
     }
 
-    .footer-2 .payments img{
+    .footer-3 .footer-widget img{
         display: none;
     }
 
-    .footer-2 .footer-menu li {
+    .footer-3 .footer-menu li {
         line-height: 1;
     }
     
-    .footer-2 .footer-menu li a{
+    .footer-3 .footer-menu li a{
         font-size: 10px;
         line-height: 16px;
         margin-bottom: 0px;
+    }
+
+    .footer-bottom{
+        border-top: 0;
+        margin-top: 0;
+        padding: 16px 0;
     }
 
     .footer-bottom p{
@@ -1212,25 +1072,21 @@
 
 @media only screen and (max-width:416px){
 
-    .footer-2{
-        padding-top: 70px;
-    }
-
-    .footer-2 .footer-content p{
+    /* .footer-3 .footer-content p{
         font-size: 8px;
         line-height: 12px;
     }
 
-    .footer-2 .social-links img{
+    .footer-3 .social-links img{
         max-width: 12px;
     }
 
-    .footer-2 .footer-widget h5{
+    .footer-3 .footer-widget h5{
         font-size: 8px;
         line-height: 12px;
     }
 
-    .footer-2 .footer-menu li a{
+    .footer-3 .footer-menu li a{
         font-size: 8px;
         line-height: 10px;
     }
@@ -1238,7 +1094,7 @@
     .footer-bottom p{
         font-size: 8px;
         line-height: 12px;
-    }
+    } */
 }
 
 /* Max Width 390px */
@@ -1255,18 +1111,18 @@
 
 @media only screen and (max-width:380px){
 
-    .footer-2 .footer-content p{
+    /* .footer-3 .footer-content p{
         max-width: 100px;
         font-size: 7px;
         line-height: 10px;
         margin: 6px 0;
     }
 
-    .footer-2 .footer-menu li a{
+    .footer-3 .footer-menu li a{
         font-size: 7px;
         line-height: 9px;
         margin-bottom: 0px;
-    }
+    } */
 
 }
 
