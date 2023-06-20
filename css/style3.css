@@ -493,11 +493,16 @@ button{
     text-transform: capitalize;
 }
 
-.header-2 .header-right{
+.header-2 .header-right,
+.header-actions{
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 80px;
+}
+
+.header-actions{
+    gap: 16px;
 }
 
 .header-2 .btn{
@@ -592,13 +597,13 @@ button{
 }
 
 .banner-2 .banner-title{
-    font-size: 72px;
+    font-size: 64px;
     background-image: linear-gradient(94.84deg, #B186CB 5.59%, #FDA9B6 96.44%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     /* animation: textanim 2s linear infinite; */
-    line-height: 82px;
+    line-height: 76px;
     margin: 0 auto;
 }
 
