@@ -818,6 +818,7 @@ button{
 }
 
 .price-cards .single-plan{
+    width: 470px;
     background-color: #272729;
     border: 1px solid rgba(255, 255, 255, 0.08);
 }
@@ -841,7 +842,7 @@ button{
 }
 
 .plan-details .price{
-    font: var(--font-weight-bold) 56px/82px var(--body-font);
+    font: var(--font-weight-bold) 46px/70px var(--body-font);
     text-align: center;
 }
 
@@ -862,18 +863,28 @@ button{
     display: flex;
     align-items: center;
     gap: 12px;
+    font: var(--font-weight-medium) 16px/24px var(--body-font);
+    margin-bottom: 16px;
+}
+
+.single-plan.active li{
     font: var(--font-weight-medium) 20px/28px var(--body-font);
     margin-bottom: 20px;
 }
 
 .plan-details li .icon{
     display: inline-block;
-    width: 36px;
-    height: 36px;
+    width: 30px;
+    height: 30px;
     background-color: #BFF2D1;
     border: 1px solid rgba(255, 255, 255, 0.06);
     border-radius: 50%;
     text-align: center;
+}
+
+.single-plan.active li .icon{
+    width: 36px;
+    height: 36px;
 }
 
 .single-plan .btn{
