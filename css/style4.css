@@ -784,7 +784,7 @@ button{
 /* Footer */
 
 .footer-4{
-    padding: 100px;
+    padding: 100px 0;
 }
 
 .footer-4 p{
@@ -795,6 +795,7 @@ button{
 .footer-bottom p{
     font: var(--font-weight-normal) 16px/24px var(--body-font);
     text-align: center;
+    margin-bottom: 0;
 }
 
 /* #Progress
