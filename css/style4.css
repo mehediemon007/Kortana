@@ -420,7 +420,7 @@ button{
     cursor: pointer;
 }
 
-.sec-title .clr-text{
+.clr-text{
     background-image: linear-gradient(94.84deg, #B186CB 5.59%, #FDA9B6 96.44%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -461,219 +461,53 @@ button{
     padding: 12px 0;
 }
 
-.header-3 .header-left{
-    display: flex;
-    align-items: center;
-}
-
-.header-3 .nav-menu{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 40px;
-}
-
-.header-3 .nav-menu a{
-    display: block;
-    font-size: 18px;
-    font-weight: var(--font-weight-medium);
-    color: #A1A1AA;
-    line-height: 18px;
-    text-transform: capitalize;
-}
-
-.header-3 .header-right,
-.header-actions{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 80px;
-}
-
-.header-actions{
-    gap: 16px;
-}
-
-.header-3 .btn{
-    height: 52px;
-    font-size: 18px;
-    font-weight: var(--font-weight-medium);
-    background-color: #141417;
-    border-radius: 0;
-    padding: 0 24px;
-    line-height: 50px;
-}
-
-.header-3 .primary-btn{
-    background-image: linear-gradient(95.22deg, #B186CB -6.09%, #F9B2B9 108.11%);
-}
-
-/* Lang Switcher */
-
-.lang-switcher {
-    position: relative;
-}
-  
-.lang-switcher .flag {
-    display: inline-block;
-    vertical-align: baseline;
-}
-  
-.lang-switcher .lang {
-   font: var(--font-weight-medium) 14px/17px var(--body-font);
-}
-
-.lang-switcher .lang:hover {
-    color: var(--white-color);
- }
-  
-.lang-switcher .lang-list {
-    position: absolute;
-    top: 90px;
-    left: 0px;
-    width: max-content;
-    background-color: #1D1D26;
-    border: 1px solid rgba(255, 255, 255, 0.06);
-    border-radius: 0 0 12px 12px;
-    padding: 6px 12px;
-    opacity: 0;
-    visibility: hidden;
-    -webkit-transition: all 0.3s ease-in;
-    transition: all 0.3s ease-in;
-}
-  
-.lang-switcher .lang-list .single-lang {
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-    gap: 8px;
-}
-  
-.lang-switcher .lang-list .single-lang .lang-text {
-    display: block;
-    font: var(--font-weight-medium) 14px/17px var(--body-font);
-    color: var(--white-color);
-    -webkit-transition: all 0.3s ease-in;
-    transition: all 0.3s ease-in;
-}
-
-.lang-switcher .lang-list::before {
-    content: '';
-    display: block;
-    clear: both;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 2px;
-    background-image: linear-gradient(66.16deg, #5B0EEA 0.12%, #EE4525 95.94%);
-}
-  
-.lang-switcher .lang-list-open {
-    opacity: 1;
-    top: 52px;
-    visibility: visible;
-}
-
 /* Banner */
 
-.banner-2{
-    padding: 220px 0 120px;
+.banner-4{
+    padding: 80px 0;
 }
 
-.banner-2 .banner-content{
+.banner-4 .banner-content{
+    position: relative;
     text-align: center;
 }
 
-.banner-2 .banner-title{
-    font-size: 64px;
+.banner-4 .banner-title{
+    max-width: 780px;
+    font-size: 50px;
+    font-weight: 900;
     background-image: linear-gradient(94.84deg, #B186CB 5.59%, #FDA9B6 96.44%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     /* animation: textanim 2s linear infinite; */
-    line-height: 76px;
+    line-height: 66px;
     margin: 0 auto;
 }
 
-.banner-2 p{
-    max-width: 666px;
-    font: var(--font-weight-normal) 20px/30px var(--body-font);
+.banner-4 p{
+    max-width: 780px;
+    font: var(--font-weight-normal) 18px/28px var(--body-font);
     color: #A1A1AA;
     margin: 20px auto 28px;
 }
 
-.banner-2 .banner-content .btn{
-    width: 162px;
-    height: 50px;
-    font: var(--font-weight-bold) 16px/16px var(--body-font);
-    color: #000000;
-    background-image: linear-gradient(94.25deg, #B186CB 2.32%, #FDB5B8 101.66%);
-    border: 0;
-    border-radius: 0;
-    line-height: 50px;
+.banner-4 b{
+    font-weight: var(--font-weight-bolder);
 }
 
-.banner-2 .btn i{
-    font-weight: var(--font-weight-semi-bold);
-    vertical-align: middle;
-}
-
-.banner-2 .banner-imgs{
+.banner-4 .banner-imgs img:first-child{
+    position: absolute;
+    bottom: -70px;
+    left: 0;
     animation: float-bob-y 3s linear infinite;
 }
 
-/* Why Choose Us */
-
-#choose-us{
-    scroll-margin-top: 56px;
-}
-
-.kt-choose-us{
-    padding: 130px 0;
-}
-
-.kt-choose-us .sec-title{
-    max-width: 653px;
-    font: var(--font-weight-bold) 50px/62px var(--body-font);
-    text-align: center;
-    margin: 0 auto 90px;
-}
-
-.kt-choose-us .single-card:not(:last-of-type){
-    margin-bottom: 60px;
-}
-
-.kt-choose-us .single-card{
-    display: grid;
-    grid-template-columns: 1fr 600px;
-    grid-gap: 100px;
-}
-
-.kt-choose-us .single-card.reverse{
-    grid-template-columns: 600px 1fr;
-}
-
-.card-content h3{
-    font: var(--font-weight-bold) 40px/50px var(--body-font);
-    padding-top: 90px;
-}
-
-.card-content p{
-    font: var(--font-weight-medium) 18px/28px var(--body-font);
-    color: rgba(255, 255, 255, 0.5);
-    margin: 24px 0;
-}
-
-.card-content .btn{
-    width: 131px;
-    height: 50px;
-    font: var(--font-weight-bold) 18px/18px var(--body-font);
-    color: #000;
-    background-image: linear-gradient(92.71deg, #B488CA -3.66%, #F9B3B9 111.36%);
-    border: 0;
-    border-radius: 0;
-    line-height: 50px;
+.banner-4 .banner-imgs img:last-child{
+    position: absolute;
+    bottom: -70px;
+    right: 0;
+    animation: float-bob-y 3s linear infinite;
 }
 
 /* Testimonial */
@@ -895,6 +729,23 @@ button{
 }
 
 /* Review */
+
+.kt-clnt-reviews{
+    padding-top: 110px;
+}
+
+.clnt-reviews{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 32px 20px;
+    margin: 90px 0;
+}
+
+.review{
+    width: 100%;
+    background-color: rgba(247, 249, 251, 1);
+    padding: 4px;
+}
 
 .kt-reviews{
     padding: 70px 0;

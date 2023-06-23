@@ -146,7 +146,7 @@
     //     autoplaySpeed: 6000,
     //     autoplayHoverPause: true,
     // });
-
+    
     new WOW().init();
 
  
