@@ -790,19 +790,70 @@ button{
     height: 19px;
 }
 
-/* Trading Start Info */
+/* Partners */
 
-.kt-about{
-    padding-top: 70px;
+.kt-partners{
+    background: url("../images/banner/blk-banner.png") no-repeat left;
+    background-size: 100%;
+    border-width: 1px 0 1px 0;
+    border-color: rgba(255, 255, 255, 0.14);
+    border-style: solid;
+    padding: 24px 0;
 }
 
-.info-list{
-    margin: 40px 0 50px;
+.kt-partners p{
+    font: 300 24px/32px var(--body-font);
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.partner-content{
+    position: relative;
+    display: flex;
+    overflow: hidden;
+}
+
+.partner-content::before,
+.partner-content::after{
+    position: absolute;
+    content: "";
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 10%;
+    background-image: linear-gradient(90deg,#09090e,rgba(9,9,14,0));
+    z-index: 3;
+}
+
+.partner-content::after{
+    background-image: linear-gradient(90deg,rgba(9,9,14,0),#09090e);
+    left: auto;
+    right: 0;
+}
+
+.partners{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    flex: none;
+    animation: marquree 20s linear infinite;
+}
+
+/* About Web & App */
+
+.kt-about{
+    padding: 110px 0;
+}
+
+.kt-about .sec-title{
+    font: var(--font-weight-semi-bold) 44px/64px var(--body-font);
+    margin-bottom: 40px;
 }
 
 .info-list li{
     position: relative;
-    font: var(--font-weight-medium) 22px/33px var(--body-font);
+    font: var(--font-weight-medium) 18px/30px var(--body-font);
     padding-left: 48px;
     margin-bottom: 20px;
 }
@@ -818,8 +869,38 @@ button{
     left: 0;
 }
 
+.kt-app{
+    padding: 80px 0;
+}
+
+.app-info h2{
+    font: var(--font-weight-semi-bold) 44px/64px var(--body-font);
+}
+
+.app-info p{
+    font: var(--font-weight-normal) 20px/30px var(--body-font);
+    color: rgba(255, 255, 255, 0.64);
+    margin-top: 28px;
+}
+
+.info-banner{
+    background: url("../images/banner/clr-banner.png") no-repeat left;
+    background-size: 100%;
+    text-align: center;
+}
+
+.info-banner h6{
+    font: var(--font-weight-semi-bold) 28px/38px var(--body-font);
+    padding: 40px 0;
+}
+
 /* Review */
 
+.kt-reviews{
+    padding: 70px 0;
+}
+
+.kt-clnt-reviews .sec-title,
 .kt-reviews .sec-title{
     max-width: 70%;
     font: var(--font-weight-medium) 48px/60px var(--body-font);
@@ -829,84 +910,39 @@ button{
 /* Newsletter */
 
 .ltr-content{
-    padding-bottom: 80px;
     text-align: center;
 }
 
 .ltr-content h2{
-    font: var(--font-weight-medium) 35px/35px var(--body-font);
-    margin-bottom: 32px;
+    font: var(--font-weight-medium) 35px/45px var(--body-font);
+    margin-top: 32px;
 }
 
+.kt-clnt-reviews .btn,
 .ltr-content .btn{
     width: 152px;
     height: 58px;
     font: var(--font-weight-bold) 21px/21px var(--body-font);
     color: #000;
     background-image: linear-gradient(92.71deg, #B488CA -3.66%, #F9B3B9 111.36%);
+    border: 0;
     border-radius: 0;
     line-height: 58px;
 }
 
 /* Footer */
 
-.footer-3{
-    padding-top: 140px;
+.footer-4{
+    padding: 100px;
 }
 
-.footer-3 .social-links{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 16px;
-}
-
-.footer-3 .footer-content p{
-    max-width: 178px;
-    font: var(--font-weight-normal) 16px/26px var(--body-font);
-    color: rgba(255, 255, 255, 0.5);
-    margin: 12px 0;
-}
-
-.footer-3 .footer-widget h5{
-    font: var(--font-weight-bold) 14px/20px var(--body-font);
-    color: rgba(255, 255, 255, 0.7);
-    text-transform: uppercase;
-    letter-spacing: 0.7px;
-    margin-bottom: 8px;
-}
-
-.footer-3 .footer-menu li a{
-    display: inline-block;
-    font: var(--font-weight-normal) 15px/24px var(--body-font);
-    color: #8B8B8D;
-    margin-bottom: 8px;
-}
-
-.footer-3 .footer-menu li:last-child a{
-    margin-bottom: 0;
-}
-
-.footer-3 .payments{
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    margin-top: 24px;
-}
-
-.footer-3 .payments img{
-    width: 24px;
-}
-
-.footer-widget .shape{
-    position: relative;
-    top: -16px;
-    left: -50px;
+.footer-4 p{
+    font: var(--font-weight-normal) 14px/18px var(--body-font);
+    margin-bottom: 45px;
 }
 
 .footer-bottom p{
     font: var(--font-weight-normal) 16px/24px var(--body-font);
-    color: rgba(255, 255, 255, 0.5);
     text-align: center;
 }
 
@@ -1087,5 +1123,14 @@ button{
     100% {
         transform: scale(1);
         transform-origin: 100%;
+    }
+}
+
+@keyframes marquree{
+    0% {
+        transform: translate(0,0);
+    }
+    100% {
+        transform: translate(-100%, 0);
     }
 }
