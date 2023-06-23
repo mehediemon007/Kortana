@@ -163,4 +163,16 @@
         this.scrollY > 30 ? headerContainer.classList.add("sticky") : headerContainer.classList.remove("sticky");
     }
 
+    // IntelPhoneInput
+
+    var phoneInput = document.querySelector(".phone");
+
+    if(phoneInput != null){
+
+        window.intlTelInput(phoneInput, {
+            separateDialCode: true,
+            preferredCountries: ["bd", "sa"]
+        });
+    }
+
 })()

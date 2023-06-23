@@ -429,36 +429,25 @@ button{
 
 /* Header */
 
-.kt-header{
-    position: fixed;
-    top: 20px;
+.kt-header.header-4{
+    /* position: fixed; */
+    top: 0;
     left: 0;
     width: 100%;
-    background-color: transparent;
-    border-bottom: 1px solid transparent;
-    transition: ease-in .1s;
+    background-color: rgba(246, 166, 186, 1);
+    padding: 16px 0;
     z-index: 100;
 }
 
-.kt-header.sticky{
-    top: 0;
-    background-color: var(--black-color);
-    border-color:rgb(29, 29, 38);
+.header-4 p{
+    font: var(--font-weight-medium) 20px/30px var(--body-font);
+    color: var(--black-color);
+    text-align: center;
 }
 
-.header-container{
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgba(50, 50, 50, 0.24);
-    border-radius: 10px;
-    padding: 12px 40px;
-}
-
-.header-3 .header-container{
-    background-color: transparent;
-    padding: 12px 0;
+.header-4 a{
+    color: var(--black-color);
+    text-decoration: underline;
 }
 
 /* Banner */
@@ -508,6 +497,102 @@ button{
     bottom: -70px;
     right: 0;
     animation: float-bob-y 3s linear infinite;
+}
+
+/* Join Us */
+
+.kt-join-us{
+    padding: 70px 0 120px;
+    margin-top: -200px;
+}
+
+.kt-join-us .image{
+    position: relative;
+    background: url("../images/shapes/triangle.png") no-repeat bottom;
+    text-align: center;
+    z-index: -1;
+}
+
+.kt-signup{
+    background-color: #111111;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    padding: 24px;
+}
+
+.kt-signup .heading h3{
+    font: var(--font-weight-medium) 32px/40px var(--body-font);
+    text-align: center;
+}
+
+.kt-signup .heading p{
+    font: var(--font-weight-normal) 16px/22px var(--body-font);
+    margin: 8px 0 16px;
+    text-align: center;
+}
+
+.log-form .input-grp{
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.log-form .input-grp label{
+    font: var(--font-weight-normal) 18px/28px var(--body-font);
+    margin-bottom: 10px;
+}
+
+.log-form .input-grp input{
+    width: 100%;
+    height: 48px;
+    color: var(--white-color);
+    background: rgba(255, 255, 255, 0.04);
+    border: 0;
+    margin-bottom: 10px;
+    padding: 8px 16px;
+    outline: none;
+}
+
+.log-form .input-grp input::placeholder{
+    font: var(--font-weight-normal) 13px/20px var(--body-font);
+    color: rgba(255, 255, 255, 0.56);
+}
+
+.log-form .input-grp img{
+    position: absolute;
+    top: 52px;
+    right: 16px;
+}
+
+.log-form .submit-btn{
+    width: 100%;
+    height: 50px;
+    font: var(--font-weight-medium) 18px/28px var(--body-font);
+    color: #000;
+    background-image: linear-gradient(92.71deg, #B488CA -3.66%, #F9B3B9 111.36%);
+    border: 0;
+    border-radius: 0;
+    line-height: 50px;
+    margin-top: 16px;
+}
+
+.iti__flag-container{
+    top: 10px;
+    left: 16px !important;
+    height: 28px;
+    background-color: rgba(255, 255, 255, 0.02);
+    border-radius: 4px;
+}
+
+.iti__selected-dial-code{
+    font: var(--font-weight-normal) 11px var(--body-font);
+}
+
+.iti__country-list{
+    max-width: 350px;
+    background-color: #111111;
+}
+
+.input-grp input.phone{
+    padding-left: 105px !important;
 }
 
 /* Testimonial */

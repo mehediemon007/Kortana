@@ -104,8 +104,8 @@
 /* Max Width 1299px */
 @media only screen and (max-width: 1299px){
 
-    .header-container {
-        padding: 12px 20px;
+    .header-4 .header-container {
+        padding: 0;
     }
 
 }
@@ -216,35 +216,9 @@
         padding: 80px 0;
     }
 
-    .header-3 .header-container{
-        gap: 24px;
-    }
-
-    .header-3 .nav-menu a{
-        font-size: 11px;
-        line-height: 16px;
-    }
-
-    .lang-switcher{
-        min-width: max-content;
-    }
-
-    .lang-switcher .lang{
-        font-size: 8px;
-    }
-
-    .header-3 .btn{
-        height: 32px;
-        font-size: 11px;
-        line-height: 32px;
-    }
-
-    .header-3 .shapes img {
-        max-height: 80px;
-    }
-
-    .header-3 .shapes img:last-child{
-        max-height: 110px;
+    .header-4 p{
+        font-size: 12px;
+        line-height: 18px;
     }
 
     .banner-4{
@@ -412,6 +386,77 @@
         line-height: 50px;
     }
 
+    .kt-join-us{
+        padding: 0px 0 80px;
+        margin-top: 0px;
+    }
+    
+    .kt-join-us .image{
+        background-size: contain;
+    }
+    
+    .kt-signup{
+        padding: 16px;
+    }
+
+    .kt-signup .heading h3{
+        font: var(--font-weight-medium) 18px/23px var(--body-font);
+    }
+    
+    .kt-signup .heading p{
+        font: var(--font-weight-normal) 9px/13px var(--body-font);
+        margin: 4px 0 16px;
+    }
+    
+    .log-form .input-grp{
+        margin-bottom: 4px;
+    }
+    
+    .log-form .input-grp label{
+        font: var(--font-weight-normal) 10px/15px var(--body-font);
+        margin-bottom: 8px;
+    }
+    
+    .log-form .input-grp input{
+        height: 28px;
+        font: var(--font-weight-normal) 10px/15px var(--body-font);
+        margin-bottom: 8px;
+        padding: 4px 8px;
+        outline: none;
+        line-height: 28px;
+    }
+    
+    .log-form .input-grp input::placeholder{
+        font: var(--font-weight-normal) 8px/8px var(--body-font);
+    }
+
+    .log-form .input-grp img{
+        max-width: 14px;
+        top: 45px;
+        right: 8px;
+    }
+    
+    .log-form .submit-btn{
+        width: 100%;
+        height: 30px;
+        font: var(--font-weight-medium) 10px/15px var(--body-font);
+        line-height: 30px;
+    }
+
+    .iti__flag-container{
+        top: 8px;
+        left: 8px !important;
+        height: 18px;
+    }
+    
+    .iti__selected-dial-code{
+        font: var(--font-weight-normal) 8px var(--body-font);
+    }
+
+    .input-grp input.phone{
+        padding-left: 90px !important;
+    }
+
     .footer-4{
         padding: 50px 0;
     }
@@ -569,6 +614,15 @@
         grid-template-columns: 1fr;
     }
 
+    .kt-join-us{
+        padding: 0px 0 40px;
+        margin-top: -40px;
+    }
+
+    .kt-signup{
+        margin-top: 40px;
+    }
+
 }
 
 /* Max Width 575px */
@@ -577,6 +631,15 @@
     .sec-spacer, 
     .kt-choose-us{
         padding: 40px 0;
+    }
+
+    .kt-header.header-4{
+        padding: 8px 0;
+    }
+
+    .header-4 p{
+        font-size: 8px;
+        line-height: 14px;
     }
 
     .banner-4{
