@@ -1,10 +1,5 @@
 (function($){
-
-    // $(".nav-toggle").on("click",function(){
-    //     $("i", this).toggleClass("fa-solid fa-bars fa-solid fa-xmark");
-    //     $(".kt-main-nav").slideToggle("500")
-    // })
-
+    
     var mobileMenuIcon = $('.mobile-menu-icon');
 
     
@@ -131,22 +126,6 @@
         $('.prime-slider').trigger('to.owl.carousel', [$(this).index(), 400]);
     });
 
-    // Slider
-
-    // $(".partners").owlCarousel({
-    //     center: true,
-    //     items:5,
-    //     loop:true,
-    //     margin:30,
-    //     nav:false,
-    //     dots:true,
-    //     autoplay: true,
-    //     slideTransition: 'linear',
-    //     autoplayTimeout: 6000,
-    //     autoplaySpeed: 6000,
-    //     autoplayHoverPause: true,
-    // });
-    
     new WOW().init();
 
  
