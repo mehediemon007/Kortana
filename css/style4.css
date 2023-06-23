@@ -830,7 +830,6 @@ button{
 
 .ltr-content{
     padding-bottom: 80px;
-    border-bottom: 1px solid rgba(20, 20, 23, 1);
     text-align: center;
 }
 
@@ -903,11 +902,6 @@ button{
     position: relative;
     top: -16px;
     left: -50px;
-}
-
-.footer-bottom{
-    border-top: 1px solid #3F3F46;
-    padding: 28px 0;
 }
 
 .footer-bottom p{
